@@ -1,7 +1,7 @@
 atrufulgium.github.io
 =====================
 
-Just the billionth programming blog (+α). [Browse it](atrufulgium.net). Now. Please?
+Just the billionth programming blog (+α). [Browse it](https://atrufulgium.net). Now. Please?
 
 Unless otherwise stated, the content of this repo is available under the [UNLICENSE](https://unlicense.org/) license. Exceptions:
 - `atru.svg` (all rights reserved; this was a gift).
