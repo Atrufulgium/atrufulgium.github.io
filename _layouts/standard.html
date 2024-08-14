@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{page.blurb}}">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <title>{{page.title | xml_escape}}</title>
+    {% if page.usemathjax %}
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            TeX: {
+                equationNumbers: { autoNumber: "AMS" }
+            },
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        });
+        </script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_HTML"></script>
+    {% endif %}
+</head>
+<body>
+    {% include header-background.html %}
+    <article class="content">
+    {% assign output = content
+        | replace: ' -- ', ' — '
+        | replace: '<p>[', '[' 
+        | replace: ']</p>', ']'
+        | replace: '[block]', '<div class="smallgap"></div><div class="mainblock">'
+        | replace: '[/block]', '</div>'
+        | replace: '[sketch]', '<span class="sketch textgradienthue">'
+        | replace: '[/sketch]', '</span>'
+        | replace: '[gap/]', '<div class="smallgap"></div>'
+        | replace: '[br/]', '</p><p>'
+        | replace: '<div class="footnotes"', '<div class="smallgap"></div><h1>footnotes and references</h1><div class="footnotes"' %}
+    {{ output }}
+    </article>
+    {% include footer.html %}
+</body>
+</html>

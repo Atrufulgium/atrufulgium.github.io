@@ -1,0 +1,10 @@
+---
+layout: standard
+---
+
+<h1>{{ page.title-lower | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</h1>
+<span class="date-post">{{ page.date | date_to_string }}</span>
+
+{% assign output = content
+    | markdownify %}
+{{ output }}

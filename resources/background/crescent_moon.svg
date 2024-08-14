@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+<g transform="rotate(252 25 25)">
+<path fill="#ffe" stroke="#ffe" stroke-width="1" stroke-linejoin="round" d="M4,37a22,22 0 1,1 42,0a22,22 0 0,0 -42,0z"/>
+</g>
+</svg>

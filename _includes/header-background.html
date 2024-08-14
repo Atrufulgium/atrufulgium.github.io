@@ -1,0 +1,94 @@
+<div class="noflex" style="z-index: 230;">
+    <nav class="navbar noselect">
+        <ul class="navigation">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/programming">Programming</a>
+                <div class="dropdown">
+                    <a href="https://github.com/Atrufulgium">My Github</a>
+                    <a href="/programming"><b>All posts</b></a>
+                    {% for post in site.posts limit:3 %}
+                        <a href="{{ post.url | replace: '.html', '' }}">{{post.title-tiny}}</a>
+                    {% endfor %}
+                </div>
+            </li>
+            <li>
+                <a href="/music">Music</a>
+                <div class="dropdown">
+                    <a href="https://drive.google.com/drive/folders/1aELhakzZlY7lvGoS8ew4uOuy8JWhKKjR">Original</a>
+                    <a href="https://drive.google.com/drive/folders/1I9AWf2JPrFYz10RM5GR2gEa1wRI3ot5N">Touhou</a>
+                    <a href="https://drive.google.com/drive/folders/1aELhakzZlY7lvGoS8ew4uOuy8JWhKKjR">Other</a>
+                </div>
+            </li>
+            <li>
+                <a href="/fangames">Jam entries</a>
+                <div class="dropdown">
+                    <a href="https://atrufulgium.itch.io/flee-fairies-flee">Flee, Fairies, Flee!</a>
+                    <a href="https://atrufulgium.itch.io/youmus-rampage">Youmu's Rampage</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="navhack"></div>
+</div>
+<div class="background noselect" aria-hidden="true">
+    <!-- Alles moet van width afhangen, anders gaat scaling raar. 
+        "Position fixed" of "position absolute" etc. voor `niet door elkaar beinvloed'.
+        Nieuwe dingen gaan boven oude dingen obviously, dus houd daar rekening mee. -->
+
+    <div class="bgstarcontainer">
+        <img src="/resources/background/star.svg" style="position:fixed; top:11%; left: 5%; width:2%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:30%; left:87%; width:2%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:17%; left:26%; width:3%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:32%; left:80%; width:1%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:30%; left:82%; width:2%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:13%; left:72%; width:2%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top: 5%; left:94%; width:3%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:37%; left:72%; width:3%;" onerror='this.style.display="none";'>
+    </div>
+    <div class="bgstarcontainer" style="animation-delay:-33s;">
+        <img src="/resources/background/star.svg" style="position:fixed; top:20%; left:82%; width:1%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:10%; left:23%; width:2%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top: 3%; left:71%; width:1%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:24%; left: 7%; width:2%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:15%; left: 3%; width:2%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:30%; left:36%; width:3%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:11%; left:46%; width:1%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:34%; left:44%; width:2%;" onerror='this.style.display="none";'>
+    </div>
+    <div class="bgstarcontainer" style="animation-delay:-67s;">
+        <img src="/resources/background/star.svg" style="position:fixed; top:11%; left: 7%; width:1%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:34%; left:29%; width:2%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top: 5%; left:58%; width:3%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:30%; left:55%; width:3%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:54%; left:27%; width:1%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:13%; left:15%; width:2%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top:10%; left:93%; width:3%;" onerror='this.style.display="none";'>
+        <img src="/resources/background/star.svg" style="position:fixed; top: 8%; left:79%; width:3%;" onerror='this.style.display="none";'>
+    </div>
+
+    <img src="/resources/background/crescent_moon.svg" style="position:fixed; bottom: 105px; left:calc(50% - 41px); width:82px;" onerror='this.style.display="none";'>
+
+    <img src="/resources/background/tree2.svg" style="position:fixed; bottom:0%; left: -12%; width:25%;" onerror='this.style.display="none";'>
+    <img src="/resources/background/tree1.svg" style="position:fixed; bottom:-5%; left: 3%; width:18%;" onerror='this.style.display="none";'>
+    <img src="/resources/background/tree2.svg" style="position:fixed; bottom:0%; left: 8%; width:15%;" onerror='this.style.display="none";'>
+    <img src="/resources/background/tree2.svg" style="position:fixed; bottom:0%; left: 15%; width:16%; transform: scaleX(-1);" onerror='this.style.display="none";'>
+    <img src="/resources/background/tree2.svg" style="position:fixed; bottom:0%; left: 22%; width:12%;" onerror='this.style.display="none";'>
+
+    <img src="/resources/background/tree2.svg" style="position:fixed; bottom:0%; right: 22%; width:12%;" onerror='this.style.display="none";'>
+    <img src="/resources/background/tree1.svg" style="position:fixed; bottom:-5%; right: 17%; width:12%;" onerror='this.style.display="none";'>
+    <img src="/resources/background/tree1.svg" style="position:fixed; bottom:-5%; right: 12%; width:15%; transform: scaleX(-1);" onerror='this.style.display="none";'>
+    <img src="/resources/background/tree2.svg" style="position:fixed; bottom:0%; right: 3%; width:18%;" onerror='this.style.display="none";'>
+    <img src="/resources/background/tree1.svg" style="position:fixed; bottom:-5%; right: -2%; width:15%;" onerror='this.style.display="none";'>
+    <img src="/resources/background/tree1.svg" style="position:fixed; bottom:-5%; right: -12%; width:25%; transform: scaleX(-1);" onerror='this.style.display="none";'>
+
+    <img src="/resources/background/grass.svg" class="breeze" style="position:fixed; animation-delay:-300ms; bottom:-1%; left:0; width:18%;" onerror='this.style.display="none";'>
+    <img src="/resources/background/grass.svg" class="breeze" style="position:fixed; animation-delay:-600ms; bottom:-1%; left:17%; width:18%;" onerror='this.style.display="none";'>
+    <img src="/resources/background/grass.svg" class="breeze" style="position:fixed; animation-delay:-900ms; bottom:-1%; left:33%; width:18%; transform: scaleX(-1);" onerror='this.style.display="none";'>
+    <img src="/resources/background/grass.svg" class="breeze" style="position:fixed; animation-delay:-1200ms; bottom:-1%; right:33%; width:18%; transform: scaleX(-1);" onerror='this.style.display="none";'>
+    <img src="/resources/background/grass.svg" class="breeze" style="position:fixed; animation-delay:-1500ms; bottom:-1%; right:17%; width:18%; transform: scaleX(-1);" onerror='this.style.display="none";'>
+    <img src="/resources/background/grass.svg" class="breeze" style="position:fixed; animation-delay:-1800ms; bottom:-1%; right:0; width:18%;" onerror='this.style.display="none";'>
+</div>
+<div class="gap"></div>
