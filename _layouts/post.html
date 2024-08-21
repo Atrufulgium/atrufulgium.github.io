@@ -5,6 +5,27 @@ layout: standard
 <h1>{{ page.title-lower | markdownify | replace: '<p>', '' | replace: '</p>', ''}}</h1>
 <span class="date-post">{{ page.date | date_to_string }}</span>
 
+{% capture newline %}
+{% endcapture %}
+{% capture newlined-block %}{{newline}}[block]{{newline}}{% endcapture %}
+{% capture newlined-block-end %}{{newline}}[/block]{{newline}}{% endcapture %}
+{% capture newlined-display-image %}{{newline}}[display-image]{{newline}}{% endcapture %}
+{% capture newlined-display-image-end %}{{newline}}[/display-image]{{newline}}{% endcapture %}
+{% capture newlined-sketch %}{{newline}}[sketch]{{newline}}{% endcapture %}
+{% capture newlined-sketch-end %}{{newline}}[/sketch]{{newline}}{% endcapture %}
+
+{% comment %}
+<!-- Note: In order for these markdown-level replacements to happen (properly),
+     the entire article needs to be put inside ::nomarkdown-kramdown tags. -->
+{% endcomment %}
 {% assign output = content
-    | markdownify %}
+    | replace: '](REPO', '](https://github.com/Atrufulgium/atrufulgium.github.io/tree/main'
+    | replace: '[block]', newlined-block
+    | replace: '[/block]', newlined-block-end
+    | replace: '[display-image]', newlined-display-image
+    | replace: '[/display-image]', newlined-display-image-end
+    | replace: '[sketch]', newlined-sketch
+    | replace: '[/sketch]', newlined-sketch-end
+    | markdownify
+%}
 {{ output }}

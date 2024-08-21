@@ -143,7 +143,8 @@ h1 {
     text-align: right;
     width: 100%;
     display: block;
-    margin-bottom: -10px;
+    margin-bottom: -8px;
+    margin-left: 4px;
     font-size: 80%;
     font-style: italic;
     /* Hack because my ordering is ass */
@@ -184,6 +185,12 @@ h1 {
 	background-color: #fff1;
 }
 
+.language-csharp pre, .language-nasm pre {
+    overflow-x: auto;
+    font-size: 90%;
+    border: var(--normal-sep-border);
+}
+
 .language-csharp::before {
 	content: "c#";
 	padding: 0px 30px 2px 2px;
@@ -196,6 +203,21 @@ h1 {
 	top: 14px;
 }
 .language-csharp {
+	margin-top: -14px;
+}
+
+.language-nasm::before {
+	content: "assembly";
+	padding: 0px 30px 2px 2px;
+	background-color: #0a0a0a;
+	border: var(--normal-sep-border);
+	border-bottom: none;
+	border-radius: 0 50px 0 0;
+	position: relative;
+	font-weight: bold;
+	top: 14px;
+}
+.language-nasm {
 	margin-top: -14px;
 }
 
@@ -399,13 +421,15 @@ footer {
     animation-name: textgradienthue;
     animation-duration: 60s;
     animation-iteration-count: infinite;
+    animation-timing-function: steps(30);
 }
 
 /* TODO: display:none text goes out of sync. */
-.mainblock, header, .warning, button {
+.mainblock, .footnotes, header, .warning, .date-post, button {
     animation-name: gradienttext;
     animation-duration: 60s;
     animation-iteration-count: infinite;
+    animation-timing-function: steps(30);
 }
 
 @keyframes breeze {
@@ -426,11 +450,13 @@ footer {
     transform-origin: bottom;
 }
 @media all and (min-width: 651px) {
-    .breeze {
+    /* No matter how much I want this, it's a GPU hog :( */
+    /* .breeze {
         animation-name: breeze;
         animation-duration: 20s;
         animation-iteration-count: infinite;
-    }
+        animation-timing-function: steps(20);
+    } */
 }
 
 @keyframes bgstar {
@@ -450,4 +476,5 @@ footer {
     animation-name: bgstar;
     animation-duration: 120s;
     animation-iteration-count: infinite;
+    animation-timing-function: steps(30);
 }

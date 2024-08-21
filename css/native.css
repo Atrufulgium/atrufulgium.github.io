@@ -1,10 +1,5 @@
 /* Modified `native.css` theme from the examples.
    UNLICENSE'd source: https://github.com/jwarby/jekyll-pygments-themes */
-.language-csharp pre {
-    overflow-x: auto;
-    font-size: 90%;
-    border: var(--normal-sep-border);
-}
 
 .highlight pre { background-color: #0a0a0a }
 .highlight .hll { background-color: #0a0a0a }

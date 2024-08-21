@@ -19,22 +19,54 @@
         </script>
         <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_HTML"></script>
     {% endif %}
+    <script>
+        /* See https://stackoverflow.com/a/64158043 */
+        let FF_FOUC_FIX;
+    </script>
 </head>
 <body>
     {% include header-background.html %}
     <article class="content">
+    {% comment %}
+    <!--
+        About the below replacements:
+        - Long dashes are replaced em-dashes. Spaces around to not interfere with decrement operators in code.
+        - The `<p>[]</p>` replacements are for custom bb-like tags that span their own line.
+        - The `block` tag is one of those large blue rectangles everything except the title's written inside.
+        - The `display-image` tag represents centered images.
+        - The `sketch` tag additionally adds the colour filter on top. Your brush colour should be `#ffcccc`.
+        - The `gap` self-closing tag is the small space between large rectangles on the main page.
+          The `block` tag automatically gets one for free before it.
+        - The `br` self-closing tag is a new paragraph. Intended for multiple paragraph footnotes, as kramdown
+          ~~rightfully~~ does not support those.
+        - The `href="##"`-erasure is to ensure hover syntax does not have whack results.
+        - The footnotes replacement gives it a title.
+        Btw, everything in here is in a huge HTML comment whose delimiters are liquid-comments.
+        This is to ensure that syntax highlighting or autocomplete doesn't go *completely mad*.
+        Now it's just the spellchecker not knowing wtf it has to do.
+
+        There are also some replacements in `post.html` before markdown is processed:
+        - To not have to remember the path to the repo every time, there is a REPO shorthand in urls.
+    {% endcomment %}
+
     {% assign output = content
         | replace: ' -- ', ' — '
         | replace: '<p>[', '[' 
         | replace: ']</p>', ']'
         | replace: '[block]', '<div class="smallgap"></div><div class="mainblock">'
         | replace: '[/block]', '</div>'
+        | replace: '[display-image]', '<span class="sketch">'
+        | replace: '[/display-image]', '</span>'
         | replace: '[sketch]', '<span class="sketch textgradienthue">'
         | replace: '[/sketch]', '</span>'
         | replace: '[gap/]', '<div class="smallgap"></div>'
         | replace: '[br/]', '</p><p>'
+        | replace: 'href="##"', ''
         | replace: '<div class="footnotes"', '<div class="smallgap"></div><h1>footnotes and references</h1><div class="footnotes"' %}
     {{ output }}
+    {% comment %}
+        -->
+    {% endcomment %}
     </article>
     {% include footer.html %}
 </body>
