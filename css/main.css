@@ -186,39 +186,38 @@ h1 {
 	background-color: #fff1;
 }
 
-.language-csharp pre, .language-nasm pre {
+.language-csharp pre, .language-nasm pre, .language-matlab pre {
     overflow-x: auto;
     font-size: 90%;
     border: var(--normal-sep-border);
 }
-
+.language-csharp::before, .language-nasm::before, .language-matlab::before {
+	padding: 0px 30px 2px 2px;
+	background-color: #0a0a0a;
+	border: var(--normal-sep-border);
+	border-bottom: none;
+	border-radius: 0 50px 0 0;
+	position: relative;
+	font-weight: bold;
+	top: 14px;
+}
 .language-csharp::before {
 	content: "c#";
-	padding: 0px 30px 2px 2px;
-	background-color: #0a0a0a;
-	border: var(--normal-sep-border);
-	border-bottom: none;
-	border-radius: 0 50px 0 0;
-	position: relative;
-	font-weight: bold;
-	top: 14px;
 }
-.language-csharp {
-	margin-top: -14px;
+.language-nasm::before {
+    content: "assembly";
+}
+.language-matlab::before {
+    content: "matlab";
 }
 
-.language-nasm::before {
-	content: "assembly";
-	padding: 0px 30px 2px 2px;
-	background-color: #0a0a0a;
-	border: var(--normal-sep-border);
-	border-bottom: none;
-	border-radius: 0 50px 0 0;
-	position: relative;
-	font-weight: bold;
-	top: 14px;
+/* This may be unwanted if I do multiple articles with matlab, but...
+   Nah that ain't gonna happen. */
+.language-matlab pre {
+    white-space: break-spaces;
 }
-.language-nasm {
+
+.language-csharp, .language-nasm, .language-matlab {
 	margin-top: -14px;
 }
 
