@@ -159,6 +159,7 @@ h1 {
     font-weight: bold;
     background: rgba(34, 175, 197, 0.9);
     color: rgb(34,34,102) !important;
+    margin-bottom: 0;
 }
 
 .post-preview {

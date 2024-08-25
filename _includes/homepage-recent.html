@@ -1,0 +1,20 @@
+<h1>recent posts</h1>
+{% for post in site.posts limit:5 %}
+    <div class="smallgap"></div>
+    <a class="post-preview" href="{{ post.url | replace: '.html', '' }}">
+        <header>
+            <h1>{{ post.title | markdownify | replace: '<p>', '' | replace: '</p>', ''}}
+                <span class="date-index">
+                    {{ post.date | date_to_string }}
+                </span>
+            </h1>
+            {{ post.blurb | markdownify | replace: '<p>', '' | replace: '</p>' }}
+        </header>
+    </a>
+{% endfor %}
+<div class="smallgap"></div>
+<a class="post-preview" href="/programming">
+    <header>
+        <h1 style="margin-bottom: 0">Browse all {{ site.posts.size }} posts</h1>
+    </header>
+</a>

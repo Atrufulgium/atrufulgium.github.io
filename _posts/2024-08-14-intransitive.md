@@ -6,6 +6,7 @@ title-tiny: Intransitivity
 blurb: When `a == b` and `b == c` does not imply `a == c`. This is a bad idea.
 usemathjax: true
 ---
+{::nomarkdown}
 
 [block]
 ```csharp
@@ -17,7 +18,10 @@ A while back (wait, it's been _two years_ already since I wrote that comment‽)
 The problem statement is deceptively simple. Given some boolean three-dimensional array of voxels, we must turn it into something the GPU likes: triangles in 3D space that trace out the voxel surface. As an example, consider this tiny `2×2×2` array with some mesh possibilities:
 
 [sketch]
-![A 3D array of booleans converted to a voxel mesh, one with many, and one with few triangles.](/resources/images/intr/meshing-example.png)
+[![A 3D array of booleans converted to a voxel mesh, one with many, and one with few triangles.](/resources/images/intr/meshing-example.png)][hover-meshing-example]
+
+[hover-meshing-example]: ## "Playing tetris with 3D tetrominoes would be weird."
+
 [/sketch]
 
 The amount of triangles should not be too large. We don't want the GPU to choke, do we? In this case, we prefer the right mesh over the left one.
@@ -32,7 +36,10 @@ This is really just a 2D problem
 The first step we need to take to tackle voxel meshing, is realizing that this problem is not _really_ 3D. The triangles we create are flat in either the `x`-, `y`-, or `z`-direction. We can just consider a bunch of 2D slices, instead of thinking about a 3D problem.[^2] For instance, we can divide parallel faces of the previous example into multiple slices.
 
 [sketch]
-![The previous mesh example, where the depth-axis separate slices are highlighted.](/resources/images/intr/meshing-slices.png)
+[![The previous mesh example, where the depth-axis separate slices are highlighted.](/resources/images/intr/meshing-slices.png)][hover-meshing-slices]
+
+[hover-meshing-slices]: ## "Fun fact: Up to rotational symmetry, there are as many 2D as 3D tetrominoes.&#013;Of course, these sets differ. For instance, 3D rotations allow you to see the ⠼ and ⠧ tetrominoes as the same thing."
+
 [/sketch]
 
 So, we can reduce the problem of creating a voxel surface, to knowing how to cover some _rectilinear polygon_ with triangles. A rectilinear polygon is a polygon where all angles are 90°, like the highlighted slices above. We also allow holes.
@@ -42,19 +49,28 @@ To simplify[^3] things, instead of working with triangles, we will work with rec
 This brings us to _greedy meshing_. Simply put, greedy meshing starts in some unprocessed `1×1` corner, then tries to grow as much as possible in one axis, and then the other axis. This gives a "large" rectangle, and hopefully there's now much less to process. As a picture is worth a thousand words, here is an example:
 
 [sketch]
-![An example of greedy meshing.](/resources/images/intr/greedy-example.png)
+[![An example of greedy meshing.](/resources/images/intr/greedy-example.png)][hover-greedy-example]
+
+[hover-greedy-example]: ## "Blocks go brrr⇗"
+
 [/sketch]
 
 However, as with any algorithm with "greedy" in the name, it's relatively simple, and likely to be suboptimal.[^4] While the above example is optimal, there are examples in which this algorithm is bad. An easy example is the following polygon; if you rotate it 90°, the greedy algorithm suddenly lands on a solution that's _worse_.
 
 [sketch]
-![An example of greedy meshing.](/resources/images/intr/greedy-bad.png)
+[![An example of greedy meshing.](/resources/images/intr/greedy-bad.png)][hover-greedy-bad]
+
+[hover-greedy-bad]: ## "Who would've thought that greed is bad?"
+
 [/sketch]
 
 Next, we will make another simplification and allow these rectangles to overlap. This unfortunately results in _overdraw_[^5], but we will ignore this. In some situations, this simplification will allow us to reduce the rectangle count even further:
 
 [sketch]
-![Partitioning and covering pluses. The partition uses three rectangles, the cover only two by overlapping in the middle.](/resources/images/intr/plus.png)
+[![Partitioning and covering pluses. The partition uses three rectangles, the cover only two by overlapping in the middle.](/resources/images/intr/plus.png)][hover-plus]
+
+[hover-plus]: ## "I like positive examples."
+
 [/sketch]
 
 By allowing overlap, we went from three rectangles to only two!
@@ -82,13 +98,19 @@ For each plane, we will need to do only one sweep. (If you grow without caring f
 When sweeping, we first turn the current row into one-high rectangles. The rectangles represent "solid" space, everywhere where the voxel array is true.
 
 [sketch]
-![Creating one-high rectangles.](/resources/images/intr/alg-1.png)
+[![Creating one-high rectangles.](/resources/images/intr/alg-1.png)][hover-alg-1]
+
+[hover-alg-1]: ## "TF is this.&#013;Wait, that's too easy, let me try again..."
+
 [/sketch]
 
 Next, whenever we finish a rectangle, we need to check whether this is the extension of a previous rectangle. This can only be the case if an old triangle shares an edge with the finished triangle, exactly. If we find one, we grow it, otherwise we add the new rectangle.
 
 [sketch]
-![Merging newly created rectangles with matching rectangles before.](/resources/images/intr/alg-2.png)
+[![Merging newly created rectangles with matching rectangles before.](/resources/images/intr/alg-2.png)][hover-alg-2]
+
+[hover-alg-2]: ## "No, I got nothing... Back to square one."
+
 [/sketch]
 
 It is this second step in which we will abuse `Equals()`. In code, this above algorithm looks something like the following.[^7]
@@ -155,7 +177,10 @@ readonly struct RectInt : IEquatable<RectInt> {
 This `Equals()` is non-transitive: if two rectangles vertically share an edge with another rectangle, these rectangles are not necessarily the same.
 
 [sketch]
-![Three boxes A, B, C on top of each other. A and B share an edge, so that A = B; B and C share an edge so that B = C; but A and C don't share an edge so that A ≠ C.](/resources/images/intr/intr.png)
+[![Three boxes A, B, C on top of each other. A and B share an edge, so that A = B; B and C share an edge so that B = C; but A and C don't share an edge so that A ≠ C.](/resources/images/intr/intr.png)][hover-intr]
+
+[hover-intr]: ## "Easy as ABC!"
+
 [/sketch]
 
 But this is actually what we want. Because we are using a hash set, nothing "equals" anything else. With our weird definition of equality, this means that no two rectangles in the set perfectly share a vertical border (which would imply we're not done yet). And because of our check `if (rect.Contains(current))`, all of our `rect.Add(current)` actually add something to the set, whether `current` is updated, or new. This means that we _both_ grow rectangles maximally to the right, and up!
@@ -189,3 +214,5 @@ _The code in this post was adapted from my original code, but changed for readab
 [^5]: _Overdraw_ is when you have a GPU calculate an opaque colour for a single pixel multiple times -- you waste all but one computation. Not allowing any rectangles to overlap gives you the problem of [partitioning](https://en.wikipedia.org/wiki/Polygon_partition) a rectilinear polygon instead of [covering](https://en.wikipedia.org/wiki/Polygon_covering) one. (Both of these Wikipedia articles are really fun summaries! I appreciate who-ever put so much time into these.)
 [^6]: For more information, see _"Performance Guarantees on a Sweep-Line Heuristic for Covering Rectilinear Polygons with Rectangles"_, D. S. Franzblau, ([link](https://doi.org/10.1137/0402027)). [br/] However, note that I deviate from the algorithm in the paper. This is because of the differences in input: the paper assumes we get a list of corners, ordered by winding around the polygon. We, instead, get a flat boolean grid that describes the polygon.
 [^7]: The methods `SteppedInside(...)` and `SteppedOutside(...)` are very dependent on what you structure your data like, how you handle layers, and how you handle access to neighbouring chunks. These details are not really relevant to this post, so I'm sweeping them under the rug here.
+
+{:/nomarkdown}

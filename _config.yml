@@ -1,2 +1,6 @@
 exclude:
   - reference-code/
+
+# Explicitly including this setting because idk github's default.
+# (To test the WIP pages locally, run `jekyll serve --future`.)
+future: false

@@ -4,7 +4,7 @@ title: Home
 blurb: Atrufulgium's website. Here you can find everything I've found worth writing down.
 ---
 
-<h1 class="sep-header">atrufulgium.net</h1>
+<h1>atrufulgium.net</h1>
 <div class="smallgap"></div>
 <div class="mainblock">
     <img src="/resources/atru.svg" style="width: 20%; min-width:100px; float: right;">
@@ -15,23 +15,4 @@ blurb: Atrufulgium's website. Here you can find everything I've found worth writ
     </p>
 </div>
 <div class="smallgap"></div>
-<h1 class="sep-header">recent posts</h1>
-{% for post in site.posts limit:5 %}
-    <div class="smallgap"></div>
-    <a class="post-preview" href="{{ post.url | replace: '.html', '' }}">
-        <header>
-            <h1>{{ post.title | markdownify | replace: '<p>', '' | replace: '</p>', ''}}
-                <span class="date-index">
-                    {{ post.date | date_to_string }}
-                </span>
-            </h1>
-            {{ post.blurb | markdownify | replace: '<p>', '' | replace: '</p>' }}
-        </header>
-    </a>
-{% endfor %}
-<div class="smallgap"></div>
-<a class="post-preview" href="/programming">
-    <header>
-        <h1 style="margin-bottom: 0">Browse all posts</h1>
-    </header>
-</a>
+{% include homepage-recent.html %}
