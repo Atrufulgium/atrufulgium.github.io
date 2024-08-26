@@ -13,6 +13,8 @@ layout: standard
 {% capture newlined-display-image-end %}{{newline}}[/display-image]{{newline}}{% endcapture %}
 {% capture newlined-sketch %}{{newline}}[sketch]{{newline}}{% endcapture %}
 {% capture newlined-sketch-end %}{{newline}}[/sketch]{{newline}}{% endcapture %}
+{% capture newlined-nowrap %}{{newline}}[nowrap]{{newline}}{% endcapture %}
+{% capture newlined-nowrap-end %}{{newline}}[/nowrap]{{newline}}{% endcapture %}
 
 {% comment %}
 <!-- Note: In order for these markdown-level replacements to happen (properly),
@@ -26,6 +28,8 @@ layout: standard
     | replace: '[/display-image]', newlined-display-image-end
     | replace: '[sketch]', newlined-sketch
     | replace: '[/sketch]', newlined-sketch-end
+    | replace: '[nowrap]', newlined-nowrap
+    | replace: '[/nowrap]', newlined-nowrap-end
     | markdownify
 %}
 {{ output }}

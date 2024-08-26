@@ -51,14 +51,14 @@ footer a::after {
 .footnotes{
     margin-top: var(--normal-smallgap-size);
 }
-.footnotes ol {
+.footnotes>ol {
 	list-style: none;
 }
-.footnotes li {
+.footnotes>ol>li {
 	counter-increment: item;
 	position: relative;
 }
-.footnotes li::before {
+.footnotes>ol>li::before {
 	content: "["counter(item)"]";
 	margin-left: -30px;
 	display: inline-block;
@@ -209,6 +209,14 @@ h1 {
 }
 .language-matlab::before {
     content: "matlab";
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+.nowrap .highlighter-rouge pre {
+    white-space: pre;
+    overflow-x: auto;
 }
 
 /* This may be unwanted if I do multiple articles with matlab, but...
