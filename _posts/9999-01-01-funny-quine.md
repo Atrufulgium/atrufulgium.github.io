@@ -13,9 +13,9 @@ At uni, we used Matlab to torture large matrices in various ways, begrudgingly m
 
 Let's talk quines.
 
-In 2021, I bought this cool book "*The world of obfuscated, esoteric, artistic programming*".[^1] As it says on the tin, it's all about how to have *fun* with programming, instead of using it as a means to an end. This book mostly discusses various forms of *quines*, programs that output their own source code. In other words, `quine`, and `eval(quine)` should be the same.
+In 2021, I bought this cool book "*The world of obfuscated, esoteric, artistic programming*".[^1] As it says on the tin, it's all about how to have *fun* with programming, instead of using programming as a means to an end. This book mostly discusses various forms of *quines*, programs that output their own source code. In other words, `quine`, and `eval(quine)` should be the same.
 
-If you've never seen quines before, it's a neat little exercise to try and write one yourself! An extreme example is the (in)famous "[Quine Relay](https://github.com/mame/quine-relay)", a program that outputs its own code *after travelling through 127 other languages*. Of course, it's written by the same madlad as that book.
+If you've never seen quines before, it's a neat little exercise to try and write one yourself! An extreme example is the (in)famous "[Quine Relay](https://github.com/mame/quine-relay)", a program that outputs its own code *after travelling through 127 other languages*. Of course, it's written by the same guy as that book.
 
 A basic quine
 =============
@@ -32,7 +32,7 @@ In any case, here is a basic quine:
 strrep(s = "strrep(s = #, char(35), [char(34), s, char(34)])", char(35), [char(34), s, char(34)])
 ```
 
-Before I get to explanations, if you want to actually use this code as a string, you'll have to escape the `"` apostrophes to `""`. This would give:
+Before I get to the explanation, if you want to actually use this code as a string, you'll have to escape the `"` apostrophes to `""` double apostrophes. This would give:
 ```matlab
 >>> code = "strrep(s = ""strrep(s = #, char(35), [char(34), s, char(34)])"", char(35), [char(34), s, char(34)])"
 >>> isequal(code, eval(code))
@@ -40,15 +40,15 @@ Before I get to explanations, if you want to actually use this code as a string,
 ans = 1
 ```
 
-You can see that this renders all syntax highlighting void and creates pretty confusing nested strings, so I'll be working with the unescaped code not put into some variable.
+You can see that this renders all syntax highlighting void and creates pretty confusing nested strings, so I'll won't be doing that.
 
 Now, let's discuss what's actually going on here. First, our main character, `strrep`. This is simply a function `strrep(text, search, replace) : string`. It looks for *all* instances of `search` in `text`, and replaces them with `replace`.
 
-Now, what do we replace with what? Well, we search for `char(35)` (`#`). There is only one `#` in our string, and that is where the magic self-reference happens. If you look at our quine, `#` is placed inside the string where the string itself is in the outer code. In other words, inside the string, the text before `#` is the same as the code before the string, and the text after `#` is the same as the code after the string.
+Now, what do we replace with what in our quine? Well, we search for `char(35)` (`#`). There is only one `#` in our string, and that is where the magic self-reference will happen. If you look at our quine, the `#` is placed inside the string where the string itself is in the outer code. In other words, inside the string, the text before the `#` is the same as the code before the string, and the text after the `#` is the same as the code after the string.
 
-The idea is then that we will replace `#` with the string itself, which will then give us our original code.
+The idea then is that we will replace the `#` with the string itself, which will then give us our original code.
 
-Now, the rest is scaffolding to make the dream work. For instance, I unsubtly emphasised that `strrep` replaces *all* occurrences of the search string. This means we can't simply put `'#'` as our replace string directly:
+Now, the rest of the quine is scaffolding to make the dream work. For instance, I unsubtly emphasised that `strrep` replaces *all* occurrences of the search string. This means we can't simply put `'#'` as our replace string directly:
 ```matlab
 >>> strrep(s = "strrep(s = #, '#', [char(34), s, char(34)])", '#', [char(34), s, char(34)])
 
@@ -58,7 +58,7 @@ This just creates a mess, as we also replace our search string; the syntax-highl
 
 For this reason, we write `char(35)` instead of `'#'` in the search string. The *values* are the same, but their *representation* isn't. Quines like to abuse things like this.
 
-Now, we haven't yet discussed what we're replacing our string with, beyond "the string itself". Luckily, in Matlab, this is easy. First, assignments return their own value. This allows us to declare a variable inside a call:
+Now, we haven't yet discussed what we're replacing our string with, beyond saying "the string itself". Luckily, in Matlab, this is easy. First, assignments return their own value. This allows us to declare a variable inside a call:
 ```matlab
 >>> disp(hi = "hello")
 
@@ -118,7 +118,7 @@ ans = 789012345678901234567890123456789012345678901234567890123456
 ```
 Now we're doing *fun* stuff. Converting our characters to ascii, we made a vector `[48, 49, .., 56, 57]`. We then indexed this vector by `[48, 49, .., 56, 57]` again, which indeed gives that string.
 
-Can you see what dumb challenge I'm creating for myself?
+Can you see what dumb challenge I'm about to pose myself?
 
 Hard mode
 =========
@@ -135,16 +135,17 @@ ans = 1
 If you want to try for yourself, I'll spoil one thing: *it's possible*. I don't know if I've emphasised it enough, but it's also *dumb as heck*. If you *legitimately* want to try, **stop scrolling**, as the next code block will contain my solution.  
 (Not that a passing glance will help you in any way, shape, or form, but still.)
 
-Let's first reflect a little. Basically every language has a quine[^2]. But when you add extra requirements, you don't have the guarantee that a solution exists any longer. It's just a matter of bashing your head against the wall because it *looks* so possible.
+Let's first reflect a little. Basically every language has a quine[^2]. But when you add extra requirements, you don't have the guarantee that a solution exists any longer. It's just a matter of bashing your head against the wall because it *looks* possible.
 
 And then, half the time, you're a character short from it actually being possible. Or so you think. You're not going to get any confirmation however, because you're not going to spend your time putting your additional dumb restrictions into mathematical proof.
 
 Could you imagine? In this case, in your proof you would have to account for all of ascii, and all of Matlab's little quirks. That seems painful.
 
-My head was sufficiently bashed when I finally found a solution to this dumb problem, so I'm going to guide you through all little things needed to make it work.
+My head was sufficiently bashed when I finally found a solution to this dumb problem, so I'm going to guide you through all the little things needed to make it work.
 
 I think I've rambled enough, and it's safe to put my solution in a code block so that those zero people don't get spoiled.
 
+<!-- I had some tabs/spaces issues while writing this, by god I hope nothing's fucked up. -->
 ```matlab
 [  ''()*1,-''*123,strrep(s=      "[  ''()*1,-''*123,strrep(s=      D,char(31*3-22-3),[    [,],' a c e  h       p rst'(2)-31-32,s,12*3-2])]",char(31*3-22-3),[    [,],' a c e  h       p rst'(2)-31-32,s,12*3-2])]
 ```
@@ -168,19 +169,19 @@ ans = 1
 ans = 1
 ```
 
-Fundamentally, it's actually not too different from the basic quine we discussed earlier. The `#` in the basic quine is a `D` in this quine, so you can actually see the exact same structure if you try pretty hard. Everything before the `D` is everything before the big string, everything after `D` is everything after the big string.
+Fundamentally, it's actually not too different from the basic quine we discussed earlier. The `#` in the basic quine has become a `D` in this quine, so you can actually see the exact same structure if you try pretty hard. Everything before the `D` is everything before the big string, everything after `D` is everything after the big string.
 
-Things only got whack because of the `code == code(code)` restriction. This restriction enforces the following rule: for every distinct character `c` in our `code`, the `c`th character of our string must be `c`.
+Things only got whacky because of the `code == code(code)` requirement. This requirement enforces the following rule: for every distinct character `c` in our `code`, the `c`th character of `code` must be `c`.
 
 If we put ascii below our quine, we can see this property holds.
 [nowrap]
 ```matlab
  [  ''()*1,-''*123,strrep(s=      "[  ''()*1,-''*123,strrep(s=      D,char(31*3-22-3),[    [,],' a c e  h       p rst'(2)-31-32,s,12*3-2])]",char(..
-%[Weird/unprintable ascii chars] !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ [irrelevant ascii ..
+%[Weird/unprintable ascii chars] !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 % Matches:                      ^ ^    ^^^^ ^^   ^^^         ^      ^                      ^ ^   ^ ^ ^  ^       ^ ^^^
 ```
 [/nowrap]
-Every character `c` that appears in our quine, appears in particular as the `c`th character.
+Every character `c` that appears in our quine, appears in particular as the `c`th character. These positions are highlighted as `^` in the `% Matches` line.
 
 Now, time to build this thing.
 
@@ -194,17 +195,17 @@ In this quine, we used the following ascii characters: `"#(),345=[]acehprst `. T
 
 -   If we want to use both `"` and `#` we're in trouble, as in ascii, they're right next to each other. This would force us to start our Matlab code with `#`, which is... kinda not possible.
 
-    Luckily, the `#` character is the most easily replaced character. We only use it once, because the other instance is a character code.
--   The neighbourhood of `=` in ascii is very awkward: `..789:;<=>?@ABC..`. With the `strrep(s=`-approach, we lose quite some digits. If we still want to use numbers, we'll have to get some arithmetic from somewhere. This will impose additional restrictions.
--   We have a choice with the string delimiter, either `"` or `'`. Taking into account both the outer code and inner string, this enforces quite some restrictions.
+    Luckily, the `#` character is the most easily replaced character. We only use it once; the other instance refers to it by a number instead.
+-   The neighbourhood of `=` in ascii is very awkward: `..789:;<=>?@ABC..`. With the `strrep(s=`-approach, we lose quite some digits: `4` through `9` are guaranteed to be unavailable. If we still want to use numbers, we'll have to get some arithmetic from somewhere. This will impose additional restrictions.
+-   We have a choice with the string delimiter, either `"` or `'`. Taking into account both the outer code and inner string and how they align with ascii, this enforces quite some restrictions.
 
     With `"`, we must start with `×××××()××,××××××345×××××××=××× ××"`, where `×` represents free space we can fill in however we want.
 
-    With `'`, we must start with `()××,××××××345×××××××✖××××××'`. Here, the big ✖ needs to be both an `=`-sign, and a space. This is impossible, so the choice is made for us.
+    With `'`, we must start with `()××,××××××345×××××××✖××××××'`. Because of poor overlap, the big ✖ needs to be both an `=`-sign, and a space. This is impossible, so the choice is made for us.
 
 So now we pretty much know that our code should start with `×××××()××,××××××3×strrep(s=××× ××"`, and that we need to take enable arithmetic somehow, because our original character set is not going to cut it. In particular, we *will* need the numeric value `34` to create `"`, but we don't have access to `4`.
 
-Let's take a look at where we need to put arithmetic characters to unlock them: `×××××()*+,-×/×××3×strrep(s=××× ××"`. Well, if that ain't great. They're all piled up in one spot in ascii, because our lives can't be made easy.
+Let's take a look at where we need to put arithmetic characters to unlock them: `×××××()*+,-×/×××3×strrep(s=××× ××"`. Well then... They're all piled up in one spot in ascii. This means that we clearly cannot unlock all of them.
 
 First, we need to give up on `+`. There is no context in which `+,` is valid in Matlab, except inside strings. Unfortunately, non-empty strings are a bit awkward in the very limited space before the `strrep`.
 
@@ -218,20 +219,26 @@ ans = []
 
 ans = []
 ```
-Concatenating the empty vector before a string does not change anything. This means that we can freely start our quine with `[  ''()*1,-''*123` and have access to `()`, `*-`, and `123`. As a bonus, we even get `'` for free, which will save us from some string-related headaches later down the line.
+Concatenating the empty vector before a string does not change anything. This means that we can freely start our quine with `[  ''()*1,-''*123` and have access to `()`, `*`, `-`, and `123`. As a bonus, we even get `'` for free, which will save us from some string-related headaches later down the line.
 
 This way, we also have enough space to put the `strrep(s=` after unlocking our arithmetic. This fixes the first half of our quine already.
 ```matlab
- [  ''()*1,-''*123,strrep(s=      "[  ''()*1,-''*123,strrep(s=      
-%[Weird/unprintable ascii chars] !"#$%&'()*+,-./0123456789:;<=>?@ABC
-% Matches:                      ^ ^    ^^^^ ^^   ^^^         ^
+ [  ''()*1,-''*123,strrep(s=      "[  ''()*1,-''*123,strrep(s=      ..
+%[Weird/unprintable ascii chars] !"#$%&'()*+,-./0123456789:;<=>?@ABC..
+% Matches:                      ^ ^    ^^^^ ^^   ^^^         ^      ..
 ```
 Next up is our replacement character, which must be unique in the string. Well, what better choice than the ascii character that appears at that position? That would be `D`.
+
+```matlab
+ [  ''()*1,-''*123,strrep(s=      "[  ''()*1,-''*123,strrep(s=      D..
+%[Weird/unprintable ascii chars] !"#$%&'()*+,-./0123456789:;<=>?@ABCD..
+% Matches:                      ^ ^    ^^^^ ^^   ^^^         ^      ^..
+```
 
 Now we're *almost* home-free. There's only the `search` and `replace` strings left to do. Compared to the basic quine, we need to take two more things into account:
 - We still need to put `[]` and all the letters in their correct spots.
 - We need to express our `char(×)`s with just `123*-`.
-  
+ 
 The ascii from `D` onwards is ``DEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abc..``. This is quite some space for us to work with before we have to think about the `[]`s. In fact, this is enough space to specify `D` as `char(68)` with the characters at our disposal, with a ton of room left, even:
 ```matlab
  ..D,char(31*3-22-3),..
@@ -240,9 +247,9 @@ The ascii from `D` onwards is ``DEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abc..``. This is qu
 
 Now for our replacement string, we'll write it in vector notation `[ .. ]`, just like the basic quine. However, we'll have to do some tricky tricks.
 
-First, we need to match the `[]` in `..Z[\]^..`. Fortunately, Matlab is nice, and allows trailing comma's in vectors. This includes the empty vector; `[,]` is completely valid, and does not contribute anything to our string.
+First, we need to match the `[]` in the ascii `..Z[\]^..`. Fortunately, Matlab is nice, and allows trailing commas in vectors. This includes the empty vector; `[,]` is completely valid, and does not contribute anything to our string.
 
-Finally, we need to include some letters. There's no neat way to go about this, so I just dump them into a string:
+Finally, we need to include some letters. There's no neat way to go about this, so just dump them into a string:
 
 ```matlab
  ..[    [,],' a c e  h       p rst'..
@@ -252,7 +259,7 @@ It really helps that we could get `'` for free. Remember: the code that we are w
 
 After this string, we're free to format our code however we like; there are no more ascii-restrictions.
 
-However, we don't actually want to concatenate this string into the result like this. The solution to this is simple: just grab a random character from this string to build `34`, representing `"`.
+However, we don't actually want to concatenate this letters string into the result like this. The solution to this is simple: just grab a random character from this string to build `34`, representing `"`.
 ```matlab
  ..[    [,],' a c e  h       p rst'(2)-31-32,..
 %..VWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
@@ -275,29 +282,36 @@ Oh, I should write some more words in this part? Huh...
 
 ...
 
-Nah, screw it. What more than "quines are fun" do you really need for a post like this? You there. Reader. Go, do a quine!
+Nah, screw it. What more than "quines are fun" do you really need for a post like this? You there. Reader.
+
+[sketch]
+[![Go do a quine.](/resources/images/quine/go-do-a-quine.png)][hover-go-do-a-quine]
+
+[hover-go-do-a-quine]: ## "Now, it would be really awkward if you weren't familiar with this meme format."
+
+[/sketch]
 
 [/block]
 
 [^1]:
-    Written by Yusuke Endoh, and better known by its Japanese title "あなたの知らない超絶技巧プログラミングの世界". It seems like there's still not an English version out there, unfortunately.
+    Better known by its Japanese title "あなたの知らない超絶技巧プログラミングの世界", by Yusuke Endoh. It seems like there's still not an English version out there, unfortunately.
     
     I've heard Google Lens's gotten pretty good at translating lately, why don't you try that?
 
 [^2]:
-    For those weirdos that studied and even *liked* math, I'll shamelessly yoink the sketch proof from that book and sketchify it even further.
+    For those weirdos that studied and even *liked* math, I'll shamelessly yoink the sketch proof from the book and sketchify it even further.
     
-    For two programs $p_1$ and $p_w$, we write $p_1 \sim p_2$ when the two programs behave the same for all inputs: either the output strings are the same, or both programs don't halt.
+    For two programs $p_1$ and $p_2$, we write $p_1 \sim p_2$ when the two programs behave the same for all inputs: either the two output strings are the same, or both programs don't halt.
 
-    Next, let $E: \text{programs} \times \text{strings} \to \text{strings}$ be the program such that $E(p,s)$ executes program $p$ with input string $s$. It returns the output string *if it halts*. (Note that $E$ can be implemented in any Turing-complete language, as it's basically the compiler/interpreter.)
+    Next, let $E$ be a program where $E(p,s)$ is the output (if it halts) of running program $p$ with input string $s$. (Note that $E$ can be implemented in any Turing-complete language, as it's basically the compiler/interpreter.)
 
-    Next, define a few programs such that for any inputs $x$, $y$:
-    - Let $h$ be such that $E(h,x) \sim h_x$.
+    Next, define a few programs such that for all inputs $x$, $y$:
     - Let $h_x$ be such that $E(h_x, y) \sim E(E(x,x),y)$.
+    - Let $h$ be such that $E(h,x) = h_x$.
     - Let $e$ be such that $E(e,x) \sim E(f, E(h,x))$.
     - Now, define $p_f = h_e$.
 
-    We're skipping over details like "well-definedness", but who cares. (That's where the details lie, of course.)
+    We're skipping over a bunch of details here, but eh, who cares.
     
     With these definitions, you can show that for any input string $x$, $E(p_f,x) = E(E(f,p_f), x)$ so that $p_f \sim E(f,p_f)$. This matches the claim that "$p_f$ with empty input" and "$f$ fed $p_f$ as input" have the same output behaviour.
 
