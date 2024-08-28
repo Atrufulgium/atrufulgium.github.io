@@ -3,7 +3,7 @@ layout: post
 title: A funny MATLAB quine
 title-lower: a funny matlab quine
 title-tiny: Funny quine
-blurb: Code that spits out itself... The epitome of recreational programming.
+blurb: Code that spits out itself... Isn't recreational programming lovely?
 usemathjax: true
 ---
 {::nomarkdown}
@@ -20,7 +20,7 @@ If you've never seen quines before, it's a neat little exercise to try and write
 A basic quine
 =============
 
-*Note: While I'll say "Matlab" throughout this post, I'll actually be using Octave instead. I like open source more than I like high license fees. There's also an [online interface](https://octave-online.net/). This means you can just copy-paste any code in this post and run it. (This* does *mean I might be using Octave-only quirks, without knowing.)*
+*Note: While I'll say "Matlab" throughout this post, I'll actually be using Octave instead. I like open source more than I like high license fees. There's also an [online interface](https://octave-online.net/). This means you can just copy-paste any code in this post and run it. (This* does *mean I might be using Octave-only quirks.)*
 
 We'll start out with a pretty lousy quine. This is your last chance to write one yourself, without spoilers!
 
