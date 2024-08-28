@@ -186,12 +186,12 @@ h1 {
 	background-color: #fff1;
 }
 
-.language-csharp pre, .language-nasm pre, .language-matlab pre {
+.language-csharp pre, .language-nasm pre, .language-matlab pre, .language-hlsl pre {
     overflow-x: auto;
     font-size: 90%;
     border: var(--normal-sep-border);
 }
-.language-csharp::before, .language-nasm::before, .language-matlab::before {
+.language-csharp::before, .language-nasm::before, .language-matlab::before, .language-hlsl::before {
 	padding: 0px 30px 2px 2px;
 	background-color: #0a0a0a;
 	border: var(--normal-sep-border);
@@ -209,6 +209,9 @@ h1 {
 }
 .language-matlab::before {
     content: "matlab";
+}
+.language-hlsl::before {
+    content: "hlsl";
 }
 
 .nowrap {

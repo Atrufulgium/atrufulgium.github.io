@@ -40,7 +40,7 @@ Before I get to the explanation, if you want to actually use this code as a stri
 ans = 1
 ```
 
-You can see that this renders all syntax highlighting void and creates pretty confusing nested strings, so I'll won't be doing that.
+You can see that this renders all syntax highlighting void and creates pretty confusing nested strings, so I won't be doing that.
 
 Now, let's discuss what's actually going on here. First, our main character, `strrep`. This is simply a function `strrep(text, search, replace) : string`. It looks for *all* instances of `search` in `text`, and replaces them with `replace`.
 
