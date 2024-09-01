@@ -219,7 +219,7 @@ class Lexer {
     }
 }
 
-var TOKENTYPE = {
+const TOKENTYPE = {
     "z": "z",
     "i": "i",
     // MathFunction of the form `# op #`

@@ -190,7 +190,8 @@ h1 {
 .language-nasm pre,
 .language-matlab pre,
 .language-hlsl pre,
-.language-glsl pre {
+.language-glsl pre,
+.language-js pre {
     overflow-x: auto;
     font-size: 90%;
     border: var(--normal-sep-border);
@@ -199,7 +200,8 @@ h1 {
 .language-nasm::before,
 .language-matlab::before,
 .language-hlsl::before,
-.language-glsl::before {
+.language-glsl::before,
+.language-js::before {
 	padding: 0px 30px 2px 2px;
 	background-color: #0a0a0a;
 	border: var(--normal-sep-border);
@@ -214,11 +216,13 @@ h1 {
 .language-matlab::before { content: "matlab"; }
 .language-hlsl::before   { content: "hlsl"; }
 .language-glsl::before   { content: "glsl"; }
+.language-js::before     { content: "js"; }
 .language-csharp,
 .language-nasm,
 .language-matlab,
 .language-hlsl,
-.language-glsl {
+.language-glsl,
+.language-js {
 	margin-top: -14px;
 }
 
@@ -238,17 +242,6 @@ h1 {
 
 .warning {
     background: rgb(102,34,34, 0.95);
-}
-
-.errorout {
-    background: rgb(102,34,34, 0.95);
-    max-width: 100%;
-    padding: calc(var(--normal-text-padding)/2);
-    border: var(--normal-sep-border);
-    white-space: pre-wrap;
-}
-.errorout:empty {
-    display: none;
 }
 
 .clickable {

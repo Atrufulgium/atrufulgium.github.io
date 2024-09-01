@@ -354,7 +354,7 @@ function getFrag() {
         z.x *= aspectRatio;
         for (float i = 0.; i < 100.; i++) {
             z = ${compiled};
-            iters += float(dot(z,z) < 9.);
+            iters += float(dot(z,z) < 4.);
         }
         float progress = log2(iters + 2.)/log2(102.);
 
