@@ -186,12 +186,20 @@ h1 {
 	background-color: #fff1;
 }
 
-.language-csharp pre, .language-nasm pre, .language-matlab pre, .language-hlsl pre {
+.language-csharp pre,
+.language-nasm pre,
+.language-matlab pre,
+.language-hlsl pre,
+.language-glsl pre {
     overflow-x: auto;
     font-size: 90%;
     border: var(--normal-sep-border);
 }
-.language-csharp::before, .language-nasm::before, .language-matlab::before, .language-hlsl::before {
+.language-csharp::before,
+.language-nasm::before,
+.language-matlab::before,
+.language-hlsl::before,
+.language-glsl::before {
 	padding: 0px 30px 2px 2px;
 	background-color: #0a0a0a;
 	border: var(--normal-sep-border);
@@ -201,17 +209,17 @@ h1 {
 	font-weight: bold;
 	top: 14px;
 }
-.language-csharp::before {
-	content: "c#";
-}
-.language-nasm::before {
-    content: "assembly";
-}
-.language-matlab::before {
-    content: "matlab";
-}
-.language-hlsl::before {
-    content: "hlsl";
+.language-csharp::before { content: "c#"; }
+.language-nasm::before   { content: "assembly"; }
+.language-matlab::before { content: "matlab"; }
+.language-hlsl::before   { content: "hlsl"; }
+.language-glsl::before   { content: "glsl"; }
+.language-csharp,
+.language-nasm,
+.language-matlab,
+.language-hlsl,
+.language-glsl {
+	margin-top: -14px;
 }
 
 .nowrap {
@@ -226,10 +234,6 @@ h1 {
    Nah that ain't gonna happen. */
 .language-matlab pre {
     white-space: break-spaces;
-}
-
-.language-csharp, .language-nasm, .language-matlab {
-	margin-top: -14px;
 }
 
 .warning {
