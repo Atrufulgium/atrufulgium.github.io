@@ -25,6 +25,9 @@
     </script>
 </head>
 <body>
+    {% if page.usemathjax %}
+        {% include latex-defs.html %}
+    {% endif %}
     {% include header-background.html %}
     <article class="content">
     {% comment %}
