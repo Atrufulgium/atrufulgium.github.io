@@ -26,7 +26,9 @@
 </head>
 <body>
     {% if page.usemathjax %}
-        {% include latex-defs.html %}
+        <span style="display: none">
+        $${% include latex-defs.tex %}$$
+        </span>
     {% endif %}
     {% include header-background.html %}
     <article class="content">
@@ -44,12 +46,15 @@
           ~~rightfully~~ does not support those.
         - The `href="##"`-erasure is to ensure hover syntax does not have whack results.
         - The footnotes replacement gives it a title.
+        - The mcfunction replace is because rouge doesn't support mcfunction and I'm using another language in its place.
         Btw, everything in here is in a huge HTML comment whose delimiters are liquid-comments.
         This is to ensure that syntax highlighting or autocomplete doesn't go *completely mad*.
         Now it's just the spellchecker not knowing wtf it has to do.
 
         There are also some replacements in `post.html` before markdown is processed:
         - To not have to remember the path to the repo every time, there is a REPO shorthand in urls.
+        - To not have dangling <p> and </p> tags, some bb-tags are blockified.
+        - The mcfunction replace is because rouge doesn't support mcfunction and I'm using another language in its place.
     {% endcomment %}
 
     {% assign output = content
@@ -67,7 +72,8 @@
         | replace: '[gap/]', '<div class="smallgap"></div>'
         | replace: '[br/]', '</p><p>'
         | replace: 'href="##"', ''
-        | replace: '<div class="footnotes"', '<div class="smallgap"></div><h1>footnotes and references</h1><div class="footnotes"' %}
+        | replace: '<div class="footnotes"', '<div class="smallgap"></div><h1>footnotes and references</h1><div class="footnotes"'
+        | replace: 'language-elixir', 'language-mcfunction' %}
     {{ output }}
     {% comment %}
         -->

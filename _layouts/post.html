@@ -30,6 +30,7 @@ layout: standard
     | replace: '[/sketch]', newlined-sketch-end
     | replace: '[nowrap]', newlined-nowrap
     | replace: '[/nowrap]', newlined-nowrap-end
+    | replace: '```mcfunction', '```elixir'
     | markdownify
 %}
 {{ output }}

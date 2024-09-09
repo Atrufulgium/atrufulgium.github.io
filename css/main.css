@@ -186,6 +186,10 @@ h1 {
 	background-color: #fff1;
 }
 
+/* Note: As of 2024/09/09, Rouge does not support mcfunction.
+   As a hack, use another language I won't ever use, instead.
+   Somewhat decent options: Elixir / Praat / Ruby */
+
 .language-csharp pre,
 .language-nasm pre,
 .language-matlab pre,
@@ -219,13 +223,15 @@ h1 {
 .language-hlsl::before   { content: "hlsl"; }
 .language-glsl::before   { content: "glsl"; }
 .language-js::before     { content: "js"; }
-.language-mcfunction::before {content: "mcfunction"; }
+.language-mcfunction::before { content: "mcfunction"; }
+
 .language-csharp,
 .language-nasm,
 .language-matlab,
 .language-hlsl,
 .language-glsl,
-.language-js {
+.language-js,
+.language-mcfunction {
 	margin-top: -14px;
 }
 
