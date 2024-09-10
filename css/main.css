@@ -60,9 +60,11 @@ footer a::after {
 }
 .footnotes>ol>li::before {
 	content: "["counter(item)"]";
-	margin-left: -30px;
+	margin-left: -46px;
 	display: inline-block;
 	position: absolute;
+    min-width: 40px;
+    text-align: right;
 }
 .footnote{
     text-decoration: none;
@@ -95,7 +97,8 @@ footer a::after {
 .displayimage, .sketch img {
     display: block;
     margin: 0 auto;
-    max-width: 100%
+    max-width: 100%;
+    border-radius: 12px;
 }
 
 .sideimage {
