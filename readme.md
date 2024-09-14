@@ -7,3 +7,4 @@ Unless otherwise stated, the content of this repo is available under the [UNLICE
 - `atru.svg` (all rights reserved; this was a gift).
 - `fangames.html`, `music.html` (all rights reserved; not related to programming).
 - `tree1.svg`, `tree2.svg` (pretty these were some "free for non-commercial use"-type license, but uhh I forgot where I got them from).
+- Everything in `/resources/ffof` (all rights reserved; not related to programming).
