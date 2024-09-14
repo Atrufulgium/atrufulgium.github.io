@@ -8,7 +8,9 @@
     <meta name="description" content="The full one-hour album Futures Full of Futility with story and animation.">
     <link rel="stylesheet" type="text/css" href="/css/ffof.css" />
     <link rel="shortcut icon" href="/resources/ffof/favicon.ico" type="image/x-icon" />
+    <script src="/js/srt-parser.js"></script>
     <script src="/js/ffof.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
     <title>Futures Full of Futility</title>
     <script>
         const subs = `{% include_relative /resources/ffof/story.srt %}`;
@@ -18,8 +20,14 @@
 <div id="player">
     <div id="track-title"></div>
     <div id="subs"></div>
-    <div id="menu">
-
+    <div id="menu" onclick="handleClick()">
+        <p>Loading...</p>
     </div>
 </div>
+<iframe id="FFoF-yt-player"
+        width="200" height="200"
+        src="https://www.youtube.com/embed/ZhbJVJB4Ruc?enablejsapi=1"
+        style="position: absolute; left: -300px; top: 0"
+        tabindex=-1>
+</iframe>
 </body>

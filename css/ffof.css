@@ -13,6 +13,8 @@
     --aspect-ratio-factor: 0.625vw;
     /* What title to use. */
     --title-id: 0;
+    /* What background to use. */
+    --background-id: 0;
 }
 @media (min-aspect-ratio: 16/9) {
     :root {
@@ -48,6 +50,7 @@ body {
         calc(-2 * var(--anim-offset) * var(--aspect-ratio-factor)),
         calc(-1 * var(--anim-offset) * var(--aspect-ratio-factor)),
         0;
+    background-position-y: calc((var(--background-id) / 5) * 100%);
     
     font-family: "Tiny5", sans-serif;
     color: white;
@@ -58,10 +61,13 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+
     background-image: url("/resources/ffof/azzyboy.png");
     background-size: cover;
     image-rendering: pixelated;
     background-position-y: calc((var(--azachon-anim-offset) / 22) * 100%);
+
+    text-align: center;
 }
 
 #track-title {
@@ -79,10 +85,9 @@ body {
 #subs {
     position: absolute;
     width: calc(110 * var(--aspect-ratio-factor));
-    height: calc(40 * var(--aspect-ratio-factor));
+    height: calc(60 * var(--aspect-ratio-factor));
     right: calc(7 * var(--aspect-ratio-factor));
     bottom: calc(4 * var(--aspect-ratio-factor));
-    line-height: 0.9;
     align-content: end;
     /* Don't forget to text-align in js-land! */
 }
