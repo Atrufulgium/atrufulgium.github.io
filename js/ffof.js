@@ -24,7 +24,7 @@ let srt;
 let ready = false;
 function playerReady() {
     ready = true;
-    srt = parseSrt(subs);
+    srt = parseSrt(processSubtitles(subs));
     requestAnimationFrame(step);
     menu_element.innerHTML = "<p>Tap to play/pause.</p>";
 }
@@ -67,11 +67,28 @@ function getTrack(timestamp) {
     return starts.length - 1;
 }
 
+/** Does some minor post-processing subtitles files may need.
+ * @param {string} subs An SRT file
+ * @returns {string}
+ */
+function processSubtitles(subs) {
+    // This is slow as mollasses but eh.
+    while (subs.includes("[RANDOMPOS]"))
+        subs = subs.replace("[RANDOMPOS]", "⠀ ".repeat(20 * Math.random()));
+    return subs;
+}
+
 /** Background IDs of each track. */
 const backgrounds = [0,1,1,2,2,3,3,4,4,4,5,6,7,7,8,9,10,10,11,11,11,9,12,12,13,13,14];
 
+let prevTime = -1;
 function step() {
     let progress_seconds = getTime();
+    if (progress_seconds === prevTime) {
+        requestAnimationFrame(step);
+        return;
+    }
+    prevTime = progress_seconds;
 
     // 3 fps. The 1600 is the lcm of 160px width, and the three different speeds 5x, 2x, 1x.
     let bg_anim_offset = Math.floor(3 * progress_seconds) % 1600;

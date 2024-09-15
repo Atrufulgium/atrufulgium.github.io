@@ -26,6 +26,10 @@ body {
     /* background-color: #0f0f0f; */
     background-color: #F0F;
     margin: 0;
+    
+    font-family: "Tiny5", sans-serif;
+    color: white;
+    font-size: calc(7.5 * var(--aspect-ratio-factor));
 }
 
 #player {
@@ -51,10 +55,6 @@ body {
         calc(-1 * var(--anim-offset) * var(--aspect-ratio-factor)),
         0;
     background-position-y: calc((var(--background-id) / 5) * 100%);
-    
-    font-family: "Tiny5", sans-serif;
-    color: white;
-    font-size: calc(7.5 * var(--aspect-ratio-factor));
 }
 
 #menu {
@@ -98,5 +98,25 @@ body {
    right-aligned subs whenever person 2 speaks. */
 #subs>font {
     display: block;
-    width: 100%;
+    width: calc(100% - 10 * var(--aspect-ratio-factor));
+    padding-right: calc(10 * var(--aspect-ratio-factor));
+}
+#subs>font.speaker2 {
+    text-align: right;
+    padding-right: 0;
+    padding-left: calc(10 * var(--aspect-ratio-factor));
+}
+
+#ur-doin-it-wrong {
+    display: none;
+}
+
+@media (max-aspect-ratio: 5/4) {
+    #ur-doin-it-wrong {
+        width: 100%;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+    }
 }
