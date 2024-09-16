@@ -16,15 +16,15 @@
         const subs = `{% include_relative /resources/ffof/story.srt %}`;
     </script>
 </head>
-<body>
+<body onclick="handleClick()">
 <div id="player">
     <div id="track-title"></div>
     <div id="subs"></div>
     <div id="menu" onclick="handleClick()">
         <p>Loading...</p>
     </div>
+    <div id="ur-doin-it-wrong">This content is best enjoyed in landscape mode, or, if you're stubborn, with a magnifying glass.</div>
 </div>
-<div id="ur-doin-it-wrong">This content is best enjoyed in landscape mode, or, if you're stubborn, with a magnifying glass.</div>
 <!-- TODO: &origin -->
 <iframe id="FFoF-yt-player"
         width="200" height="200"

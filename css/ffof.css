@@ -9,8 +9,12 @@
        taking 100ms. The 23rd frame is empty. */
     --azachon-anim-offset: 0;
     /* Multiples of 0.625vw if horizontally maximally sized.
-       Multiples of 1.111vh if vertically maximally sized. */
-    --aspect-ratio-factor: 0.625vw;
+       Multiples of 1.111vh if vertically maximally sized.
+       Exceptions: For many screen resolutions we manually set
+       this to some round Npx file so that there are no
+       artifacts. That mess is at the bottom of this file.
+       The size of a pixel. */
+    --pixel-size: 0.625vw;
     /* What title to use. */
     --title-id: 0;
     /* What background to use. */
@@ -18,23 +22,27 @@
 }
 @media (min-aspect-ratio: 16/9) {
     :root {
-        --aspect-ratio-factor: 1.1111111111vh;
+        --pixel-size: 1.1111111111vh;
     }
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
-    /* background-color: #0f0f0f; */
-    background-color: #F0F;
+    background-color: #0f0f0f;
     margin: 0;
     
     font-family: "Tiny5", sans-serif;
     color: white;
-    font-size: calc(7.5 * var(--aspect-ratio-factor));
+    font-size: calc(7.5 * var(--pixel-size));
 }
 
 #player {
     position: relative;
     aspect-ratio: 16/9;
+    max-width: calc(160 * var(--pixel-size));
     max-height: 100vh;
     height: auto;
     margin: auto;
@@ -50,9 +58,9 @@ body {
     background-repeat: repeat-x;
     background-position-x:
         0,
-        calc(-5 * var(--anim-offset) * var(--aspect-ratio-factor)),
-        calc(-2 * var(--anim-offset) * var(--aspect-ratio-factor)),
-        calc(-1 * var(--anim-offset) * var(--aspect-ratio-factor)),
+        calc(-5 * var(--anim-offset) * var(--pixel-size)),
+        calc(-2 * var(--anim-offset) * var(--pixel-size)),
+        calc(-1 * var(--anim-offset) * var(--pixel-size)),
         0;
     background-position-y: calc((var(--background-id) / 5) * 100%);
 }
@@ -72,10 +80,10 @@ body {
 
 #track-title {
     position: absolute;
-    width: calc(110 * var(--aspect-ratio-factor));
-    height: calc(17 * var(--aspect-ratio-factor));
-    right: calc(7 * var(--aspect-ratio-factor));
-    top: calc(4 * var(--aspect-ratio-factor));
+    width: calc(110 * var(--pixel-size));
+    height: calc(17 * var(--pixel-size));
+    right: calc(7 * var(--pixel-size));
+    top: calc(4 * var(--pixel-size));
     background-image: url("/resources/ffof/tracknames.png");
     background-size: cover;
     image-rendering: pixelated;
@@ -84,12 +92,12 @@ body {
 
 #subs {
     position: absolute;
-    width: calc(110 * var(--aspect-ratio-factor));
-    height: calc(60 * var(--aspect-ratio-factor));
-    right: calc(7 * var(--aspect-ratio-factor));
-    bottom: calc(4 * var(--aspect-ratio-factor));
-    align-content: end;
-    /* Don't forget to text-align in js-land! */
+    width: calc(110 * var(--pixel-size));
+    height: calc(60 * var(--pixel-size));
+    right: calc(7 * var(--pixel-size));
+    bottom: calc(4 * var(--pixel-size));
+    /* To allow containing `font` to put at end. */
+    display: flex;
 }
 
 /* Lol right, forgot, I'm using the font tag.
@@ -98,25 +106,70 @@ body {
    right-aligned subs whenever person 2 speaks. */
 #subs>font {
     display: block;
-    width: calc(100% - 10 * var(--aspect-ratio-factor));
-    padding-right: calc(10 * var(--aspect-ratio-factor));
+    width: calc(100% - 10 * var(--pixel-size));
+    padding-right: calc(10 * var(--pixel-size));
+    align-self: flex-end;
 }
 #subs>font.speaker2 {
     text-align: right;
     padding-right: 0;
-    padding-left: calc(10 * var(--aspect-ratio-factor));
+    padding-left: calc(10 * var(--pixel-size));
 }
 
 #ur-doin-it-wrong {
     display: none;
 }
 
-@media (max-aspect-ratio: 5/4) {
+@media (max-aspect-ratio: 1/1) {
     #ur-doin-it-wrong {
         width: 100%;
         display: block;
         position: absolute;
-        bottom: 0;
+        bottom: -200px;
         text-align: center;
+        color: gray;
     }
+}
+
+/* Enforce proper pixel art without pixel artifacts */
+@media (max-aspect-ratio: 16/9) {
+    /* print(''.join([f"    @media (min-width: {160*i}px) and (max-width: {160*i+159}px) {{\n        :root {{ --pixel-size: {i}px; }}\n        #player {{ max-width: {160*i}px; }}\n    }}\n" for i in range(1,13)])) */
+    @media (min-width:  160px) and (max-width:  319px) { :root { --pixel-size: 1px; } }
+    @media (min-width:  320px) and (max-width:  479px) { :root { --pixel-size: 2px; } }
+    @media (min-width:  480px) and (max-width:  639px) { :root { --pixel-size: 3px; } }
+    @media (min-width:  640px) and (max-width:  799px) { :root { --pixel-size: 4px; } }
+    @media (min-width:  800px) and (max-width:  959px) { :root { --pixel-size: 5px; } }
+    @media (min-width:  960px) and (max-width: 1119px) { :root { --pixel-size: 6px; } }
+    @media (min-width: 1120px) and (max-width: 1279px) { :root { --pixel-size: 7px; } }
+    @media (min-width: 1280px) and (max-width: 1439px) { :root { --pixel-size: 8px; } }
+    @media (min-width: 1440px) and (max-width: 1599px) { :root { --pixel-size: 9px; } }
+    @media (min-width: 1600px) and (max-width: 1759px) { :root { --pixel-size: 10px; } }
+    @media (min-width: 1760px) and (max-width: 1919px) { :root { --pixel-size: 11px; } }
+    @media (min-width: 1920px) and (max-width: 2239px) { :root { --pixel-size: 12px; } }
+    @media (min-width: 2240px) and (max-width: 2559px) { :root { --pixel-size: 14px; } }
+    @media (min-width: 2560px) and (max-width: 2879px) { :root { --pixel-size: 16px; } }
+    @media (min-width: 2880px) and (max-width: 3199px) { :root { --pixel-size: 18px; } }
+    @media (min-width: 3200px) and (max-width: 3519px) { :root { --pixel-size: 20px; } }
+    @media (min-width: 3520px) and (max-width: 3839px) { :root { --pixel-size: 22px; } }
+    /* Higher than 4k and you can just suffer from 1px off artifacts, you're not even gonna see them. */
+}
+@media (min-aspect-ratio: 16/9) {
+    @media (min-height:   90px) and (max-height:  179px) { :root { --pixel-size: 1px; } }
+    @media (min-height:  180px) and (max-height:  269px) { :root { --pixel-size: 2px; } }
+    @media (min-height:  270px) and (max-height:  359px) { :root { --pixel-size: 3px; } }
+    @media (min-height:  360px) and (max-height:  449px) { :root { --pixel-size: 4px; } }
+    @media (min-height:  450px) and (max-height:  539px) { :root { --pixel-size: 5px; } }
+    @media (min-height:  540px) and (max-height:  629px) { :root { --pixel-size: 6px; } }
+    @media (min-height:  630px) and (max-height:  719px) { :root { --pixel-size: 7px; } }
+    @media (min-height:  720px) and (max-height:  809px) { :root { --pixel-size: 8px; } }
+    @media (min-height:  810px) and (max-height:  899px) { :root { --pixel-size: 9px; } }
+    @media (min-height:  900px) and (max-height:  989px) { :root { --pixel-size: 10px; } }
+    @media (min-height:  990px) and (max-height: 1079px) { :root { --pixel-size: 11px; } }
+    @media (min-height: 1080px) and (max-height: 1259px) { :root { --pixel-size: 12px; } }
+    @media (min-height: 1260px) and (max-height: 1439px) { :root { --pixel-size: 14px; } }
+    @media (min-height: 1440px) and (max-height: 1619px) { :root { --pixel-size: 16px; } }
+    @media (min-height: 1620px) and (max-height: 1799px) { :root { --pixel-size: 18px; } }
+    @media (min-height: 1800px) and (max-height: 1979px) { :root { --pixel-size: 20px; } }
+    @media (min-height: 1980px) and (max-height: 2159px) { :root { --pixel-size: 22px; } }
+    /* Higher than 4k and you can just suffer from 1px off artifacts, you're not even gonna see them. */
 }
