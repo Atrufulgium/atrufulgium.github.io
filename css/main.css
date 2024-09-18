@@ -106,6 +106,12 @@ footer a::after {
     border-radius: 10px;
 }
 
+/* Backup when images fail to load. */
+img {
+    text-align: center;
+    font-style: italic;
+}
+
 .anchor {
     position: relative;
     bottom: var(--normal-smallgap-size);
