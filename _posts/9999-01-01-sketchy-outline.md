@@ -9,9 +9,9 @@ usemathjax: true
 {::nomarkdown}
 
 [block]
-I'm done being distracted, let's write a new post. I have a thing "most posts feature a new programming language" going on, so let's keep it up, and this week, move on to *hlsl*.
+I may or may not have been distracted for *absolutely forever*, but time for a new post!
 
-I'll talk about the shader I made for [a music video](https://www.youtube.com/watch?v=8FtlRY6haUI) ages ago. It is a shader that renders the scene with a wireframe mesh. However, unlike most of those shaders, I make the lines look hand-drawn. The following mineshaft scene was rendered fully with this shader (though I edited the colours in post to fit this blog):
+This time, I'll talk about a shader I made for [a music video](https://www.youtube.com/watch?v=8FtlRY6haUI) ages ago. It is a shader that renders the scene with a wireframe mesh. However, unlike most of those shaders, I make the lines look hand-drawn. The following mineshaft scene was rendered fully with this shader (though I edited the colours in post to fit this blog):
 
 [sketch]
 [![A scene, sketched with this shader.](/resources/images/sketch-shader/sample.png)][hover-sample.png]
@@ -192,18 +192,20 @@ So the code to shrink is very easy now. After this, we also need to go from obje
 
 ```hlsl
 float4 vert (
-    float4 model_space : POSITION,
+    float4 object_space : POSITION,
     float3 normal : NORMAL
 ) : SV_POSITION {
     // Shrink the mesh along the normals
-    model_space.xy -= 0.1 * normal;
+    object_space.xy -= 0.1 * normal;
 
-    // Now convert our updated model to screen space.
-    // (Yes Unity provides combined MVP-matrices, but I'll be putting
-    //  stuff between the passes, so I'm separating them beforehand.)
-    world_space = mul(UNITY_MATRIX_M, model_space);
-    camera_space = mul(UNITY_MATRIX_V, world_space);
-    return mul(UNITY_MATRIX_P, camera_space);
+    // Now convert our updated object to screen space.
+    // (You could just use UNITY_MATRIX_MVP, but I want to emphasise
+    //  the different spaces, because we're really going to be using
+    //  them later!)
+    float4 world_space = mul(UNITY_MATRIX_M, object_space);
+    float4 camera_space = mul(UNITY_MATRIX_V, world_space);
+    float4 screen_space = mul(UNITY_MATRIX_P, camera_space);
+    return screen_space;
 }
 ```
 
@@ -246,11 +248,11 @@ void geom(
 ) {
     // We get the three corners the vertex shader gave us in `IN`.
     // We can add new geometry by appending triangle strips:
-    triStream.append(v1);
-    triStream.append(v2);
-    triStream.append(v3);
+    triStream.Append(v1);
+    triStream.Append(v2);
+    triStream.Append(v3);
     ...
-    triStream.append(vN);
+    triStream.Append(vN);
     triStream.RestartStrip();
 }
 ```
@@ -262,14 +264,238 @@ Once we've decided we want to start somewhere else, we need to restart the strip
 
 Creating lines
 ==============
-In our case, we will be creating three quads. A quad is simply a triangle strip with an extra vertex.
+In our case, we will be creating three quads. A quad is simply a triangle strip with an extra vertex. Our quads will look something like follows.
 
 IMAGE
 
-We'll be needing three quads that don't connect neatly to each other (they even overlap!). As such, we'll be generating three triangle strips per triangle.
+We'll be needing three quads that don't connect neatly to each other (they even overlap!). As such, we'll be generating three triangle strips per triangle. As mentioned earlier, we will be doing this in screen space, around each edge.
+
+We can easily get the lines we're approximating -- they're all pairs of vertices from the triangle. So we simply need a function `draw_line()` that creates a quad around a pair of vertices.
+
+Because we're working in screen space, we effectively only have the $x$ and $y$ coordinates to worry about. To create a quad around a pair of vertices $p_1$ and $p_2$, we will need the direction of the line between them, and the line perpendicular to that.
+
+IMAGE
+
+These can simply be obtained by calculating `tangent` as `normalize((float2)p2 - p1)`, and `normal` as `tangent.yx * float2(-1,1)`. This gives us the two directions we need to create the quad on the screen.
+
+```hlsl
+// The g2f struct contains the output of the geometry / input of the
+// fragment shader, with positional and uv data.
+// This is called from the geometry shader, where p1 and p2 are camera
+// space positions of the corners of the triangle we're handling.
+void draw_line(
+    float4 p1,
+    float4 p2,
+    inout TriangleStream<g2f> triStream
+) {
+    // We'll need camera space later; now screen space suffices.
+    p1 = mul(UNITY_MATRIX_P, p1);
+    p1 /= p1.w;
+    p2 = mul(UNITY_MATRIX_P, p2);
+    p2 /= p2.w;
+
+    float2 tangent = normalize((float2)p2 - p1);
+    float2 normal = tangent.yx * float2(-1,1);
+    // Use a configurable line thickness [0,1].
+    tangent *= _Thickness * 0.5;
+    binormal *= _Thickness * 0.5;
+
+    g2f o;
+    o.pos = p1 - tangent + binormal;
+    o.uv = float2(0,0);
+    triStream.Append(o);
+    o.pos = p1 - tangent - binormal;
+    o.uv = float2(1,0);
+    triStream.Append(o);
+    o.pos = p2 + tangent + binormal;
+    o.uv = float2(0,1);
+    triStream.Append(o);
+    o.pos = p2 + tangent - binormal;
+    o.uv = float2(1,1);
+    triStream.Append(o);
+    triStream.RestartStrip();
+}
+```
+
+As we're creating triangles with uvs, there's a few things we need to watch out for. First, these triangles' winding order should be correct. If backface-culling is enabled, triangles created the wrong way around simply won't render. Then there's the four uv-coordinates. If you don't want your textures to be messed up, you better make sure these are correct as well!
+
+Thsi is where I *would* put in some advice for figuring that out... Except that trial and error is just plain quicker. If the backface-culling is wrong and you can't see anything, just swap the two points. If the uvs are wrong just grab a texture that "prints" the coordinates like below, and you'll immediately know what to do[^9].
+
+UV TEXTURE IMAGE
+
+Now we just call this `draw_line()` function in our geometry shader. We will assume that our vertex shader does *nothing* to our vertices for convenience, so that we start in object space[^10].
+
+```hlsl
+float4 vert(float4 vertex : POSITION) : SV_POSITION {
+    return vertex;
+}
+
+[maxvertexcount(12)]
+void geom(triangle vertex IN[3], inout TriangleStream<g2f> triStream) {
+    float4 world_space[3];
+    [unroll]
+    for (int i = 0; i < 3; i++)
+        world_space[i] = mul(UNITY_MATRIX_M, IN[i]);
+    
+    float4 camera_space[3];
+    [unroll]
+    for (int i = 0; i < 3; i++)
+        camera_space[i] = mul(UNITY_MATRIX_V, world_space[i]);
+    
+    draw_line(camera_space[0], camera_space[1], triStream);
+    draw_line(camera_space[1], camera_space[2], triStream);
+    draw_line(camera_space[0], camera_space[2], triStream);
+}
+```
+
+As mentioned in the intuitive sketch of this shader, we also don't want triangles on quads. To achieve this, we check whether two of the sides of the triangle have a dot product of (nearly) zero, and use this to decide whether to skip lines. We update our `geom()` function as follows.
+
+```hlsl
+[maxvertexcount(12)]
+void geom(triangle vertex IN[3], inout TriangleStream<g2f> triStream) {
+    ...
+
+    float3 side1 = normalize((float3)world_space[1] - world_space[0]);
+    float3 side2 = normalize((float3)world_space[2] - world_space[0]);
+    float3 side3 = normalize((float3)world_space[2] - world_space[1]);
+
+    // _DotRange is a user value that should be very close to zero.
+    // The higher it is, the more angles are seen as "right", and the
+    // more lines are not drawn. This may or may not be desirable.
+    bool p0_is_right_angle = abs(dot(side1, side2)) < _DotRange;
+    bool p1_is_right_angle = abs(dot(side1, side3)) < _DotRange;
+    bool p2_is_right_angle = abs(dot(side2, side3)) < _DotRange;
+
+    if (!p2_is_right_angle)
+        draw_line(camera_space[0], camera_space[1], triStream);
+    if (!p0_is_right_angle)
+        draw_line(camera_space[1], camera_space[2], triStream);
+    if (!p1_is_right_angle)
+        draw_line(camera_space[0], camera_space[2], triStream);
+}
+```
+
+Having significant branches like this in shaders is always painful, but as I said before, performance is not something I care very much about in this shader.
 
 Clipping lines
 ==============
+Unfortunately, as I mentioned, the hardware does not clip our lines for us. If we accidentally put lines behind the camera, they will show up in front. If we make lines ten times as tall as the screen, we will get lines that look stretched out. These are not effects we want.
+
+IMAGE
+
+Checking whether we're trying to create quads that are behind the camera, is a simple depth comparison. We just compare all three vertices with the near plane, and if both fall behind the camera, we won't draw the line.
+
+IMAGE
+
+In code, this is just a simple check.
+
+```hlsl
+bool3 in_view = float3(
+    camera_space[0].z,
+    camera_space[1].z,
+    camera_space[2].z
+);
+
+if (!p2_is_right_angle && any(in_view.xy))
+    draw_line(camera_space[0], camera_space[1], triStream);
+if (!p0_is_right_angle && any(in_view.yz))
+    draw_line(camera_space[1], camera_space[2], triStream);
+if (!p1_is_right_angle && any(in_view.xz))
+    draw_line(camera_space[0], camera_space[2], triStream);
+```
+
+However, even if we do this, we will *still* get stuff that's behind the camera on the screen sometimes, if one point is in front and one point is behind. For this, we need to put in some more work and move points behind the camera in front. Of course, we're working in camera space.
+
+IMAGE
+
+On paper, it looks simple, and mathematically, it is. Suppose $p_1$ is inside the frustum and $p_2$ is outside. We first calculate the direction vector `tangent = p1 - p2`, and then measure how many `tangent`s we need to move $p_2$ to put it on the near plane:
+
+```hlsl
+void clip_near_plane(inout float4 p1, inout float4 p2) {
+    // Proper code should use _ProjectionParams.y, but I was and am
+    // lazy, apparently.
+    float near_plane_z = -0.1;
+
+    // Assume p1 is inside and p2 is outside. The other case is the
+    // same of course.
+    float4 tangent = p1 - p2;
+    float dist = (near_plane_z - p2.z) / tangent.z;
+    if (dist < 0)
+        p2 = p2 + dist * tangent;
+}
+```
+
+We can then use this in `draw_line()` before we compute screen space positions.
+
+```hlsl
+void draw_line(
+    float4 p1,
+    float4 p2,
+    inout TriangleStream<g2f> triStream
+) {
+    clip_near_plane(/*inout*/ p1, /*inout*/ p2);
+
+    // The rest of the method
+    p1 = mul(UNITY_MATRIX_P, p1);
+    p1 /= p1.w;
+    ...
+}
+```
+
+This solves the problem of stuff behind the camera, but we still have to deal with lines stretched far beyond the screen for no reason. The solution to this is very similar. In screen space, if a point is "far" away, move it closer by, just like we did above.
+
+IMAGE
+
+This time there's four planes we care about, but that's the extent of what we have to deal with.
+
+```hlsl
+void clip_screen(inout float4 p1, inout float4 p2) {
+    // You could probably get away with 1, but I don't trust floats.
+    float boundary = 1.1;
+
+    // Projection onto the sides of the screen
+    float4 tangent = p2 - p1;
+    float2 xs = float2(p1.x, p2.x);
+    // Use the `sign` and `abs` to handle two planes at once.
+    float2 dists_x = (sign(xs) * boundary - xs) / tangent.x;
+    if (abs(p1.x) > boundary)
+        p1 = p1 + dists_x.x * tangent;
+    if (abs(p2.x) > boundary)
+        p2 = p2 + dists_x.y * tangent;
+    
+    // Projection onto the top/bottom of the screen
+    float2 ys = float2(p1.y, p2.y);
+    float2 dists_y = (sign(ys) * boundary - ys) / tangent.y;
+    if (abs(p1.y) > boundary)
+        p1 = p1 + dists_y.x * tangent;
+    if (abs(p2.y) > boundary)
+        p2 = p2 + dists_y.y * tangent;
+}
+```
+
+We can then call this in `draw_line()` after computing screen space coordinates.
+
+```hlsl
+void draw_line(
+    float4 p1,
+    float4 p2,
+    inout TriangleStream<g2f> triStream
+) {
+    clip_near_plane(/*inout*/ p1, /*inout*/ p2);
+
+    p1 = mul(UNITY_MATRIX_P, p1);
+    p1 /= p1.w;
+    p2 = mul(UNITY_MATRIX_P, p2);
+    p2 /= p2.w;
+
+    clip_screen(/*inout*/ p1, /*inout*/ p2);
+
+    // The rest of the method
+    float4 tangent = ...
+}
+```
+
+With this, both undesirable effects are gone!
 
 Finishing touches
 =================
@@ -312,5 +538,14 @@ Conclusion
     Nevertheless, as I've emphasised countless of times, this is really not a shader you'd want to run in any context in which performance matters. That's why I haven't implemented this theoretically better version -- I simply don't care about doing it like this. The geometry approach is just much more intuitive.
 
     (Well, intuitive enough to write a post over half an hour long about, but...)
+
+[^9]: I hate having to search my entire filesystem to find this texture in any of the four projects that use it every time I need it. That's the sole reason I'm including it here.
+[^10]: It would be slightly better to have the vertex shader convert to world space, but that's bad for presentation purposes.
+[^11]:
+    Oh right, I didn't mention perspective division yet. Uhh... I'm not going to explain *why* the `p1 /= p1.w` and `p2 /= p2.w` lines in `draw_line()` are a thing in this post, because I'd need to explain homogenous coordinates for that, and I'd like you to build intuition and all that. This post is long enough as is...
+    
+    Just assume it's a step we need to do to create perspective, and it's the step that turns our sort-of pyramid-shaped frustum into a neat box.
+
+    (You may be wondering why we need to do this division after multiplying with `UNITY_MATRIX_P` in this geometry shader, but not in the vertex shader in the "Occlusion" section. The reason is simple: the hardware does it for you after the vertex shader, but we're not in the vertex shader any more!)
 
 {:/nomarkdown}
