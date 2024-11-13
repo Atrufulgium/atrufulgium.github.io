@@ -79,7 +79,7 @@ fragment_input vert(vertex_input vertex) {
     // perspective and perhaps some other stuff.
 }
 
-color frag(fragment_input fragment) : SV_Target {
+color frag(fragment_input fragment) : SV_TARGET {
     // CODE THAT CALCULATES THE COLOR OF `fragment.xy`.
     // This is run for every triangle for every pixel inside that
     // triangle, and returns the color on your screen.
@@ -212,7 +212,7 @@ float4 vert (
 We want to render every pixel the same colour. This gives us a very easy fragment shader.
 
 ```hlsl
-float4 frag () : SV_Target {
+float4 frag () : SV_TARGET {
     return float4(_InnerColor.rgb, 1);
 }
 ```
@@ -317,13 +317,15 @@ void draw_line(
 }
 ```
 
+This is quite a lot of code, but it's just a bunch of setup, and then outputting our quad corners, vertex by vertex[^9].
+
 As we're creating triangles with uvs, there's a few things we need to watch out for. First, these triangles' winding order should be correct. If backface-culling is enabled, triangles created the wrong way around simply won't render. Then there's the four uv-coordinates. If you don't want your textures to be messed up, you better make sure these are correct as well!
 
-Thsi is where I *would* put in some advice for figuring that out... Except that trial and error is just plain quicker. If the backface-culling is wrong and you can't see anything, just swap the two points. If the uvs are wrong just grab a texture that "prints" the coordinates like below, and you'll immediately know what to do[^9].
+Thsi is where I *would* put in some advice for figuring that out... Except that trial and error is just plain quicker. If the backface-culling is wrong and you can't see anything, just swap the two points. If the uvs are wrong just grab a texture that "prints" the coordinates like below, and you'll immediately know what to do[^10].
 
 UV TEXTURE IMAGE
 
-Now we just call this `draw_line()` function in our geometry shader. We will assume that our vertex shader does *nothing* to our vertices for convenience, so that we start in object space[^10].
+Now we just call this `draw_line()` function in our geometry shader. We will assume that our vertex shader does *nothing* to our vertices for convenience, so that we start in object space[^11].
 
 ```hlsl
 float4 vert(float4 vertex : POSITION) : SV_POSITION {
@@ -499,12 +501,127 @@ With this, both undesirable effects are gone!
 
 Finishing touches
 =================
+Now, in principle, we only need to sample a line texture, and we're done.
+
+```hlsl
+sampler2D _MainTex;
+float4 _LineColor;
+
+float4 frag(g2f i) : SV_TARGET {
+    // Lines are only specified by opacity, colour is set by the user.
+    float opacity = tex2D(_MainTex, i.uv).a;
+    return _LineColor * opacity;
+}
+```
+However, using the same hand drawn line everywhere is kind of... lame. People will notice. So, let's use more lines. How about 8?
+
+We need a way to choose what lines to use. One way to do that, is to use [values the runtime gives us](https://learn.microsoft.com/en-us/windows/win32/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage-using). For instance, in the vertex shader, we have access to a `SV_VERTEXID` value that is unique *enough* for our purposes.
+
+While we get access to this value per-vertex in the vertex shader, we will only be using it all the way over in per-quad the fragment shader, so we will need to pass it through everything. The interesting step is how we're generating three triangles per triangle, and triangles have three vertices, so we can give each triangle a unique id like this.
+
+IMAGE
+
+For this, we need to update our `draw_line()` function...
+
+```hlsl
+void draw_line(
+    float4 p1,
+    float4 p2,
+    uint id, // New argument!
+    inout TriangleStream<g2f> triStream
+) {
+    ...
+    
+    g2f o;
+    o.id = id; // Give all four corners the same id
+
+    o.pos = p1 - tangent + binormal;
+    o.uv = float2(0,0);
+    triStream.Append(o);
+    o.pos = p1 - tangent - binormal;
+    ...
+}
+```
+
+...and update all call sites.
+
+```hlsl
+...
+if (!p2_is_right_angle && any(in_view.xy))
+    draw_line(camera_space[0], camera_space[1], IN[0].id, triStream);
+if (!p0_is_right_angle && any(in_view.yz))
+    draw_line(camera_space[1], camera_space[2], IN[1].id, triStream);
+if (!p1_is_right_angle && any(in_view.xz))
+    draw_line(camera_space[0], camera_space[2], IN[2].id, triStream);
+...
+```
+
+This gives us unique enough values constant across each line to work with in the fragment shader. We can then use this id in the fragment shader to select only one of the 8 lines in our texture.
+
+```hlsl
+float4 frag(g2f i) : SV_TARGET {
+    // Select our texture by modifying uvs
+    float texture = i.id % 8;
+    float2 uv = i.uv;
+    uv.x = (uv.x + texture) * 0.125;
+
+    float opacity = tex2D(_MainTex, uv).a;
+    return _LineColor * opacity;
+}
+```
+
+Now, some lines on the screen are long, and some are shorter. Using the same texture for both of them looks off -- your texture can look stretched or squished, and you don't really want that.
+
+The solution to this is to also draw some shorter lines into our texture, and use the (screen space) length of each generated line to determine which to use. The specific implementation I chose, is to not just use the A channel of the image, but all four RGBA channels. The R channel is for the longest lines, up until the A channel that is used for the shortest lines.
+
+```hlsl
+float4 frag(g2f i) : SV_TARGET {
+    float texture = i.id % 8;
+    // This vector is one of (1,0,0,0), (0,1,0,0), etc, depending on
+    // line length computed in the geometry shader (not shown).
+    float4 channel_mask = float4(
+                          i.size > 1,
+        1    >= i.size && i.size > 0.5,
+        0.5  >= i.size && i.size > 0.25,
+        0.25 >= i.size
+    );
+    float2 uv = i.uv;
+    uv.x = (uv.x + texture) * 0.125;
+
+    // We later filter out just the channel we're interested in.
+    float opacity = dot(tex2D(_MainTex, uv), channel_mask);
+    return _LineColor * opacity;
+}
+```
+
+At this point, our lines texture looks a bit messy, but if you take a look at all channels separately, it makes sense.
+
+IMAGE
+
+Finally, I also made this shader change the texture used every half a second, which is, just, *vibes*. Unity provides a `_Time` variable, so that's a trivial change.
+
+And with this, that's everything there is to this shader!
 
 I must emphasise, the performance is tragic
 ===========================================
 
+I must emphasise, the performance is tragic. Just, on a fundamental level, every triangle of your mesh results in *seven* triangles being drawn by the GPU -- one for the inner occlusion triangle, and six for the quads introduced. Now, this isn't a shader that you would run on a high-poly mesh (your screen would just be a blob of colour) anyways, but it's still a very large factor. Especially, that the triangles are not introduced with tessellation (which GPUs are good at), but with geometry shaders.
+
+And once I realised I didn't care about performance, well, I stopped caring about performance. There's tons of opportunities to optimize this shader, but if it's *fundamentally* slow, and only to be used one time, why bother?
+
+Note that this shader also usually puts two lines at every triangle edge, because triangles tend to be adjacent to each other. This only helps the hand-drawn effect as this gives more unique combinations of lines. This way it's not "only" 32 possibilities for each line, but many more. But this also is a performance penalty, as drawing two lines per edge is pretty wasteful.
+
 Conclusion
 ==========
+This is the adventure of how I went about creating a shader that's so niche no-one is going to use it. But it was very interesting writing it! I like how this shader uses every single coordinate space you encounter over in graphics land:
+- We shrunk the normals of the occluding pass in object space;
+- We checked right angles in world space (although this could've also been possible in object space or camera space);
+- We clipped our lines to the view frustum and viewport in camera space and screen space;
+- And we finally drew our quads in screen space.
+
+It's not every day that you encounter a shader like this! Many shaders just have a magic step "go from object space to screen space with this magic function", and do something interesting mostly in the fragment stages. Or the interesting part is not the shader itself, but how it fits into a larger pipeline. But here, knowing something about all intermediate spaces is a requirement!
+
+I hope that this is a good first post for my series of "I'm going to abuse my poor integrated GPU", as there's definitely more whacky shaders I've written and want to write about. As mentioned in the introduction, both this shader, and other shaders, can be found in my [pile-of-shaders](https://github.com/Atrufulgium/pile-of-shaders/tree/main) repo.
 
 [/block]
 
@@ -539,13 +656,14 @@ Conclusion
 
     (Well, intuitive enough to write a post over half an hour long about, but...)
 
-[^9]: I hate having to search my entire filesystem to find this texture in any of the four projects that use it every time I need it. That's the sole reason I'm including it here.
-[^10]: It would be slightly better to have the vertex shader convert to world space, but that's bad for presentation purposes.
-[^11]:
+[^9]:
     Oh right, I didn't mention perspective division yet. Uhh... I'm not going to explain *why* the `p1 /= p1.w` and `p2 /= p2.w` lines in `draw_line()` are a thing in this post, because I'd need to explain homogenous coordinates for that, and I'd like you to build intuition and all that. This post is long enough as is...
     
     Just assume it's a step we need to do to create perspective, and it's the step that turns our sort-of pyramid-shaped frustum into a neat box.
 
     (You may be wondering why we need to do this division after multiplying with `UNITY_MATRIX_P` in this geometry shader, but not in the vertex shader in the "Occlusion" section. The reason is simple: the hardware does it for you after the vertex shader, but we're not in the vertex shader any more!)
+
+[^10]: I hate having to search my entire filesystem to find this texture in any of the four projects that use it every time I need it. That's the sole reason I'm including it here.
+[^11]: It would be slightly better to have the vertex shader convert to world space, but that's bad for presentation purposes.
 
 {:/nomarkdown}
