@@ -67,11 +67,16 @@ While GPUs are pretty good at the 2D stuff, that's not really their main focus. 
 
 Consider our previous hard-coded sphere renderer. What if we wanted to add another sphere, and move the two around? The approach above quickly becomes awkward when you keep adding stuff to your scene.
 
-The way GPUs solve this, is to work with *geometry*, first and foremost. The GPU accepts a list of triangles that represent various objects. In our case, the two spheres.
+The way GPUs solve this, is to work with *geometry*, first and foremost. The GPU accepts a list of triangles that represent various objects. In our case, we approximate the two spheres.
 
-IMAGE
+[sketch]
+[![Two spheres made up of triangles.](/resources/images/sketch-shader/two-balls.png)][two-balls.png]
 
-The GPU first lets you modify of these triangles' corners, the *vertices*, in the "vertex shader". Move them around, make them do a little dance, whatever. This is usually where the math happens that makes "cameras" a thing in engines. After that, the GPU executes the "fragment shader" for every triangle, for every pixel that lies on that triangle. Our code that renders these spheres will now look something like this. (I'm still not gonna include any math yet.)
+[two-balls.png]: ## "GIMP doesn't need a circle tool, just draw triangles!"
+
+[/sketch]
+
+The GPU first lets you modify of these triangles' corners, the *vertices*, in the "vertex shader". Move them around, make them do a little dance, whatever. This is usually where the math happens that makes "cameras" a thing in 3D engines, instead of having you draw directly onto the screen. After that, the GPU executes the "fragment shader" for every triangle, for every pixel that lies on that triangle. Our code that renders these spheres will now look something like this. (I'm still not gonna include any math yet.)
 
 ```hlsl
 fragment_input vert(vertex_input vertex) {
@@ -111,22 +116,37 @@ Okay, I want to avoid discussing mathematical concepts as much as I can in this 
 
 When you create 3D meshes in Blender or Maya or whatever, you (usually) create them near $(0,0,0)$. All triangles of your mesh are defined with respect to this origin. But when you want to put your mesh in a scene a kilometre over, you don't move every single triangle in your mesh over. You would have to change *every single vertex*, which would take a lot of time. Instead, you *separately* store that you moved your mesh a kilometre over.
 
-IMAGE
+[sketch]
+[![The same cube mesh, at two different locations.](/resources/images/sketch-shader/two-cubes.png)][two-cubes.png]
 
-Then there's the camera rendering your scene. The math for doing camera things (such as projection) is *much* easier if the camera is at $(0,0,0)$. This requires us to move *everything* in the scene over! Again, you don't store this in every triangle, or every object, for the same reason as before. You just store this in the camera.
+[two-cubes.png]: ## "oh no I'm thinking about voxels again"
 
-IMAGE
+[/sketch]
 
-Finally, there's the space that actually represents your screen. The left of your screen is at $x = -1$, the right of your screen is at $x = 1$, all very predictable behaviour[^3].
+Then there's the camera rendering your scene. The math for doing camera things (such as projection) is *much* easier if the camera is at $(0,0,0)$. This requires us to move *everything* in the scene over! Again, you don't store this movement in every triangle, or every object, for the same reason as before. You just store this in the camera.
 
-IMAGE
+[sketch]
+[![The cubes as seen by the camera.](/resources/images/sketch-shader/two-cubes-camera.png)][two-cubes-camera.png]
+
+[two-cubes-camera.png]: ## "Is it the camera saying “Cam' over here” that moves everything?"
+
+[/sketch]
+
+Finally, there's the space that actually represents your screen. The left of your screen is at $x = 0$, the right of your screen is at $x = 1$, all very predictable behaviour[^3].
+
+[sketch]
+[![The cubes projected onto the screen.](/resources/images/sketch-shader/two-cubes-screen.png)][two-cubes-screen.png]
+
+[two-cubes-screen.png]: ## "In this space, no one can hear you screen."
+
+[/sketch]
 
 This leads us to the following coordinate spaces.
 
 - The *object space* puts the model at $(0,0,0)$. The three coordinates represent, respectively, "to the side", "upwards", and "forwards"[^4], compared to the model's orientation.
 - *World space* has an arbitrary origin denoted as $(0,0,0)$. Models, cameras, light sources, everything is positioned relative to this origin. The y-coordinate represents "up", while the other two are the horizontal plane.
 - *Camera space* puts the camera at $(0,0,0)$, pointing in the $-z$ direction.
-- *Screen space* represents your screen as discussed above[^5].
+- *Screen space* represents your screen[^5].
 
 Converting between these spaces requires a bunch of linear algebra, but we'll just be considering these transformations to be black boxes that we'll call `M`, `V`, and `P`.
 
@@ -136,7 +156,12 @@ Converting between these spaces requires a bunch of linear algebra, but we'll ju
 
 We won't have to worry about constructing these matrices, as Unity will just give them to us.
 
-IMAGE
+[sketch]
+[![The four spaces with the three transformations between them.](/resources/images/sketch-shader/mvp.png)][mvp.png]
+
+[mvp.png]: ## "I'm conflicted on whether to make a “minimal viable project” or a “most valuable player” joke."
+
+[/sketch]
 
 A slightly more comprehensive explanation about these various coordinate spaces, with a very helpful animation, can be found [here](https://jsantell.com/model-view-projection/).
 
@@ -144,35 +169,56 @@ How to sketch, intuitively
 ==========================
 Now, before we can get to code, we should know what we're doing. What is it that we're actually doing when I say we're sketching?
 
-What I'm doing is quite simple really. For every triangle, I want to have a sketchy line on top of its three edges. To achieve this, we overlay a small rectangle (two triangles) over each of its edges.
+What I'm doing is quite simple really. For every triangle, I want to have a sketchy line on top of its three edges. To achieve this, we overlay a small rectangle (two triangles) over each of its edges, with a "line" texture on top.
 
-IMAGE
+[sketch]
+[![Covering the three edges of the triangle with rectangles.](/resources/images/sketch-shader/cover.png)][cover.png]
+
+[cover.png]: ## "Turning one triangle into three quads? You can already see the performance tank..."
+
+[/sketch]
 
 Personally, I want my lines to be of consistent thickness throughout[^6]. Conceptually the easiest way to do this, is to draw the lines "on your screen". In other words, we'll need to generate our triangles in screen space.
 
-However, this would also create diagonal lines for cuboids like pillars and rails.
+However, this would also create diagonal lines for cuboids like pillars and rails I would have in my scene.
 
-IMAGE
+[sketch]
+[![A pillar with crossing diagonal lines.](/resources/images/sketch-shader/hypotenuses.png)][hypotenuses.png]
 
-I don't want these lines, it's not as tidy. The way we go about preventing them, is checking for right angles. We cannot check this in screen space however, as the perspective projection distorts angles.
+[hypotenuses.png]: ## "This is just not right."
 
-IMAGE
+[/sketch]
 
-So instead, we check for right angles in world space. (Object space and camera space would also work fine. I just want to use all spaces for this post.) We can even give some margin to this check, so that very thin triangles don't give a ton of lines either. This makes for instance UV-spheres look a little nicer.
+I don't want these lines, it's not as tidy. The way we go about preventing them, is checking for right angles. We cannot check this in screen space however, as the perspective projection distorts angles -- if you measure your angles "on screen", they'll be different!
 
-IMAGE
+[sketch]
+[![The same pillar twice. On the left, we measure the right angles in the world, giving 90°, but on the right we measure the right angles on the screen, giving 58° and 68° angles.](/resources/images/sketch-shader/right-angles.png)][right-angles.png]
+
+[right-angles.png]: ## "Small exercise: when does perspective maintain right angles?"
+
+[/sketch]
+
+So instead, we check for right angles in world space. (Object space and camera space would also work fine. I just want to use all spaces for this post.) We can even give some margin to this check, so that very thin triangles don't give a cluster of lines either. This improves the look of, for instance, uv-spheres.
 
 One thing I haven't mentioned so far, is an optimization the GPU does for us: *clipping*. Suppose we have a triangle that lies only partially inside of screen space. We don't want to spend effort rendering the pixels outside the screen, do we? Luckily, the GPU shrinks the triangle right into view.
 
-IMAGE
+[sketch]
+[![A triangle that is mostly outside the viewport, and its much smaller clipped version.](/resources/images/sketch-shader/clip.png)][clip.png]
 
-Unfortunately -- and I don't know if this is hardware-dependent -- the triangles we will add *don't* get clipped automatically. We need to manually put in the effort to achieve the same effect. This is not so much a performance optimization (if you write a shader like this, you really can't claim to care), but a correctness optimization. You can get some really ugly lines from one side of the screen to another if you fail to take this into account.
+[clip.png]: ## "Yes I specifically chose an example that does not introduce a quadrilateral, that just makes the image and explanation wordy. Sue me."
 
-IMAGE
+[/sketch]
 
-Finally, we don't want to see occluded lines. If some object is covering some other object's lines, we don't want to see both. To solve this, we also render a shrunken-down version of the mesh, entirely the same colour as the background.
+Unfortunately -- and I don't know if this is hardware-dependent -- the triangles we will add *don't* get clipped automatically. We need to manually put in the effort to achieve the same effect. This is not so much a performance optimization (if you write a shader like this, you really can't claim to care), but a correctness optimization. You can get some really ugly artifacts otherwise -- e.g. lines from one side of the screen to another -- if you fail to take this into account.
 
-IMAGE
+Finally, we don't want to see occluded lines. Up until now, I have not drawn the lines on the backside in my images, but there's nothing to guarantee that yet. Also, if some object is covering some other object's lines, we want that "covering" behaviour properly. To solve this, we also render a shrunken-down version of the mesh, entirely the same colour as the background. This covers both the backside lines, and any object behind.
+
+[sketch]
+[![A box, and a version where the lines on the back of the box are occluded by a scaled-down version of the box.](/resources/images/sketch-shader/occlusion.png)][occlusion.png]
+
+[occlusion.png]: ## "I'm really boxing myself into a corner with these diagrams by using just one colour, if I used more I could make them so much nicer."
+
+[/sketch]
 
 The "intuitive" explanation is quite long already, so putting this into code will be an adventure!
 
@@ -180,15 +226,25 @@ Occlusion
 =========
 Let's start with the last thing I discussed in the previous section, as it's the easiest. It's also a fun demonstration of how vertex shaders can do more than just transform into screen space.
 
-Let's think about this "shrinkage". The easiest way to go about this is to shrink our mesh in object space, before our other calculations. To do this, we need something called the "normal" vector. This is a vector that points away from the surface of the mesh, which is provided to us.
+Let's think about this "shrinkage". The easiest way to go about this is to shrink our mesh in object space, before our other calculations. To do this, we need something called the "normal" vector. This is a vector that points away from the surface of the mesh, and is provided to us.
 
-IMAGE
+[sketch]
+[![A mesh with normals drawn.](/resources/images/sketch-shader/normals.png)][normals.png]
+
+[normals.png]: ## "There's the obligatory normal jokes, but time for an abnormal joke: tangents."
+
+[/sketch]
 
 This vector is always of length one. Shrinking/expanding a mesh can now be described as "move vertices along their normal direction".
 
-IMAGE
+[sketch]
+[![A mesh with a vertex moved both outwards and inwards along its normal.](/resources/images/sketch-shader/normal-moves.png)][normal-moves.png]
 
-So the code to shrink is very easy now. After this, we also need to go from object space to camera space, and then we have our vertex shader.
+[normal-moves.png]: ## "I think one of the most common applications of this is people who want to emulate snowfall. In that case, you move up along the normals to make it look like a layer of snow."
+
+[/sketch]
+
+The code to shrink is very easy now. We just move all vertices down like this. Afterwards, we need to do the "ordinary" steps and go from object space to screen space, and then we have our vertex shader.
 
 ```hlsl
 float4 vert (
@@ -221,11 +277,11 @@ The variable `_InnerColor` is the colour the end-user (me) set in the Unity edit
 
 Geometry shaders
 ================
-(Un?)fortunately, now we get to the interesting and more difficult part. Vertex and fragment shaders are not sufficient for overlaying triangles as discussed above. For this, we require a new kind of shader: the *geometry shader*.
+(Un?)fortunately, now we get to the interesting and more difficult part. The pass above can be run, and then you have the shrunken part complete. However, to do the line drawing, we don't just need vertex and fragment shaders. They are not sufficient for creating triangles as discussed above. For this, we require a new kind of shader: the *geometry shader*.
 
 The geometry shader is a shader that lives between the vertex and fragment shader steps, and as its name suggests, it's used to modify geometry. You can use them to add or remove whatever you want!
 
-However, in general, geometry shaders are kind of bad[^7], and if you really need more triangles, you'd best use tessellation shaders. However, the triangles I'm adding simply don't mesh well with tessellation, so I don't really have a choice[^8].
+However, in general, geometry shaders are kind of bad[^7], and if you really need more triangles, you'd best use "tessellation" shaders. However, the triangles I'm adding simply don't mesh well with tessellation, so I don't really have a choice[^8].
 
 In pseudocode, you can think of geometry shaders as follows:
 
@@ -237,17 +293,19 @@ foreach (var triangle in triangles) {
 }
 ```
 
-In hlsl, these shaders have some pretty extensive and weird syntax.
+In hlsl, they look like this.
 
 ```hlsl
-// Every triangle we processes results in at most 12 new corners.
+// This tells the GPU: Every triangle we processes will result in at
+// most 12 new vertices.
 [maxvertexcount(12)]
 void geom(
     triangle vertex_output IN[3],
     inout TriangleStream<fragment_input> triStream
 ) {
     // We get the three corners the vertex shader gave us in `IN`.
-    // We can add new geometry by appending triangle strips:
+    // Use this data to create new vertex positions v1, ..., vN.
+    // Then add geometry by appending triangle strips:
     triStream.Append(v1);
     triStream.Append(v2);
     triStream.Append(v3);
@@ -321,11 +379,18 @@ This is quite a lot of code, but it's just a bunch of setup, and then outputting
 
 As we're creating triangles with uvs, there's a few things we need to watch out for. First, these triangles' winding order should be correct. If backface-culling is enabled, triangles created the wrong way around simply won't render. Then there's the four uv-coordinates. If you don't want your textures to be messed up, you better make sure these are correct as well!
 
-Thsi is where I *would* put in some advice for figuring that out... Except that trial and error is just plain quicker. If the backface-culling is wrong and you can't see anything, just swap the two points. If the uvs are wrong just grab a texture that "prints" the coordinates like below, and you'll immediately know what to do[^10].
+This is where I *would* put in some advice for figuring that out... Except that trial and error is just plain quicker. If the backface-culling is wrong and you can't see anything, just swap the two points. If the uvs are wrong just grab a texture that "prints" the coordinates like below, and you'll immediately know what to do.
 
-UV TEXTURE IMAGE
+[display-image]
+[![A uv test image.](/resources/images/sketch-shader/uv.png)][uv.png]
 
-Now we just call this `draw_line()` function in our geometry shader. We will assume that our vertex shader does *nothing* to our vertices for convenience, so that we start in object space[^11].
+[uv.png]: ## "I hate having to search my entire filesystem to find this texture in any of the four projects that use it in every time I need it. That's the sole reason I'm including it here."
+
+[/display-image]
+
+In this image, pixel (x,y) has RGB colour (x,y,0), so that you can read off what's going wrong.
+
+Now we just call this `draw_line()` function in our geometry shader. We will assume that our vertex shader does *nothing* to our vertices for convenience, so that we start in object space[^10].
 
 ```hlsl
 float4 vert(float4 vertex : POSITION) : SV_POSITION {
@@ -596,7 +661,12 @@ float4 frag(g2f i) : SV_TARGET {
 
 At this point, our lines texture looks a bit messy, but if you take a look at all channels separately, it makes sense.
 
-IMAGE
+[display-image]
+[![The lines texture and its four component channels.](/resources/images/sketch-shader/multichannel.png)][multichannel.png]
+
+[multichannel.png]: ## "This really is just a trick that's quite common when working with shaders. It's just, editing these files is sometimes a mess."
+
+[/display-image]
 
 Finally, I also made this shader change the texture used every half a second, which is, just, *vibes*. Unity provides a `_Time` variable, so that's a trivial change.
 
@@ -663,7 +733,6 @@ I hope that this is a good first post for my series of "I'm going to abuse my po
 
     (You may be wondering why we need to do this division after multiplying with `UNITY_MATRIX_P` in this geometry shader, but not in the vertex shader in the "Occlusion" section. The reason is simple: the hardware does it for you after the vertex shader, but we're not in the vertex shader any more!)
 
-[^10]: I hate having to search my entire filesystem to find this texture in any of the four projects that use it every time I need it. That's the sole reason I'm including it here.
-[^11]: It would be slightly better to have the vertex shader convert to world space, but that's bad for presentation purposes.
+[^10]: It would be slightly better to have the vertex shader convert to world space, but that's bad for presentation purposes.
 
 {:/nomarkdown}
