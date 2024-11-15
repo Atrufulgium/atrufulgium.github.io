@@ -314,25 +314,40 @@ void geom(
     triStream.RestartStrip();
 }
 ```
-Triangle strips are a neat way to represent geometry more efficiently. After you specify your first triangle, each triangle afterwards is specified by just one point, which connects to the last two points in the strip. This reduces a lot of duplication!
+Triangle strips are a neat way to represent geometry more efficiently. After you specify your first triangle, each triangle afterwards is specified by just one point, which connects to the last two points in the strip. This way we don't duplicate many vertices!
 
-ANIMATION
+[sketch]
+[![A mesh specified without and with triangle strips, reducing from 18 to 10 vertices.](/resources/images/sketch-shader/triangle-strips.png)][triangle-strips.png]
+
+[triangle-strips.png]: ## "(Yeah I didn't care about winding order here.)"
+
+[/sketch]
 
 Once we've decided we want to start somewhere else, we need to restart the strip.
 
 Creating lines
 ==============
-In our case, we will be creating three quads. A quad is simply a triangle strip with an extra vertex. Our quads will look something like follows.
+In our case, we will be creating three quads.
 
-IMAGE
+[sketch]
+[![Overlaying three quads over the three triangle edges.](/resources/images/sketch-shader/cover-again.png)][cover-again.png]
 
-We'll be needing three quads that don't connect neatly to each other (they even overlap!). As such, we'll be generating three triangle strips per triangle. As mentioned earlier, we will be doing this in screen space, around each edge.
+[cover-again.png]: ## "I'm covering my cases here, duplicating this image like this."
+
+[/sketch]
+
+A quad is simply a triangle strip with four vertices. These three quads don't connect neatly to each other (they even overlap!). As such, we'll be generating three triangle strips per triangle. As mentioned earlier, we will be doing this in screen space, around each edge.
 
 We can easily get the lines we're approximating -- they're all pairs of vertices from the triangle. So we simply need a function `draw_line()` that creates a quad around a pair of vertices.
 
-Because we're working in screen space, we effectively only have the $x$ and $y$ coordinates to worry about. To create a quad around a pair of vertices $p_1$ and $p_2$, we will need the direction of the line between them, and the line perpendicular to that.
+Because we're working in screen space, we effectively only have the $x$ and $y$ coordinates to worry about. To create a quad around a pair of vertices $p_1$ and $p_2$, we will need the direction of the line between them (the "tangent"), and the line perpendicular to that (the "normal"). You can then use these to find the corners of our quad.
 
-IMAGE
+[sketch]
+[![Using the tangent and normal between points p₁ and p₂, we can construct a quad.](/resources/images/sketch-shader/quad.png)][quad.png]
+
+[quad.png]: ## "A very moving picture, if you ask me."
+
+[/sketch]
 
 These can simply be obtained by calculating `tangent` as `normalize((float2)p2 - p1)`, and `normal` as `tangent.yx * float2(-1,1)`. This gives us the two directions we need to create the quad on the screen.
 
@@ -375,11 +390,11 @@ void draw_line(
 }
 ```
 
-This is quite a lot of code, but it's just a bunch of setup, and then outputting our quad corners, vertex by vertex[^9].
+This is quite a lot of code, but it's just a bunch of setup, and then outputting our quad's corners, vertex by vertex[^9].
 
 As we're creating triangles with uvs, there's a few things we need to watch out for. First, these triangles' winding order should be correct. If backface-culling is enabled, triangles created the wrong way around simply won't render. Then there's the four uv-coordinates. If you don't want your textures to be messed up, you better make sure these are correct as well!
 
-This is where I *would* put in some advice for figuring that out... Except that trial and error is just plain quicker. If the backface-culling is wrong and you can't see anything, just swap the two points. If the uvs are wrong just grab a texture that "prints" the coordinates like below, and you'll immediately know what to do.
+This is where I *would* put in some advice for figuring that out... Except that trial and error is just plain quicker. If the backface-culling is wrong and you can't see anything, just swap the order of the vertices. If the uvs are wrong, just grab a texture that "prints" the coordinates like below, and you'll immediately know what to do.
 
 [display-image]
 [![A uv test image.](/resources/images/sketch-shader/uv.png)][uv.png]
@@ -448,11 +463,14 @@ Clipping lines
 ==============
 Unfortunately, as I mentioned, the hardware does not clip our lines for us. If we accidentally put lines behind the camera, they will show up in front. If we make lines ten times as tall as the screen, we will get lines that look stretched out. These are not effects we want.
 
-IMAGE
+Checking whether we're trying to create quads that are behind the camera, is a simple depth comparison. We just compare the two vertices with the near plane, and if both fall behind the camera, we won't draw the line. If only one of them is behind the camera, we *do* draw the line.
 
-Checking whether we're trying to create quads that are behind the camera, is a simple depth comparison. We just compare all three vertices with the near plane, and if both fall behind the camera, we won't draw the line.
+[sketch]
+[![A triangle falls fully behind the camera, so it gets skipped. Another triangle has only one edge behind the camera, the other two get drawn. A final triangle is fully in the frustum, and gets fully drawn.](/resources/images/sketch-shader/near-clipping.png)][near-clipping.png]
 
-IMAGE
+[near-clipping.png]: ## "Don't stray too far off-path!"
+
+[/sketch]
 
 In code, this is just a simple check.
 
@@ -461,7 +479,7 @@ bool3 in_view = float3(
     camera_space[0].z,
     camera_space[1].z,
     camera_space[2].z
-);
+) < near_plane;
 
 if (!p2_is_right_angle && any(in_view.xy))
     draw_line(camera_space[0], camera_space[1], triStream);
@@ -471,9 +489,14 @@ if (!p1_is_right_angle && any(in_view.xz))
     draw_line(camera_space[0], camera_space[2], triStream);
 ```
 
-However, even if we do this, we will *still* get stuff that's behind the camera on the screen sometimes, if one point is in front and one point is behind. For this, we need to put in some more work and move points behind the camera in front. Of course, we're working in camera space.
+However, even if we do this, we will *still* get stuff that's behind the camera on the screen sometimes, if one point is in front and one point is behind. For this, we need to put in some more work and move points behind the camera in front. We don't want to change our lines, so we need to do this movement along the line. We're working in camera space.
 
-IMAGE
+[sketch]
+[![Lines that partially lie inside the viewport get moved to fully lie inside the viewport.](/resources/images/sketch-shader/near-clamping.png)][near-clamping.png]
+
+[near-clamping.png]: ## "In fact, don't stray off-path at all."
+
+[/sketch]
 
 On paper, it looks simple, and mathematically, it is. Suppose $p_1$ is inside the frustum and $p_2$ is outside. We first calculate the direction vector `tangent = p1 - p2`, and then measure how many `tangent`s we need to move $p_2$ to put it on the near plane:
 
@@ -511,9 +534,14 @@ void draw_line(
 
 This solves the problem of stuff behind the camera, but we still have to deal with lines stretched far beyond the screen for no reason. The solution to this is very similar. In screen space, if a point is "far" away, move it closer by, just like we did above.
 
-IMAGE
+[sketch]
+[![Lines that partially lie inside the viewport get moved to fully lie inside the viewport, this time in screen space.](/resources/images/sketch-shader/frustum-clamp.png)][frustum-clamp.png]
 
-This time there's four planes we care about, but that's the extent of what we have to deal with.
+[frustum-clamp.png]: ## "This may or may not be a reference."
+
+[/sketch]
+
+This time there's four planes we care about (the four edges of the screen), but that's the extent of what we have to deal with.
 
 ```hlsl
 void clip_screen(inout float4 p1, inout float4 p2) {
@@ -582,9 +610,14 @@ However, using the same hand drawn line everywhere is kind of... lame. People wi
 
 We need a way to choose what lines to use. One way to do that, is to use [values the runtime gives us](https://learn.microsoft.com/en-us/windows/win32/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage-using). For instance, in the vertex shader, we have access to a `SV_VERTEXID` value that is unique *enough* for our purposes.
 
-While we get access to this value per-vertex in the vertex shader, we will only be using it all the way over in per-quad the fragment shader, so we will need to pass it through everything. The interesting step is how we're generating three triangles per triangle, and triangles have three vertices, so we can give each triangle a unique id like this.
+While we get access to this value per-vertex in the vertex shader, we will only be using it all the way over in per-quad the fragment shader, so we will need to pass it through everything. The interesting step is how we're generating three quads per triangle, and triangles have three vertices, so we can give each quad a unique id like this.
 
-IMAGE
+[sketch]
+[![Three vertices of a triangle with three generated quads, where each vertex copies its id over to an entire quad.](/resources/images/sketch-shader/face-id.png)][face-id.png]
+
+[face-id.png]: ## "We're dividing the ids fair and rectangle."
+
+[/sketch]
 
 For this, we need to update our `draw_line()` function...
 
@@ -608,7 +641,7 @@ void draw_line(
 }
 ```
 
-...and update all call sites.
+...and all of its call sites.
 
 ```hlsl
 ...
@@ -716,18 +749,18 @@ I hope that this is a good first post for my series of "I'm going to abuse my po
     Even if you know very little about GPUs at all, hearing the words "sync point" when working with millions of triangles, some red flags ought to be raised!
 
 [^8]:
-    Tessellation shaders don't work as well for the *intuitive* approach. I haven't tried it, but they may very well work still. The idea is as follows: we tessellate our triangle so that we get one new inner triangle, and a bunch of outer triangles. This inner triangle will grow to encompass a large region, while the outer triangles will just be rendered invisibly. This requires "clever" (hacky) usage of the barycentric coordinates your tesselation shader gets.
+    Tessellation shaders don't work as well for the *intuitive* approach. I haven't tried it, but they may very well work still. The idea is as follows: we tessellate our triangle so that we get one new inner triangle, and a bunch of outer triangles. This inner triangle will grow to encompass a large region, while the outer triangles will just be rendered invisibly. This requires "clever" (hacky) usage of the barycentric coordinates your tessellation shader is given.
 
-    IMAGE
+    <span class="sketch textgradienthue"><a title="The barycentric math is also pretty easy, comes down to flipping some signs."><img src="/resources/images/sketch-shader/tessellation.png" alt="Three vertices introduced on the inside of a triangle by tessellation, which are then pushed outside the triangle to create enough surface area to draw lines on."></a></span>
 
-    This *still* has quite a bit of overdraw and introduced triangles, but at least these triangles were generated by tessellation, instead of geometry shaders, which is not as terrible.
+    This has much less overdraw; the winding order ensures that all triangles, except the large one, are culled. We do get a little more triangles, but at least these triangles were generated by tessellation, instead of geometry shaders, which is better. 
 
     Nevertheless, as I've emphasised countless of times, this is really not a shader you'd want to run in any context in which performance matters. That's why I haven't implemented this theoretically better version -- I simply don't care about doing it like this. The geometry approach is just much more intuitive.
 
     (Well, intuitive enough to write a post over half an hour long about, but...)
 
 [^9]:
-    Oh right, I didn't mention perspective division yet. Uhh... I'm not going to explain *why* the `p1 /= p1.w` and `p2 /= p2.w` lines in `draw_line()` are a thing in this post, because I'd need to explain homogenous coordinates for that, and I'd like you to build intuition and all that. This post is long enough as is...
+    Oh right, I didn't mention the perspective division yet. Uhh... I'm not going to explain *why* the `p1 /= p1.w` and `p2 /= p2.w` lines in `draw_line()` are a thing in this post, because I'd need to explain homogenous coordinates for that, and I'd like you to build intuition and all that. This post is long enough as is...
     
     Just assume it's a step we need to do to create perspective, and it's the step that turns our sort-of pyramid-shaped frustum into a neat box.
 
