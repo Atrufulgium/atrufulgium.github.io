@@ -11,6 +11,9 @@
             {{ post.blurb | markdownify | replace: '<p>', '' | replace: '</p>' }}
         </header>
     </a>
+    {% for tag in post.tags %}
+        <span class="post-tag">{{ tag }}</span>
+    {% endfor %}
 {% endfor %}
 <div class="smallgap"></div>
 <a class="post-preview" href="/programming">

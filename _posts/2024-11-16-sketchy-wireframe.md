@@ -5,6 +5,7 @@ title-lower: sketchy outline shader
 title-tiny: sketch shader
 blurb: A pretty expensive shader that traces geometry with hand-drawn lines.
 usemathjax: true
+tags: math shaders
 ---
 {::nomarkdown}
 

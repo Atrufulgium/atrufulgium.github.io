@@ -5,6 +5,7 @@ title-lower: a funny matlab quine
 title-tiny: Funny quine
 blurb: Code that spits out itself... Isn't recreational programming lovely?
 usemathjax: true
+tags: matlab recreational
 ---
 {::nomarkdown}
 

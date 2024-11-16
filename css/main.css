@@ -47,6 +47,36 @@ footer a::after {
     content: "" !important;
 }
 
+.button {
+    border-width: 0px;
+    font-family: inherit;
+    font-size: inherit;
+    padding: var(--normal-text-padding);
+    margin-bottom: 5px;
+    cursor: pointer;
+    background: rgb(10,2,64);
+    white-space: nowrap;
+}
+.buttonenabled, .button:active {
+    background: rgb(34,102,102);
+}
+.buttondisabled {
+    background: rgb(20,21,18);
+    pointer-events: none;
+}
+
+.post-tag {
+    margin-right: 5px;
+    border: var(--normal-sep-border);
+    background: rgba(34, 34, 102, 0.9);
+    backdrop-filter: blur(2px);
+    font-size: initial;
+    border-top: none;
+}
+button.post-tag {
+    cursor: pointer;
+}
+
 /* Footnote styling */
 .footnotes{
     margin-top: var(--normal-smallgap-size);

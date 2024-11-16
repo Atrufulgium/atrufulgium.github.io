@@ -5,6 +5,7 @@ title-lower: an intransitive `IEquatable<>`
 title-tiny: Intransitivity
 blurb: When `a == b` and `b == c` does not imply `a == c`. This is a bad idea.
 usemathjax: true
+tags: c# optimisation voxels
 ---
 {::nomarkdown}
 

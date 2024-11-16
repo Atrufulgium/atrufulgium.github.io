@@ -4,6 +4,7 @@ title: SIMD flood-fill goes brrr
 title-lower: simd flood-fill goes brrr
 title-tiny: SIMD flood-fill
 blurb: Why yes I would like to flood-fill 100+ voxels per iteration.
+tags: assembly c# optimisation voxels
 ---
 {::nomarkdown}
 

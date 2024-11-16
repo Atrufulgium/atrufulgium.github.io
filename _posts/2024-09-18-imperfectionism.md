@@ -4,6 +4,7 @@ title: A hack that's gone 10'000 hours without a hitch
 title-lower: a hack that's gone 10'000 hours without a hitch
 title-tiny: sturdy hack
 blurb: A piece of pretty bad one-off code that's run for years with no problems.
+tags: c# recreational
 ---
 {::nomarkdown}
 
