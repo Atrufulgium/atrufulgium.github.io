@@ -48,6 +48,7 @@
         - The `href="##"`-erasure is to ensure hover syntax does not have whack results.
         - The footnotes replacement gives it a title.
         - The mcfunction replace is because rouge doesn't support mcfunction and I'm using another language in its place.
+        - The shaderlab replace is because rouge doesn't support shaderlab and I'm using another language in its place.
         Btw, everything in here is in a huge HTML comment whose delimiters are liquid-comments.
         This is to ensure that syntax highlighting or autocomplete doesn't go *completely mad*.
         Now it's just the spellchecker not knowing wtf it has to do.
@@ -56,6 +57,7 @@
         - To not have to remember the path to the repo every time, there is a REPO shorthand in urls.
         - To not have dangling <p> and </p> tags, some bb-tags are blockified.
         - The mcfunction replace is because rouge doesn't support mcfunction and I'm using another language in its place.
+        - The shaderlab replace is because rouge doesn't support shaderlab and I'm using another language in its place.
     {% endcomment %}
 
     {% assign output = content
@@ -74,7 +76,8 @@
         | replace: '[br/]', '</p><p>'
         | replace: 'href="##"', ''
         | replace: '<div class="footnotes"', '<div class="smallgap"></div><h1>footnotes and references</h1><div class="footnotes"'
-        | replace: 'language-elixir', 'language-mcfunction' %}
+        | replace: 'language-elixir', 'language-mcfunction'
+        | replace: 'language-c++', 'language-shaderlab' %}
     {{ output }}
     {% comment %}
         -->

@@ -31,6 +31,7 @@ layout: standard
     | replace: '[nowrap]', newlined-nowrap
     | replace: '[/nowrap]', newlined-nowrap-end
     | replace: '```mcfunction', '```elixir'
+    | replace: '```shaderlab', '```c++'
     | markdownify
 %}
 {{ output }}

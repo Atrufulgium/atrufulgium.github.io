@@ -235,7 +235,8 @@ h1 {
 .language-hlsl pre,
 .language-glsl pre,
 .language-js pre,
-.language-mcfunction pre {
+.language-mcfunction pre,
+.language-shaderlab pre {
     overflow-x: auto;
     font-size: 90%;
     border: var(--normal-sep-border);
@@ -246,7 +247,8 @@ h1 {
 .language-hlsl::before,
 .language-glsl::before,
 .language-js::before,
-.language-mcfunction::before {
+.language-mcfunction::before,
+.language-shaderlab::before {
 	padding: 0px 30px 2px 2px;
 	background-color: #0a0a0a;
 	border: var(--normal-sep-border);
@@ -263,6 +265,7 @@ h1 {
 .language-glsl::before   { content: "glsl"; }
 .language-js::before     { content: "js"; }
 .language-mcfunction::before { content: "mcfunction"; }
+.language-shaderlab::before { content: "shaderlab"; }
 
 .language-csharp,
 .language-nasm,
@@ -270,7 +273,8 @@ h1 {
 .language-hlsl,
 .language-glsl,
 .language-js,
-.language-mcfunction {
+.language-mcfunction,
+.language-shaderlab {
 	margin-top: -14px;
 }
 
