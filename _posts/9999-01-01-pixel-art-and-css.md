@@ -3,7 +3,7 @@ layout: post
 title: Doing pixel art in css
 title-lower: doing pixel art in css
 title-tiny: css pixel art
-blurb: Dealing with those ugly artifacts that appear when pixel grids barely don't align.
+blurb: Dealing with those ugly artifacts that appear when pixel grids just barely don't align.
 ---
 {::nomarkdown}
 
