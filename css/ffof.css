@@ -4,6 +4,8 @@
     /* Set via JS, defines the horizontal offset.
        This includes parallax. */
     --anim-offset: 0;
+    /* Defines the animation independent of parallax. */
+    --detail-anim-offset: 0;
     /* The one-time Azachon animation's offset.
        These are 23 frames (including the final empty one), each
        taking 100ms. The 23rd frame is empty. */
@@ -62,7 +64,8 @@ body {
         calc(-2 * var(--anim-offset) * var(--pixel-size)),
         calc(-1 * var(--anim-offset) * var(--pixel-size)),
         0;
-    background-position-y: calc((var(--background-id) / 5) * 100%);
+    /* The images are 15 groups of 4*/
+    background-position-y: calc( ((var(--background-id) * 4 + var(--detail-anim-offset)) / 59) * 100% );
 }
 
 #menu {
