@@ -6,6 +6,19 @@ window.addEventListener("DOMContentLoaded", function(e) {
     subs_element = document.getElementById("subs");
     menu_element = document.getElementById("menu");
 });
+window.addEventListener("keydown", function(ev) {
+    if (!ready || !player) { return; }
+    menu_element.innerHTML = "";
+
+    let current_track = getTrack(getTime());
+    if (ev.key == "ArrowRight" && current_track < 26) {
+        player.seekTo(starts[current_track + 1]);
+    } else if (ev.key == "ArrowLeft" && current_track > 0) {
+        player.seekTo(starts[current_track - 1]);
+    } else if (ev.key == " ") {
+        handleClick();
+    }
+});
 
 let player;
 // https://developers.google.com/youtube/iframe_api_reference#Playback_controls
@@ -110,4 +123,11 @@ function step() {
     subs_element.innerHTML = getSubtitleAtTime(srt, progress_seconds);
 
     requestAnimationFrame(step);
+}
+
+/** Jump to a track 1--27
+ * @param {number} track
+ */
+function goto(track) {
+    player.seekTo(starts[track-1]);
 }

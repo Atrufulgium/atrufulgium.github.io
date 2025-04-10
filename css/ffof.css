@@ -99,6 +99,7 @@ body {
     height: calc(60 * var(--pixel-size));
     right: calc(7 * var(--pixel-size));
     bottom: calc(4 * var(--pixel-size));
+    text-wrap: balance;
     /* To allow containing `font` to put at end. */
     display: flex;
 }
