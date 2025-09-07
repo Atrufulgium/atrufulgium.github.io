@@ -15,4037 +15,4353 @@
 <font color="#467546">Who am I?</font>
 
 5
-00:00:25,841 --> 00:00:29,922
+00:00:25,841 --> 00:00:30,000
 <font color="#467546">Mom, where have you gone? Dad, where are you hiding?</font>
 
 6
 00:00:31,381 --> 00:00:33,421
-<font color="#467546">Well, let's go.</font>
+<font color="#467546">That dream...</font>
 
 7
-00:00:33,422 --> 00:00:35,462
-<font color="#467546">I walk above the clouds.</font>
+00:00:33,422 --> 00:00:36,279
+<font color="#467546">I was up high in the sky.</font>
 
 8
-00:00:35,463 --> 00:00:38,320
-<font color="#467546">And the clouds have strings and wings.</font>
+00:00:36,280 --> 00:00:38,320
+<font color="#467546">Falling into a red sea.</font>
 
 9
 00:00:38,321 --> 00:00:41,178
-<font color="#467546">And the wind from these clouds, sings.</font>
+<font color="#467546">There were these things all around me...</font>
 
 10
-00:00:41,179 --> 00:00:46,485
-<font color="#467546">So I asked the wind in reply, if it could make me fly.</font>
+00:00:41,179 --> 00:00:43,219
+<font color="#467546">And then, that eye...</font>
 
 11
-00:00:46,486 --> 00:00:52,608
-<font color="#467546">But I only ever head the wind cry, so all I did was walk on.</font>
+00:00:43,220 --> 00:00:45,260
+<font color="#467546">...</font>
 
 12
-00:00:55,897 --> 00:00:58,345
-<font color="#467546">Towers are rising from the clouds.</font>
+00:00:45,261 --> 00:00:47,709
+<font color="#467546">I'm up high in the sky.</font>
 
 13
-00:00:58,346 --> 00:01:01,203
-<font color="#467546">And these towers are old, and dusty.</font>
+00:00:47,710 --> 00:00:49,750
+<font color="#467546">But now, I'm not falling.</font>
 
 14
-00:01:01,204 --> 00:01:03,652
-<font color="#467546">Wizards play with strings and wings.</font>
+00:00:49,751 --> 00:00:51,791
+<font color="#467546">I'm wide awake.</font>
 
 15
-00:01:03,653 --> 00:01:07,734
-<font color="#467546">And they ever watch the skies, where no bird flies.</font>
+00:00:55,216 --> 00:00:57,256
+<font color="#467546">Well, let's go.</font>
 
 16
-00:01:07,735 --> 00:01:11,816
-<font color="#467546">I wish to sometime see them with my own eyes.</font>
+00:00:57,257 --> 00:00:59,705
+<font color="#467546">Towers are rising from the clouds.</font>
 
 17
-00:01:11,817 --> 00:01:15,898
-<font color="#467546">I once asked the wizards, why the birds don't fly.</font>
+00:00:59,706 --> 00:01:02,563
+<font color="#467546">And these towers are old, and dusty.</font>
 
 18
-00:01:15,899 --> 00:01:19,164
-<font color="#467546">And they said: because of the bells' cry.</font>
+00:01:02,564 --> 00:01:05,012
+<font color="#467546">Wizards play with strings and wings.</font>
 
 19
-00:01:19,165 --> 00:01:23,654
-<font color="#467546">This made me sad, so all I did was walk on.</font>
+00:01:05,013 --> 00:01:08,686
+<font color="#467546">And they watch the skies, where no bird flies.</font>
 
 20
-00:01:26,943 --> 00:01:31,024
-<font color="#467546">And I remember now, that indeed it was the bells,</font>
+00:01:08,687 --> 00:01:12,768
+<font color="#467546">If only I could see that through my own eyes...</font>
 
 21
-00:01:31,025 --> 00:01:33,065
-<font color="#467546">that had woken me up.</font>
+00:01:12,769 --> 00:01:16,850
+<font color="#467546">I once asked the wizards why the birds don't fly.</font>
 
 22
-00:01:33,066 --> 00:01:37,147
-<font color="#467546">It was the bells that had shown me this sky.</font>
+00:01:16,851 --> 00:01:20,116
+<font color="#467546">And they said: because of the bells' cry.</font>
 
 23
-00:01:37,148 --> 00:01:42,045
-<font color="#467546">But the bells are brittle, and a breeze could make them fall.</font>
+00:01:20,117 --> 00:01:24,606
+<font color="#467546">This made me sad, so all I did was walk on.</font>
 
 24
-00:01:42,046 --> 00:01:46,943
-<font color="#467546">And the towers are tall, so I give the wizards my thanks,</font>
+00:01:28,031 --> 00:01:32,112
+<font color="#467546">And I remember now, that indeed it was the bells,</font>
 
 25
-00:01:46,944 --> 00:01:50,209
-<font color="#467546">and then all I did was walk on.</font>
+00:01:32,113 --> 00:01:34,153
+<font color="#467546">that had woken me up.</font>
 
 26
+00:01:34,154 --> 00:01:37,419
+<font color="#467546">The bells that had shown me this sky.</font>
+
+27
+00:01:37,420 --> 00:01:42,317
+<font color="#467546">But the bells are brittle, and a breeze could make them fall.</font>
+
+28
+00:01:42,318 --> 00:01:47,215
+<font color="#467546">And the towers are tall, so I give the wizards my thanks,</font>
+
+29
+00:01:47,216 --> 00:01:50,073
+<font color="#467546">and all I did was walk on.</font>
+
+30
 00:01:53,498 --> 00:01:55,538
 <font color="#467546">The bells are tolling again.</font>
 
-27
+31
 00:01:55,539 --> 00:01:57,579
 <font color="#467546">Tolling again in the distance.</font>
 
-28
+32
 00:01:57,580 --> 00:02:02,886
 <font color="#467546">And the bells are telling me again, that only they hold the answers.</font>
 
-29
+33
 00:02:02,887 --> 00:02:06,152
-<font color="#467546">And I know, that that is the truth.</font>
+<font color="#467546">And I know, that they speak the truth.</font>
 
-30
+34
 00:02:06,153 --> 00:02:09,000
 <font color="#467546">So all I did was walk on.</font>
 
-31
+35
 00:02:11,001 --> 00:02:15,490
 <font color="#467546">I was taught by the wizards that words reveal the world.</font>
 
-32
+36
 00:02:15,491 --> 00:02:18,348
 <font color="#467546">For example, they taught me to see.</font>
 
-33
+37
 00:02:18,349 --> 00:02:21,614
 <font color="#467546">See that there are mountains in the wind.</font>
 
-34
-00:02:21,615 --> 00:02:24,472
-<font color="#467546">See that flower forests grow atop them.</font>
-
-35
-00:02:24,473 --> 00:02:28,962
-<font color="#467546">And See all the of good, and all of the bad.</font>
-
-36
-00:02:30,845 --> 00:02:34,110
-<font color="#467546">I have found myself under the large petals,</font>
-
-37
-00:02:34,111 --> 00:02:36,968
-<font color="#467546">and I have rested here for years.</font>
-
 38
-00:02:36,969 --> 00:02:41,866
-<font color="#467546">I have befriended the bugs, and have found in them my peers.</font>
+00:02:21,615 --> 00:02:24,880
+<font color="#467546">See the flower forests that grow atop them.</font>
 
 39
-00:02:41,867 --> 00:02:44,315
-<font color="#467546">I was taught by the bugs,</font>
+00:02:24,881 --> 00:02:29,370
+<font color="#467546">And See all that is good, and all that is bad.</font>
 
 40
-00:02:44,316 --> 00:02:46,764
-<font color="#467546">that wizards are made of wisps,</font>
+00:02:32,273 --> 00:02:34,721
+<font color="#467546">I found myself under large petals,</font>
 
 41
-00:02:46,765 --> 00:02:49,213
-<font color="#467546">and wisps are made of waxcaps.</font>
+00:02:34,722 --> 00:02:37,170
+<font color="#467546">and have rested here for years.</font>
 
 42
-00:02:49,214 --> 00:02:52,071
-<font color="#467546">I was also taught by the bugs,</font>
+00:02:37,171 --> 00:02:41,252
+<font color="#467546">I befriended the bugs, and found in them my peers.</font>
 
 43
-00:02:52,072 --> 00:02:55,337
-<font color="#467546">that left is left, and right is right.</font>
+00:02:41,253 --> 00:02:43,701
+<font color="#467546">I was taught by the bugs,</font>
 
 44
-00:02:55,338 --> 00:02:59,011
-<font color="#467546">Oh, how beautiful it is to know the world.</font>
+00:02:43,702 --> 00:02:46,150
+<font color="#467546">that wizards are made of wisps,</font>
 
 45
-00:02:59,012 --> 00:03:03,093
-<font color="#467546">Oh, how much more I want them to teach me.</font>
+00:02:46,151 --> 00:02:48,599
+<font color="#467546">and wisps are made of waxcaps.</font>
 
 46
-00:03:04,976 --> 00:03:08,649
-<font color="#467546">The bugs teach me everything I want to know.</font>
+00:02:48,600 --> 00:02:51,457
+<font color="#467546">I was also taught by the bugs,</font>
 
 47
-00:03:08,650 --> 00:03:12,731
-<font color="#467546">And they teach me everything I don't want to know.</font>
+00:02:51,458 --> 00:02:54,723
+<font color="#467546">that left is left, and right is right.</font>
 
 48
-00:03:12,732 --> 00:03:16,813
-<font color="#467546">Hours pass, days pass, years pass, we started aeons ago...</font>
+00:02:54,724 --> 00:02:58,397
+<font color="#467546">Oh, how beautiful it is to know the world.</font>
 
 49
-00:03:16,814 --> 00:03:20,487
-<font color="#467546">There is always more of this beauty to show.</font>
+00:02:58,398 --> 00:03:02,071
+<font color="#467546">How much more I want them to teach me!</font>
 
 50
-00:03:22,370 --> 00:03:25,635
-<font color="#467546">But bugs say that they know my name.</font>
+00:03:04,974 --> 00:03:08,647
+<font color="#467546">The bugs teach me everything I want to know.</font>
 
 51
-00:03:25,636 --> 00:03:28,493
-<font color="#467546">Yet they never teach it to me.</font>
+00:03:08,648 --> 00:03:12,729
+<font color="#467546">And they teach me everything I don't want to know.</font>
 
 52
-00:03:28,494 --> 00:03:32,983
-<font color="#467546">And when I ask, they say that they need not teach,</font>
+00:03:12,730 --> 00:03:15,587
+<font color="#467546">Hours pass, years pass, I've lost count...</font>
 
 53
-00:03:32,984 --> 00:03:35,432
-<font color="#467546">the things that I already know.</font>
+00:03:15,588 --> 00:03:18,853
+<font color="#467546">But there is always more beauty to show.</font>
 
 54
-00:03:35,433 --> 00:03:40,739
-<font color="#467546">And that I need not feel bad, for knowing that I am me.</font>
+00:03:21,756 --> 00:03:25,021
+<font color="#467546">The bugs say that they know my name.</font>
 
 55
-00:03:42,622 --> 00:03:47,111
-<font color="#467546">But this time I'll sneak away, sneak away to the bells.</font>
+00:03:25,022 --> 00:03:27,879
+<font color="#467546">But they never teach it to me.</font>
 
 56
-00:03:47,112 --> 00:03:51,999
-<font color="#467546">For the bugs must be lying, for I know not my name.</font>
+00:03:27,880 --> 00:03:32,369
+<font color="#467546">And when I ask, they say that they need not teach,</font>
 
 57
+00:03:32,370 --> 00:03:34,818
+<font color="#467546">the things that I already know.</font>
+
+58
+00:03:34,819 --> 00:03:39,716
+<font color="#467546">And that I need not feel bad, for knowing what I am.</font>
+
+59
+00:03:42,619 --> 00:03:47,108
+<font color="#467546">But this time I'll sneak away, sneak away to the bells.</font>
+
+60
+00:03:47,109 --> 00:03:51,999
+<font color="#467546">For the bugs must be lying, for I know not my name.</font>
+
+61
 00:03:54,001 --> 00:03:59,307
 <font color="#467546">I hear the bells tolling in the tunnels that run beneath the soil.</font>
 
-58
-00:03:59,308 --> 00:04:03,797
-<font color="#467546">The bugs had told me to never ever enter these tunnels.</font>
-
-59
-00:04:03,798 --> 00:04:07,063
-<font color="#467546">They skitter and scatter, they blather and chatter.</font>
-
-60
-00:04:07,064 --> 00:04:11,145
-<font color="#467546">But I believe not their lies, I ignore their advise.</font>
-
-61
-00:04:11,146 --> 00:04:14,003
-<font color="#467546">Instead, I look what lies deeper inside.</font>
-
 62
-00:04:14,004 --> 00:04:18,901
-<font color="#467546">I walk and I walk, I can't see the sky any more.</font>
+00:03:59,308 --> 00:04:02,981
+<font color="#467546">The bugs told me to never ever enter here.</font>
 
 63
-00:04:18,902 --> 00:04:22,167
-<font color="#467546">These tunnels are warm, maybe even too warm.</font>
+00:04:02,982 --> 00:04:07,063
+<font color="#467546">But I don't believe their lies, I ignore their advice.</font>
 
 64
-00:04:22,168 --> 00:04:26,249
-<font color="#467546">The warmth guides me deep, it lulls me to sleep.</font>
+00:04:07,064 --> 00:04:09,921
+<font color="#467546">Instead, I look what lies deeper inside.</font>
 
 65
-00:04:26,250 --> 00:04:29,107
-<font color="#467546">I stop walking, I sit down, and...</font>
+00:04:09,922 --> 00:04:16,044
+<font color="#467546">I walk and I walk and I walk, I cannot see the sky any more.</font>
 
 66
-00:04:30,332 --> 00:04:34,005
-<font color="#467546">But the bells toll again, wake me up again,</font>
+00:04:16,045 --> 00:04:20,126
+<font color="#467546">These tunnels are warm, and indeed, no bugs swarm here.</font>
 
 67
-00:04:34,006 --> 00:04:37,271
-<font color="#467546">and remind me that I must not sleep.</font>
+00:04:20,127 --> 00:04:24,208
+<font color="#467546">The warmth guides me deeper, it lulls me to sleep.</font>
 
 68
-00:04:37,272 --> 00:04:39,312
-<font color="#467546">So I start walking again,</font>
+00:04:24,209 --> 00:04:27,066
+<font color="#467546">I stop walking, I sit down, and...</font>
 
 69
-00:04:39,313 --> 00:04:42,986
-<font color="#467546">I go to where the bugs don't dare creep.</font>
+00:04:29,515 --> 00:04:33,188
+<font color="#467546">But the bells toll again, wake me up again,</font>
 
 70
-00:04:42,987 --> 00:04:48,293
-<font color="#467546">I go left, I go right, but there is no bell in sight.</font>
+00:04:33,189 --> 00:04:36,454
+<font color="#467546">and remind me that I must not sleep.</font>
 
 71
-00:04:48,294 --> 00:04:52,783
-<font color="#467546">But still, my ears hear them. Why can't I find them?</font>
+00:04:36,455 --> 00:04:38,495
+<font color="#467546">So I start walking again,</font>
 
 72
-00:04:52,784 --> 00:04:54,824
-<font color="#467546">Did I do something wrong?</font>
+00:04:38,496 --> 00:04:41,761
+<font color="#467546">and go where the bugs don't dare creep.</font>
 
 73
-00:04:54,825 --> 00:04:57,273
-<font color="#467546">Do the bells not want me?</font>
+00:04:41,762 --> 00:04:47,068
+<font color="#467546">I go left, I go right, but there is no bell in sight.</font>
 
 74
-00:04:57,274 --> 00:05:02,171
-<font color="#467546">I just want to know my name, and a place to belong...</font>
+00:04:47,069 --> 00:04:51,558
+<font color="#467546">But still, I can hear them. Why can't I find them?</font>
 
 75
-00:05:02,172 --> 00:05:05,437
-<font color="#467546">They bells toll me I am doing great.</font>
+00:04:51,559 --> 00:04:53,599
+<font color="#467546">Did I do something wrong?</font>
 
 76
-00:05:05,438 --> 00:05:08,703
-<font color="#467546">And that I need to keep walking on.</font>
+00:04:53,600 --> 00:04:55,640
+<font color="#467546">Did I anger the bells?</font>
 
 77
-00:05:08,704 --> 00:05:11,152
-<font color="#467546">But the bells, but the bugs,</font>
+00:04:55,641 --> 00:05:00,538
+<font color="#467546">I just want to know my name, have a place to belong...</font>
 
 78
-00:05:11,153 --> 00:05:14,418
-<font color="#467546">they seem to not let me See me.</font>
+00:05:00,539 --> 00:05:04,212
+<font color="#467546">But the bells toll me I am doing great.</font>
 
 79
-00:05:15,643 --> 00:05:17,683
-<font color="#467546">I turn around, I'm sad,</font>
+00:05:04,213 --> 00:05:07,478
+<font color="#467546">And that I need to keep walking on.</font>
 
 80
-00:05:17,684 --> 00:05:20,132
-<font color="#467546">ignoring the bugs, was that bad?</font>
+00:05:07,479 --> 00:05:09,927
+<font color="#467546">But the bells, but the bugs,</font>
 
 81
-00:05:20,133 --> 00:05:22,173
-<font color="#467546">I wander through the tunnels.</font>
+00:05:09,928 --> 00:05:12,785
+<font color="#467546">they don't want me to See myself.</font>
 
 82
-00:05:22,174 --> 00:05:25,439
-<font color="#467546">I go right, I go left, and finally,</font>
+00:05:15,234 --> 00:05:17,274
+<font color="#467546">I turn around, I'm sad,</font>
 
 83
-00:05:25,440 --> 00:05:27,480
-<font color="#467546">brighter light enters my sight.</font>
+00:05:17,275 --> 00:05:19,723
+<font color="#467546">ignoring the bugs, was that bad?</font>
 
 84
-00:05:27,481 --> 00:05:31,562
-<font color="#467546">I go back to the bugs, I want to apologize,</font>
+00:05:19,724 --> 00:05:21,764
+<font color="#467546">I wander through the tunnels.</font>
 
 85
-00:05:31,563 --> 00:05:34,000
-<font color="#467546">but they don't crawl here anymore.</font>
+00:05:21,765 --> 00:05:25,030
+<font color="#467546">I go right, I go left, and finally,</font>
 
 86
-00:05:38,001 --> 00:05:42,082
-<font color="#467546">I don't know for how long I have been walking.</font>
+00:05:25,031 --> 00:05:27,071
+<font color="#467546">brighter light enters my sight.</font>
 
 87
-00:05:42,083 --> 00:05:45,348
-<font color="#467546">There's only my tummy to tell the time.</font>
+00:05:27,072 --> 00:05:31,153
+<font color="#467546">I go back to the bugs, I want to apologize,</font>
 
 88
-00:05:45,349 --> 00:05:49,022
-<font color="#467546">A single cactus lasts me a long, long, while.</font>
+00:05:31,154 --> 00:05:34,000
+<font color="#467546">but they don't crawl here any more.</font>
 
 89
-00:05:49,023 --> 00:05:51,471
-<font color="#467546">And now, ruins lie before me.</font>
+00:05:38,001 --> 00:05:41,674
+<font color="#467546">I don't know how long I have been walking.</font>
 
 90
-00:05:51,472 --> 00:05:54,329
-<font color="#467546">The bells do not like these ruins.</font>
+00:05:41,675 --> 00:05:44,940
+<font color="#467546">There's only my tummy to tell the time.</font>
 
 91
-00:05:54,330 --> 00:05:58,003
-<font color="#467546">Just like the bugs do not like the bells.</font>
+00:05:44,941 --> 00:05:49,022
+<font color="#467546">And a single cactus lasts me a long, long, while.</font>
 
 92
-00:05:58,004 --> 00:06:02,085
-<font color="#467546">And again, I decide to ignore both, to step inside.</font>
+00:05:49,023 --> 00:05:51,063
+<font color="#467546">Now, ruins lie before me.</font>
 
 93
-00:06:02,086 --> 00:06:04,126
-<font color="#467546">I explore a bit, but...</font>
+00:05:51,064 --> 00:05:53,921
+<font color="#467546">The bells do not like these ruins.</font>
 
 94
-00:06:06,821 --> 00:06:08,796
-<font class="speaker2" color="#33339f">Hey, you!</font>
+00:05:53,922 --> 00:05:57,595
+<font color="#467546">Just like the bugs do not like the bells.</font>
 
 95
-00:06:08,797 --> 00:06:11,958
-<font class="speaker2" color="#33339f">Look up, you, look me in the eye!</font>
+00:05:57,596 --> 00:06:01,677
+<font color="#467546">And again, I decide to ignore both, and step inside.</font>
 
 96
-00:06:11,959 --> 00:06:13,934
-<font class="speaker2" color="#33339f">Splendid! Our gazes finally meet.</font>
+00:06:01,678 --> 00:06:03,718
+<font color="#467546">Something is driving me there.</font>
 
 97
-00:06:13,935 --> 00:06:15,910
-<font color="#467546">Who... what...</font>
+00:06:06,821 --> 00:06:08,894
+<font class="speaker2" color="#33339f">Hey, you!</font>
 
 98
-00:06:15,911 --> 00:06:17,886
-<font color="#467546">What are you?!</font>
+00:06:08,895 --> 00:06:11,797
+<font class="speaker2" color="#33339f">Look up, look up into the sky!</font>
 
 99
-00:06:17,887 --> 00:06:19,862
-<font class="speaker2" color="#33339f">I am your guide, child.</font>
+00:06:11,798 --> 00:06:13,871
+<font class="speaker2" color="#33339f">Look me in the eye!</font>
 
 100
-00:06:19,863 --> 00:06:21,838
-<font color="#467546">My... guide?</font>
+00:06:13,872 --> 00:06:15,945
+<font class="speaker2" color="#33339f">Splendid! Our gazes finally meet.</font>
 
 101
-00:06:21,839 --> 00:06:25,395
-<font class="speaker2" color="#33339f">Look at me, See me, take yourself into me.</font>
+00:06:15,946 --> 00:06:18,019
+<font color="#467546">Who... what...</font>
 
 102
-00:06:25,396 --> 00:06:27,371
-<font class="speaker2" color="#33339f">I will reveal your purpose.</font>
+00:06:18,020 --> 00:06:20,093
+<font color="#467546">What are you?!</font>
 
 103
-00:06:27,372 --> 00:06:29,347
-<font color="#467546">No, no, Eye, you're scary...</font>
+00:06:20,094 --> 00:06:22,167
+<font class="speaker2" color="#33339f">I am your guide, child.</font>
 
 104
-00:06:29,348 --> 00:06:31,323
-<font color="#467546">Please, please, let me go!</font>
+00:06:22,168 --> 00:06:24,241
+<font color="#467546">My... guide?</font>
 
 105
-00:06:31,324 --> 00:06:36,461
-<font class="speaker2" color="#33339f">It is not quite time to explain what it is that you see.</font>
+00:06:24,242 --> 00:06:27,974
+<font class="speaker2" color="#33339f">Look at me, See me, take yourself into me.</font>
 
 106
-00:06:36,462 --> 00:06:39,623
-<font class="speaker2" color="#33339f">You need only know that you are Me.</font>
+00:06:27,975 --> 00:06:30,048
+<font class="speaker2" color="#33339f">I will reveal your purpose.</font>
 
 107
-00:06:39,624 --> 00:06:41,599
-<font color="#467546">And that I am You?</font>
+00:06:30,049 --> 00:06:32,537
+<font color="#467546">No, no, no... Eye, you're scary...</font>
 
 108
-00:06:41,600 --> 00:06:43,575
-<font class="speaker2" color="#33339f">Yes, and that You are...</font>
+00:06:32,538 --> 00:06:34,611
+<font color="#467546">Please, please, let me go!</font>
 
 109
-00:06:43,576 --> 00:06:45,551
-<font color="#467546">Me. Listen, child.</font>
+00:06:34,612 --> 00:06:40,002
+<font class="speaker2" color="#33339f">It is not quite time to explain what it is that you see.</font>
 
 110
-00:06:45,552 --> 00:06:49,108
-<font class="speaker2" color="#33339f">Dedicate Yourself to Me, and all will become clear.</font>
+00:06:40,003 --> 00:06:43,320
+<font class="speaker2" color="#33339f">You need only know that you are Me.</font>
 
 111
-00:06:49,109 --> 00:06:53,060
-<font color="#467546">I dedicate Myself to You, oh great Eye of Me.</font>
+00:06:43,321 --> 00:06:45,394
+<font color="#467546">And that I am You?</font>
 
 112
-00:06:53,061 --> 00:06:57,012
-<font color="#467546">Good. Then, I shall have you do, one simple request.</font>
+00:06:45,395 --> 00:06:47,468
+<font class="speaker2" color="#33339f">Yes, and that You are...</font>
 
 113
-00:06:57,013 --> 00:06:59,384
-<font class="speaker2" color="#33339f">You must Remember who You are.</font>
+00:06:47,469 --> 00:06:49,542
+<font color="#467546">...me. Listen, child.</font>
 
 114
-00:06:59,385 --> 00:07:01,360
-<font color="#467546">And Whom You love.</font>
+00:06:49,543 --> 00:06:53,275
+<font class="speaker2" color="#33339f">Dedicate Yourself to Me, and all will become clear.</font>
 
 115
-00:07:01,361 --> 00:07:05,312
-<font class="speaker2" color="#33339f">See... all of the Angels have gone away to Fight.</font>
+00:06:53,276 --> 00:06:56,593
+<font color="#467546">Child, I shall give you one simple request.</font>
 
 116
-00:07:05,313 --> 00:07:08,869
-<font color="#467546">Fly, Child, fly down quickly and Join their Strife.</font>
+00:06:56,594 --> 00:06:59,082
+<font class="speaker2" color="#33339f">You must Remember who You are.</font>
 
 117
-00:07:08,870 --> 00:07:12,031
-<font class="speaker2" color="#33339f">Lest You will gnaw at Yourself and Forget,</font>
+00:06:59,083 --> 00:07:01,156
+<font color="#467546">And Whom You love.</font>
 
 118
-00:07:12,032 --> 00:07:14,000
-<font color="#467546">The Meaning Of Your Life.</font>
+00:07:01,157 --> 00:07:04,889
+<font class="speaker2" color="#33339f">See... all the Angels have gone away to Fight.</font>
 
 119
-00:07:15,001 --> 00:07:18,266
-<font color="#467546">So the Eye, too, knows who I am...</font>
+00:07:04,890 --> 00:07:08,622
+<font color="#467546">Fly, Child, fly down quickly and Join their Strife.</font>
 
 120
-00:07:18,267 --> 00:07:21,532
-<font color="#467546">And the Eye, too, refuses to tell me.</font>
+00:07:08,623 --> 00:07:11,940
+<font class="speaker2" color="#33339f">Lest You will gnaw at Yourself and Forget,</font>
 
 121
-00:07:21,533 --> 00:07:25,614
-<font color="#467546">But if the Eye is Me, shouldn't I know too?</font>
+00:07:11,941 --> 00:07:14,000
+<font color="#467546">The Meaning Of Your Life.</font>
 
 122
-00:07:25,615 --> 00:07:27,655
-<font color="#467546">My head hurts...</font>
+00:07:15,001 --> 00:07:17,858
+<font color="#467546">The Eye, too, knows who I am...</font>
 
 123
-00:07:27,656 --> 00:07:30,921
-<font color="#467546">But I, the Eye, we made a promise.</font>
+00:07:17,859 --> 00:07:20,716
+<font color="#467546">And the Eye, too, doesn't tell me.</font>
 
 124
-00:07:30,922 --> 00:07:34,595
-<font color="#467546">If I do as he says, will I remember?</font>
+00:07:20,717 --> 00:07:24,798
+<font color="#467546">But if the Eye is Me, shouldn't I know too?</font>
 
 125
-00:07:36,800 --> 00:07:38,840
-<font color="#467546">But I cannot fly.</font>
+00:07:24,799 --> 00:07:26,839
+<font color="#467546">My head hurts...</font>
 
 126
-00:07:38,841 --> 00:07:42,922
-<font color="#467546">And bells toll in the distance, away from the I.</font>
+00:07:26,840 --> 00:07:29,697
+<font color="#467546">But I, Eye, we made a promise.</font>
 
 127
-00:07:42,923 --> 00:07:44,963
-<font color="#467546">Who can I trust?</font>
+00:07:29,698 --> 00:07:33,371
+<font color="#467546">If I do as it says, will I remember?</font>
 
 128
-00:07:44,964 --> 00:07:47,004
-<font color="#467546">Who should I follow?</font>
+00:07:36,596 --> 00:07:38,636
+<font color="#467546">But I cannot fly.</font>
 
 129
-00:07:47,005 --> 00:07:49,045
-<font color="#467546">Are His words just hollow?</font>
+00:07:38,637 --> 00:07:43,126
+<font color="#467546">And the bells toll in the distance, away from the I.</font>
 
 130
-00:07:49,046 --> 00:07:53,127
-<font color="#467546">Or will the bells lead me to dust and sorrow?</font>
+00:07:43,127 --> 00:07:45,575
+<font color="#467546">Who to trust? Who to follow?</font>
 
 131
-00:07:53,128 --> 00:07:55,576
-<font color="#467546">I don't know, I don't know!</font>
+00:07:45,576 --> 00:07:47,616
+<font color="#467546">Are Its words just hollow?</font>
 
 132
-00:07:57,781 --> 00:07:59,821
-<font color="#467546">Finally, I decide.</font>
+00:07:47,617 --> 00:07:52,106
+<font color="#467546">Or is it the bells who will lead me to despair?</font>
 
 133
-00:07:59,822 --> 00:08:02,679
-<font color="#467546">I want to search far and wide.</font>
+00:07:52,107 --> 00:07:55,780
+<font color="#467546">I don't know, I don't know, I don't know!</font>
 
 134
-00:08:02,680 --> 00:08:05,537
-<font color="#467546">And I did not see everything yet.</font>
+00:07:59,005 --> 00:08:01,045
+<font color="#467546">Well, let's go.</font>
 
 135
-00:08:05,538 --> 00:08:07,986
-<font color="#467546">Nor did I See everything yet.</font>
+00:08:01,046 --> 00:08:03,903
+<font color="#467546">I want to see more, here, first.</font>
 
 136
-00:08:07,987 --> 00:08:12,068
-<font color="#467546">I walk out of the gate, I jump over rocks,</font>
+00:08:03,904 --> 00:08:06,352
+<font color="#467546">I did not see everything yet.</font>
 
 137
-00:08:12,069 --> 00:08:15,334
-<font color="#467546">I see some houses, and I go there.</font>
+00:08:06,353 --> 00:08:08,393
+<font color="#467546">I want to See everything.</font>
 
 138
-00:08:15,335 --> 00:08:19,000
-<font color="#467546">I wonder if there is anything they will share?</font>
+00:08:08,394 --> 00:08:10,842
+<font color="#467546">No, I <i>have</i> to See everything.</font>
 
 139
-00:08:23,001 --> 00:08:26,674
-<font color="#467546">So this is that "King" the Eye talked about.</font>
+00:08:10,843 --> 00:08:13,291
+<font color="#467546">Let's go through this gate, and...</font>
 
 140
-00:08:26,675 --> 00:08:28,715
-<font color="#467546">...</font>
+00:08:13,292 --> 00:08:15,740
+<font color="#467546">are those houses in the distance?</font>
 
 141
-00:08:28,716 --> 00:08:32,389
-<font color="#467546">I'm climbing across floating rocks much smaller than before.</font>
+00:08:15,741 --> 00:08:19,000
+<font color="#467546">Will there be friends that know my name?</font>
 
 142
-00:08:32,390 --> 00:08:38,512
-<font color="#467546">They've been eroded by the wind, and are covered with a thin layer of sand.</font>
+00:08:23,001 --> 00:08:26,674
+<font color="#467546">Walking through a large gate, the bells welcome me.</font>
 
 143
-00:08:38,513 --> 00:08:42,594
-<font color="#467546">But still, there's a surprising amount of plants growing here.</font>
+00:08:26,675 --> 00:08:29,123
+<font color="#467546">But there is no one left,</font>
 
 144
-00:08:42,595 --> 00:08:46,268
-<font color="#467546">They grow as tall as buildings. They feel... imposing.</font>
+00:08:29,124 --> 00:08:31,981
+<font color="#467546">it's just empty houses, crumbled, nearly gone.</font>
 
 145
-00:08:46,269 --> 00:08:49,126
-<font color="#467546">Between these plants lies a ruined town.</font>
+00:08:31,982 --> 00:08:34,839
+<font color="#467546">I just walk, and walk, and walk.</font>
 
 146
-00:08:49,127 --> 00:08:53,208
-<font color="#467546">The centerpiece, a large... pyramid? With a statue on top.</font>
+00:08:34,840 --> 00:08:38,921
+<font color="#467546">The only things here are sand, stone, and the wind.</font>
 
 147
-00:08:53,209 --> 00:08:55,249
-<font color="#467546">It's surprisingly intact.</font>
+00:08:38,922 --> 00:08:40,962
+<font color="#467546">If only there were people...</font>
 
 148
-00:08:55,250 --> 00:08:57,290
-<font color="#467546">So this is that "King".</font>
+00:08:44,381 --> 00:08:47,646
+<font color="#467546">My feet hurt from all of this walking...</font>
 
 149
-00:08:57,291 --> 00:09:01,372
-<font color="#467546">Cannot say I'd be thrilled to live under his rule.</font>
+00:08:47,647 --> 00:08:52,136
+<font color="#467546">My stomach growls, but I'm oh so tired of these cacti.</font>
 
 150
-00:09:01,373 --> 00:09:03,821
-<font color="#467546">Mostly because everyone's gone already, hehe.</font>
+00:08:52,137 --> 00:08:55,402
+<font color="#467546">Why did I wake up to these islands?</font>
 
 151
-00:09:03,822 --> 00:09:07,087
-<font color="#467546">(This solitude... No one to even joke with...)</font>
+00:08:55,403 --> 00:08:58,260
+<font color="#467546">I just want to be someplace nice.</font>
 
 152
-00:09:13,771 --> 00:09:17,036
-<font color="#467546">There's still quite some stuff left to scavenge.</font>
+00:08:58,261 --> 00:09:01,934
+<font color="#467546">For now, let's just find a place to rest.</font>
 
 153
-00:09:17,037 --> 00:09:20,710
-<font color="#467546">It's pretty weird how these fruits haven't spoiled yet.</font>
+00:09:01,935 --> 00:09:05,608
+<font color="#467546">I walk into a house. No one lives here.</font>
 
 154
-00:09:20,711 --> 00:09:22,751
-<font color="#467546">...</font>
+00:09:05,609 --> 00:09:08,874
+<font color="#467546">But there are all kinds of things here.</font>
 
 155
-00:09:22,752 --> 00:09:26,833
-<font color="#467546">If this isn't a dream, like the Eye told me...</font>
+00:09:08,875 --> 00:09:10,915
+<font color="#467546">Useful things, fun things...</font>
 
 156
-00:09:26,834 --> 00:09:29,282
-<font color="#467546">...then why does nothing make sense?</font>
+00:09:10,916 --> 00:09:13,773
+<font color="#467546">But first, let's just take a nap...</font>
 
 157
-00:09:29,283 --> 00:09:31,731
-<font color="#467546">And why don't I remember anything?</font>
+00:09:17,192 --> 00:09:20,049
+<font color="#467546">There is food in this house, too.</font>
 
 158
-00:09:31,732 --> 00:09:36,221
-<font color="#467546">Certainly, this breeze feels warm and dry, and very much life-like.</font>
+00:09:20,050 --> 00:09:24,539
+<font color="#467546">Food so much more yummy than the cactus I've been eating.</font>
 
 159
-00:09:36,222 --> 00:09:39,487
-<font color="#467546">But we've all had dreams like this before.</font>
+00:09:24,540 --> 00:09:28,213
+<font color="#467546">I really want to take it all with me,</font>
 
 160
-00:09:39,488 --> 00:09:42,345
-<font color="#467546">And dreams within dreams, for that matter.</font>
+00:09:28,214 --> 00:09:31,071
+<font color="#467546">but I can't carry all of this.</font>
 
 161
-00:09:42,346 --> 00:09:45,203
-<font color="#467546">I'll judge what reality is to me.</font>
+00:09:31,072 --> 00:09:33,112
+<font color="#467546">I'm sad again.</font>
 
 162
-00:09:45,204 --> 00:09:47,244
-<font color="#467546"><i>And this isn't it</i>.</font>
+00:09:33,113 --> 00:09:35,153
+<font color="#467546">I kick a box.</font>
 
 163
-00:09:53,928 --> 00:09:55,968
-<font color="#467546">Let's go visit that pyramid.</font>
+00:09:35,154 --> 00:09:37,194
+<font color="#467546">And then, I head out.</font>
 
 164
-00:09:55,969 --> 00:09:58,000
-<font color="#467546">I'm curious about that statue.</font>
+00:09:37,195 --> 00:09:40,052
+<font color="#467546">I walk around the town some more.</font>
 
 165
-00:10:02,001 --> 00:10:06,898
-<font color="#467546">From nearby, it's less of a "pyramid", and more of a "tower".</font>
+00:09:40,053 --> 00:09:43,318
+<font color="#467546">In the center, there is a large tower.</font>
 
 166
-00:10:06,899 --> 00:10:09,347
-<font color="#467546">The inside is also pretty spacious.</font>
+00:09:43,319 --> 00:09:46,176
+<font color="#467546">On top of it, a large statue.</font>
 
 167
-00:10:09,348 --> 00:10:12,613
-<font color="#467546">There is this huge pillar in the center.</font>
+00:09:46,177 --> 00:09:48,217
+<font color="#467546">Who could that be?</font>
 
 168
-00:10:12,614 --> 00:10:17,920
-<font color="#467546">It's made of the same sickly yellow rock as the masses all around.</font>
+00:09:48,218 --> 00:09:50,258
+<font color="#467546">It looks like a king.</font>
 
 169
-00:10:17,921 --> 00:10:20,778
-<font color="#467546">The green coral and lava's here, too.</font>
+00:09:50,259 --> 00:09:53,116
+<font color="#467546">Should I just go into that tower?</font>
 
 170
-00:10:20,779 --> 00:10:25,268
-<font color="#467546">But there is also some curious liquid dripping from the top.</font>
-
-171
-00:10:25,269 --> 00:10:29,350
-<font color="#467546">It looks somewhat crimson or purple, and is glowing faintly.</font>
-
-172
-00:10:29,351 --> 00:10:33,840
-<font color="#467546">It's leaking from the ceiling far above into the depths below.</font>
-
-173
-00:10:33,841 --> 00:10:35,881
-<font color="#467546"><i>Drip</i>...</font>
-
-174
-00:10:35,882 --> 00:10:37,922
-<font color="#467546"><i>Drip</i>... <i>Drip</i>...</font>
-
-175
-00:10:37,923 --> 00:10:39,963
-<font color="#467546"><i>Drip</i>... <i>Drip</i>... <i>Drip</i>...</font>
-
-176
-00:10:39,964 --> 00:10:43,637
-<font color="#467546">For the first time, an acute feeling of dread.</font>
-
-177
-00:10:43,638 --> 00:10:46,086
-<font color="#467546">I dare not touch that liquid.</font>
-
-178
-00:10:46,087 --> 00:10:48,944
-<font color="#467546">It just keeps dripping into the below...</font>
-
-179
-00:10:48,945 --> 00:10:51,802
-<font color="#467546">Huh, below this "pyramid" is another structure.</font>
-
-180
-00:10:51,803 --> 00:10:54,660
-<font color="#467546">Strange pathways, symmetrical and suspended in mid-air.</font>
-
-181
-00:10:54,661 --> 00:10:56,701
-<font color="#467546">Turning. Very, very slowly.</font>
-
-182
-00:10:56,702 --> 00:10:59,967
-<font color="#467546">Much quicker is the sandstorm engulfing the paths.</font>
-
-183
-00:10:59,968 --> 00:11:02,825
-<font color="#467546">I must go to the bottom-most layer.</font>
-
-184
-00:11:02,826 --> 00:11:05,274
-<font color="#467546">Why? I couldn't even tell you.</font>
-
-185
-00:11:05,275 --> 00:11:07,315
-<font color="#467546">Just a hunch.</font>
-
-186
-00:11:07,316 --> 00:11:12,622
-<font color="#467546">I carefully make my way down from my safe haven inside the pyramid.</font>
-
-187
-00:11:12,623 --> 00:11:16,704
-<font color="#467546">But... I can't continue like this. I need to jump.</font>
-
-188
-00:11:16,705 --> 00:11:21,194
-<font color="#467546">It's only a few meters, but that's still quite a leap!</font>
-
-189
-00:11:21,195 --> 00:11:24,868
-<font color="#467546">...I thought I couldn't get scared in this dream?</font>
-
-190
-00:11:24,869 --> 00:11:26,909
-<font color="#467546">I jump..</font>
-
-191
-00:11:26,910 --> 00:11:28,950
+00:09:53,117 --> 00:09:55,157
 <font color="#467546">...</font>
 
+171
+00:09:55,158 --> 00:09:58,000
+<font color="#467546">Yes, I Must Go into that tower.</font>
+
+172
+00:10:02,001 --> 00:10:04,041
+<font color="#467546">These plants...</font>
+
+173
+00:10:04,042 --> 00:10:06,082
+<font color="#467546">This heat...</font>
+
+174
+00:10:06,083 --> 00:10:08,123
+<font color="#467546">It feels just like before.</font>
+
+175
+00:10:08,124 --> 00:10:12,613
+<font color="#467546">I want to go up, but the stairs only go down.</font>
+
+176
+00:10:12,614 --> 00:10:14,654
+<font color="#467546">But that doesn't really matter.</font>
+
+177
+00:10:14,655 --> 00:10:19,144
+<font color="#467546">For some reason, I feel like what's down there is important.</font>
+
+178
+00:10:19,145 --> 00:10:22,002
+<font color="#467546">I just have to follow this feeling.</font>
+
+179
+00:10:22,003 --> 00:10:26,492
+<font color="#467546">The rooms change, this one is red, this one is white,</font>
+
+180
+00:10:26,493 --> 00:10:29,758
+<font color="#467546">this one is black, this one is yellow...</font>
+
+181
+00:10:29,759 --> 00:10:32,616
+<font color="#467546">And I keep going down. Further down.</font>
+
+182
+00:10:32,617 --> 00:10:35,882
+<font color="#467546">There are some puddles, but it's not water.</font>
+
+183
+00:10:35,883 --> 00:10:38,740
+<font color="#467546">I know I Must Not touch them.</font>
+
+184
+00:10:38,741 --> 00:10:40,781
+<font color="#467546"><i>Drip</i>...</font>
+
+185
+00:10:40,782 --> 00:10:42,822
+<font color="#467546"><i>Drip</i>... <i>Drip</i>...</font>
+
+186
+00:10:42,823 --> 00:10:44,863
+<font color="#467546"><i>Drip</i>... <i>Drip</i>... <i>Drip</i>...</font>
+
+187
+00:10:44,864 --> 00:10:46,904
+<font color="#467546">Ripples, circles, waves.</font>
+
+188
+00:10:46,905 --> 00:10:49,353
+<font color="#467546">But I Must Not touch them.</font>
+
+189
+00:10:49,354 --> 00:10:51,802
+<font color="#467546">I sit next to a puddle.</font>
+
+190
+00:10:51,803 --> 00:10:54,251
+<font color="#467546">And I look at my reflection.</font>
+
+191
+00:10:54,252 --> 00:10:56,700
+<font color="#467546">Do I really look like this?</font>
+
 192
-00:11:28,951 --> 00:11:30,991
-<font color="#467546">...and land.</font>
+00:10:56,701 --> 00:10:59,149
+<font color="#467546">No, the puddle must be lying.</font>
 
 193
-00:11:30,992 --> 00:11:33,032
-<font color="#467546">However, the storm is intense...</font>
+00:10:59,150 --> 00:11:04,047
+<font color="#467546">I Must Not touch it, so I stand up, and keep walking.</font>
 
 194
-00:11:33,033 --> 00:11:35,073
-<font color="#467546">I tumble towards the edge.</font>
+00:11:09,313 --> 00:11:11,353
+<font color="#467546">Suddenly, a storm.</font>
 
 195
-00:11:35,074 --> 00:11:37,114
-<font color="#467546">I tumble off the edge.</font>
+00:11:11,354 --> 00:11:14,211
+<font color="#467546">Below the tower, wind blows sand around.</font>
 
 196
-00:11:37,115 --> 00:11:39,155
-<font color="#467546">Freefalling.</font>
+00:11:14,212 --> 00:11:18,701
+<font color="#467546">The sand hurts my face, but I have to go down.</font>
 
 197
-00:11:39,156 --> 00:11:41,196
-<font color="#467546">Fainting.</font>
+00:11:18,702 --> 00:11:21,559
+<font color="#467546">Further down, further down. Even further down.</font>
 
 198
+00:11:21,560 --> 00:11:25,233
+<font color="#467546">But now, the only way down is to jump.</font>
+
+199
+00:11:25,234 --> 00:11:29,315
+<font color="#467546">It's only a small distance, but it feels so far!</font>
+
+200
+00:11:29,316 --> 00:11:31,356
+<font color="#467546">I jump..</font>
+
+201
+00:11:31,357 --> 00:11:33,397
+<font color="#467546">I jump...</font>
+
+202
+00:11:33,398 --> 00:11:35,438
+<font color="#467546">...and land.</font>
+
+203
+00:11:35,439 --> 00:11:37,887
+<font color="#467546">But, this wind is so strong...</font>
+
+204
+00:11:37,888 --> 00:11:39,928
+<font color="#467546">I tumble to the edge.</font>
+
+205
+00:11:39,929 --> 00:11:41,969
+<font color="#467546">I tumble off the edge.</font>
+
+206
+00:11:41,970 --> 00:11:44,000
+<font color="#467546">Bye-bye...</font>
+
+207
 00:11:48,001 --> 00:11:50,041
 <font color="#f1b178">At last, the surface...</font>
 
-199
+208
 00:11:50,042 --> 00:11:52,490
 <font color="#f1b178">To have finally reached up here...</font>
 
-200
+209
 00:11:52,491 --> 00:11:56,980
-<font color="#f1b178">This place is always so much more perilous than it seems.</font>
+<font color="#f1b178">These lands are always so much more perilous than they seem.</font>
 
-201
+210
 00:11:56,981 --> 00:11:59,429
 <font color="#f1b178">What dangers will this grove hold?</font>
 
-202
+211
 00:11:59,430 --> 00:12:01,470
 <font class="speaker2" color="#428686">You did well, child.</font>
 
-203
+212
 00:12:01,471 --> 00:12:04,328
-<font class="speaker2" color="#428686">Your journey is almost at its end.</font>
+<font class="speaker2" color="#428686">Your journey is almost to an end.</font>
 
-204
+213
 00:12:04,329 --> 00:12:07,186
 <font class="speaker2" color="#428686">Do not falter in its final steps.</font>
 
-205
-00:12:07,187 --> 00:12:12,084
-<font color="#f1b178">I only did well because I didn't run into <i>them</i> this time.</font>
-
-206
-00:12:12,085 --> 00:12:15,350
-<font color="#f1b178">It was nothing but a stroke of luck.</font>
-
-207
-00:12:15,351 --> 00:12:18,616
-<font class="speaker2" color="#428686">Child, do not concern yourself with such trivialities.</font>
-
-208
-00:12:18,617 --> 00:12:20,657
-<font class="speaker2" color="#428686">We are up here now.</font>
-
-209
-00:12:20,658 --> 00:12:24,739
-<font class="speaker2" color="#428686">You ought to feel a sense of pride for this.</font>
-
-210
-00:12:24,740 --> 00:12:26,780
-<font color="#f1b178">You are right, my lady.</font>
-
-211
-00:12:26,781 --> 00:12:29,229
-<font color="#f1b178">Soon, I will finally reach Harmony.</font>
-
-212
-00:12:38,964 --> 00:12:41,004
-<font color="#f1b178">Venerable lady, I must confess.</font>
-
-213
-00:12:41,005 --> 00:12:43,045
-<font class="speaker2" color="#428686">Speak your heart, child.</font>
-
 214
-00:12:43,046 --> 00:12:45,086
-<font color="#f1b178">The stream stirs so silently...</font>
+00:12:07,187 --> 00:12:12,493
+<font color="#f1b178">I only did well because I didn't run into that <i>beast</i> this time.</font>
 
 215
-00:12:45,087 --> 00:12:47,535
-<font color="#f1b178">The springs bubble with such delight...</font>
+00:12:12,494 --> 00:12:15,759
+<font color="#f1b178">It was nothing but a stroke of luck.</font>
 
 216
-00:12:47,536 --> 00:12:51,617
-<font color="#f1b178">The stars wax and wane... the sky waves and wanders...</font>
+00:12:15,760 --> 00:12:19,025
+<font class="speaker2" color="#428686">Child, do not concern yourself with such trivialities.</font>
 
 217
-00:12:51,618 --> 00:12:54,475
-<font color="#f1b178">I see such beauty in this land.</font>
+00:12:19,026 --> 00:12:21,066
+<font class="speaker2" color="#428686">We are up here now.</font>
 
 218
-00:12:54,476 --> 00:12:56,516
-<font class="speaker2" color="#428686">Does that surprise you?</font>
+00:12:21,067 --> 00:12:25,148
+<font class="speaker2" color="#428686">You ought to feel a sense of pride for this.</font>
 
 219
-00:12:56,517 --> 00:13:00,598
-<font class="speaker2" color="#428686">Did you not expect beauty, here in the cosmic midst?</font>
+00:12:25,149 --> 00:12:27,189
+<font color="#f1b178">You are right, my lady.</font>
 
 220
-00:13:00,599 --> 00:13:02,639
-<font color="#f1b178">I don't know.</font>
+00:12:27,190 --> 00:12:29,638
+<font color="#f1b178">Soon, I will finally reach Harmony.</font>
 
 221
-00:13:02,640 --> 00:13:06,721
-<font color="#f1b178">It's just... the things they tell back home, they're different.</font>
+00:12:38,557 --> 00:12:40,597
+<font color="#f1b178">Venerable lady, I must confess.</font>
 
 222
-00:13:06,722 --> 00:13:08,762
-<font class="speaker2" color="#428686">Nonetheless, they are true.</font>
+00:12:40,598 --> 00:12:42,638
+<font class="speaker2" color="#428686">Speak your heart, child.</font>
 
 223
-00:13:08,763 --> 00:13:11,620
-<font class="speaker2" color="#428686">Beauty to one is horror to another.</font>
+00:12:42,639 --> 00:12:44,679
+<font color="#f1b178">The stream stirs so silently...</font>
 
 224
-00:13:11,621 --> 00:13:14,478
-<font color="#f1b178">Then what does that say about me?</font>
+00:12:44,680 --> 00:12:47,128
+<font color="#f1b178">The springs bubble with such delight...</font>
 
 225
-00:13:14,479 --> 00:13:17,744
-<font color="#f1b178">One who finds such beauty in the defiled?</font>
+00:12:47,129 --> 00:12:51,618
+<font color="#f1b178">The stars wax and wane, and the sky waves and wanders...</font>
 
 226
-00:13:17,745 --> 00:13:22,642
-<font color="#f1b178">I'm aware of its evils, and the taint that stains its sky...</font>
+00:12:51,619 --> 00:12:54,476
+<font color="#f1b178">I see such beauty in this land.</font>
 
 227
-00:13:22,643 --> 00:13:25,500
-<font color="#f1b178">But I'm still inclined to love, somehow.</font>
+00:12:54,477 --> 00:12:56,517
+<font class="speaker2" color="#428686">Does that surprise you?</font>
 
 228
-00:13:25,501 --> 00:13:27,949
-<font class="speaker2" color="#428686">It's all a matter of perception.</font>
+00:12:56,518 --> 00:13:00,599
+<font class="speaker2" color="#428686">Did you not expect beauty, here in the cosmic midst?</font>
 
 229
-00:13:27,950 --> 00:13:31,215
-<font class="speaker2" color="#428686">Only a right view may penetrate this illusion.</font>
+00:13:00,600 --> 00:13:02,640
+<font color="#f1b178">I don't know.</font>
 
 230
-00:13:31,216 --> 00:13:33,664
-<font color="#f1b178">Then do I simply lack wisdom?</font>
+00:13:02,641 --> 00:13:06,722
+<font color="#f1b178">It's just... the things they tell back home, they're different.</font>
 
 231
-00:13:33,665 --> 00:13:36,522
-<font class="speaker2" color="#428686">Oh, dear, I'd never accuse you thereof!</font>
+00:13:06,723 --> 00:13:08,763
+<font class="speaker2" color="#428686">Nonetheless, they are true.</font>
 
 232
-00:13:36,523 --> 00:13:38,971
-<font class="speaker2" color="#428686">But indeed, you do lack wisdom.</font>
+00:13:08,764 --> 00:13:11,621
+<font class="speaker2" color="#428686">Beauty to one is horror to another.</font>
 
 233
-00:13:38,972 --> 00:13:41,000
-<font color="#f1b178">...</font>
+00:13:11,622 --> 00:13:14,479
+<font color="#f1b178">Then, what does that say about me?</font>
 
 234
-00:13:45,001 --> 00:13:50,307
-<font color="#954444">Records of the ██th Year of the ███ Era, ██ / ██. Noon.</font>
+00:13:14,480 --> 00:13:17,745
+<font color="#f1b178">One who finds such beauty in the defiled?</font>
 
 235
-00:13:50,308 --> 00:13:52,348
-<font color="#954444">And the father said:</font>
+00:13:17,746 --> 00:13:22,643
+<font color="#f1b178">I'm aware of its evils, and the taint that stains its sky...</font>
 
 236
-00:13:52,349 --> 00:13:56,022
-<font color="#954444">For as long as ye have known the lass,</font>
+00:13:22,644 --> 00:13:25,501
+<font color="#f1b178">But I'm still inclined to love, somehow.</font>
 
 237
-00:13:56,023 --> 00:14:00,512
-<font color="#954444">He has been amongst ye, and He has prayed for ye;</font>
+00:13:25,502 --> 00:13:27,950
+<font class="speaker2" color="#428686">It's all a matter of perception.</font>
 
 238
-00:14:00,513 --> 00:14:05,819
-<font color="#954444">For as long as ye have seen the stars, He has ruled them.</font>
+00:13:27,951 --> 00:13:31,216
+<font class="speaker2" color="#428686">Only a right view may penetrate this illusion.</font>
 
 239
-00:14:05,820 --> 00:14:09,493
-<font color="#954444">The father commanded his servants to embalm the girl.</font>
+00:13:31,217 --> 00:13:33,665
+<font color="#f1b178">Then do I simply lack wisdom?</font>
 
 240
-00:14:09,494 --> 00:14:14,800
-<font color="#954444">To baptize her in milk, and to offer her to the stars, faraway.</font>
+00:13:33,666 --> 00:13:36,523
+<font class="speaker2" color="#428686">Oh, dear, I'd never accuse you thereof!</font>
 
 241
-00:14:14,801 --> 00:14:17,249
-<font color="#954444">And then her brother wept, crying:</font>
+00:13:36,524 --> 00:13:38,972
+<font class="speaker2" color="#428686">But indeed, you do lack wisdom.</font>
 
 242
-00:14:17,250 --> 00:14:22,147
-<font color="#954444">I won't let the stars steal her away, she is ours forever!</font>
+00:13:38,973 --> 00:13:41,000
+<font color="#f1b178">...</font>
 
 243
-00:14:22,148 --> 00:14:24,188
-<font color="#954444">This disappointed the father.</font>
+00:13:45,001 --> 00:13:47,041
+<font color="#954444">Incident: the disruptor.</font>
 
 244
-00:14:24,189 --> 00:14:26,229
-<font color="#954444">He told him then:</font>
-
-245
-00:14:26,230 --> 00:14:30,719
-<font color="#954444">She will return with the King when the time is nigh.</font>
-
-246
-00:14:30,720 --> 00:14:33,168
-<font color="#954444">When from the stars He descends.</font>
-
-247
-00:14:33,169 --> 00:14:36,434
-<font color="#954444">And when He takes our throne once more.</font>
-
-248
-00:14:36,435 --> 00:14:39,700
-<font color="#954444">With the King, we walk the world eternal.</font>
-
-249
-00:14:39,701 --> 00:14:45,415
-<font color="#954444">The father waved his hand, watched the sky, and made disappear all the threads.</font>
-
-250
-00:14:45,416 --> 00:14:49,089
-<font color="#954444">It was day; only the brightest stars were visible.</font>
-
-251
-00:14:49,090 --> 00:14:51,130
-<font color="#954444">He continued his lecture:</font>
-
-252
-00:14:51,131 --> 00:14:53,579
-<font color="#954444">This is our kingdom, my child.</font>
-
-253
-00:14:53,580 --> 00:14:57,661
-<font color="#954444">Whatever may disappear is ne'er gone, such is the sky.</font>
-
-254
-00:15:02,774 --> 00:15:08,080
-<font color="#954444">Records of the ██th Year of the ████ Era, ██ / ██. Noon.</font>
-
-255
-00:15:08,081 --> 00:15:10,121
+00:13:47,042 --> 00:13:49,082
 <font color="#954444">And the father said:</font>
 
+245
+00:13:49,083 --> 00:13:52,756
+<font class="speaker2" color="#954444">For as long as you have known the maiden,</font>
+
+246
+00:13:52,757 --> 00:13:57,246
+<font class="speaker2" color="#954444">He has been amongst you, and He has prayed for you;</font>
+
+247
+00:13:57,247 --> 00:14:02,553
+<font class="speaker2" color="#954444">For as long as you have seen the stars, He has ruled them.</font>
+
+248
+00:14:02,554 --> 00:14:06,227
+<font color="#954444">The father commanded his servants to embalm the girl.</font>
+
+249
+00:14:06,228 --> 00:14:11,534
+<font color="#954444">To baptize her in milk, and to offer her to the stars, faraway.</font>
+
+250
+00:14:11,535 --> 00:14:13,983
+<font color="#954444">And then her brother wept, crying:</font>
+
+251
+00:14:13,984 --> 00:14:18,881
+<font class="speaker2" color="#954444">I won't let the stars steal her away, she is ours forever!</font>
+
+252
+00:14:18,882 --> 00:14:20,922
+<font color="#954444">This disappointed the father.</font>
+
+253
+00:14:20,923 --> 00:14:22,963
+<font color="#954444">He told him:</font>
+
+254
+00:14:22,964 --> 00:14:27,453
+<font class="speaker2" color="#954444">She will return with the KING when the time is nigh.</font>
+
+255
+00:14:27,454 --> 00:14:29,902
+<font class="speaker2" color="#954444">When from the stars He descends.</font>
+
 256
-00:15:10,122 --> 00:15:12,162
-<font color="#954444">The Day awaits us.</font>
+00:14:29,903 --> 00:14:33,168
+<font class="speaker2" color="#954444">And when He takes our throne once more.</font>
 
 257
-00:15:12,163 --> 00:15:16,652
-<font color="#954444">The holy rite of the King and Queen will soon commence.</font>
+00:14:33,169 --> 00:14:36,434
+<font class="speaker2" color="#954444">With the KING, we walk the world eternal.</font>
 
 258
-00:15:16,653 --> 00:15:21,550
-<font color="#954444">I hereby urge ye, who comprise the Kingdom under the sacred Crown,</font>
+00:14:36,435 --> 00:14:42,149
+<font color="#954444">The father waved his hand, watched the sky, and made disappear all the threads.</font>
 
 259
-00:15:21,551 --> 00:15:23,591
-<font color="#954444">Unite!</font>
+00:14:42,150 --> 00:14:45,823
+<font color="#954444">It was day; only the brightest stars were visible.</font>
 
 260
-00:15:23,592 --> 00:15:26,040
-<font color="#954444">He and His bride have settled,</font>
+00:14:45,824 --> 00:14:47,864
+<font color="#954444">He continued:</font>
 
 261
-00:15:26,041 --> 00:15:30,122
-<font color="#954444">The stars have aligned to open the path to quintessence.</font>
+00:14:47,865 --> 00:14:50,313
+<font class="speaker2" color="#954444">This is our kingdom, my child.</font>
 
 262
-00:15:30,123 --> 00:15:32,980
-<font color="#954444">The Great Cathedral will house the rite,</font>
+00:14:50,314 --> 00:14:54,395
+<font class="speaker2" color="#954444">Whatever may disappear is ne'er gone, such is the sky.</font>
 
 263
-00:15:32,981 --> 00:15:35,838
-<font color="#954444">Tomorrow at the time of the solstice.</font>
+00:15:02,773 --> 00:15:04,813
+<font color="#954444">Record: the last communion.</font>
 
 264
-00:15:35,839 --> 00:15:39,512
-<font color="#954444">Fate has it that ye will all arrive tomorrow,</font>
+00:15:04,814 --> 00:15:06,854
+<font color="#954444">And the father said:</font>
 
 265
-00:15:39,513 --> 00:15:41,961
-<font color="#954444">For the day is our destiny:</font>
+00:15:06,855 --> 00:15:08,895
+<font class="speaker2" color="#954444">The Day awaits us.</font>
 
 266
-00:15:41,962 --> 00:15:44,002
-<font color="#954444">We all have been chosen.</font>
+00:15:08,896 --> 00:15:13,385
+<font class="speaker2" color="#954444">The holy rite of the KING and QUEEN will soon commence.</font>
 
 267
-00:15:44,003 --> 00:15:46,860
-<font color="#954444">We all must choose to embrace it.</font>
+00:15:13,386 --> 00:15:18,283
+<font class="speaker2" color="#954444">I hereby urge you, who comprise the Kingdom under the sacred Crown,</font>
 
 268
-00:15:51,973 --> 00:15:54,000
-<font color="#954444">(There are no further records.)</font>
+00:15:18,284 --> 00:15:20,324
+<font class="speaker2" color="#954444">Unite!</font>
 
 269
+00:15:20,325 --> 00:15:22,773
+<font class="speaker2" color="#954444">He and His bride have settled,</font>
+
+270
+00:15:22,774 --> 00:15:26,855
+<font class="speaker2" color="#954444">The stars have aligned to open the path to quintessence.</font>
+
+271
+00:15:26,856 --> 00:15:29,713
+<font class="speaker2" color="#954444">The Great Cathedral will house the rite,</font>
+
+272
+00:15:29,714 --> 00:15:32,571
+<font class="speaker2" color="#954444">Tomorrow at the time of the solstice.</font>
+
+273
+00:15:32,572 --> 00:15:36,245
+<font class="speaker2" color="#954444">Fate has it that you will all arrive tomorrow,</font>
+
+274
+00:15:36,246 --> 00:15:38,694
+<font class="speaker2" color="#954444">For the day is our destiny:</font>
+
+275
+00:15:38,695 --> 00:15:40,735
+<font class="speaker2" color="#954444">We all have been chosen.</font>
+
+276
+00:15:40,736 --> 00:15:43,593
+<font class="speaker2" color="#954444">We all must choose to embrace it.</font>
+
+277
+00:15:51,971 --> 00:15:54,000
+<font color="#954444">(There are no further records.)</font>
+
+278
 00:15:58,001 --> 00:16:00,041
 <font color="#954444">To whom it may concern,</font>
 
-270
+279
 00:16:00,042 --> 00:16:04,531
 <font color="#954444">We have heard some Brothers express doubt during the last Sabbath.</font>
 
-271
+280
 00:16:04,532 --> 00:16:07,389
 <font color="#954444">Hearing this fills me with profound sadness.</font>
 
-272
+281
 00:16:07,390 --> 00:16:11,471
-<font color="#954444">But while it goes without saying, remember your Masters' teachings.</font>
+<font color="#954444">But, while it goes without saying, remember your Masters' teachings.</font>
 
-273
+282
 00:16:11,472 --> 00:16:17,186
 <font color="#954444">Surely, you are aware of the consequences of denouncing the League in this manner.</font>
 
-274
-00:16:18,928 --> 00:16:24,234
-<font color="#954444">For aeons, We have upheld tradition, all for this moment to finally arrive.</font>
-
-275
-00:16:24,235 --> 00:16:28,724
-<font color="#954444">Thousands of ancestors did not live to see this glorious day,</font>
-
-276
-00:16:28,725 --> 00:16:31,990
-<font color="#954444">but our patience has at last been rewarded.</font>
-
-277
-00:16:31,991 --> 00:16:36,888
-<font color="#954444">We shall welcome the harbinger of a new era in twenty-seven days.</font>
-
-278
-00:16:36,889 --> 00:16:40,562
-<font color="#954444">I must emphasize the importance of upholding tradition henceforth.</font>
-
-279
-00:16:40,563 --> 00:16:44,236
-<font color="#954444">Only by imitating the past can we guarantee success.</font>
-
-280
-00:16:45,978 --> 00:16:51,284
-<font color="#954444">As tradition foretells, we shall welcome all who wish to see His face.</font>
-
-281
-00:16:51,285 --> 00:16:55,774
-<font color="#954444">But to the Brothers who still harbor doubt, I say this:</font>
-
-282
-00:16:55,775 --> 00:16:57,815
-<font color="#954444">Come!</font>
-
 283
-00:16:57,816 --> 00:17:00,673
-<font color="#954444">After seeing Him with your own eyes,</font>
+00:16:19,608 --> 00:16:23,281
+<font color="#954444">For aeons, we have upheld tradition, awaiting this moment.</font>
 
 284
-00:17:00,674 --> 00:17:03,939
-<font color="#954444">your doubts shall vanish like fungus in quintessence.</font>
+00:16:23,282 --> 00:16:28,179
+<font color="#954444">Thousands of our ancestors did not live to see this glorious day,</font>
 
 285
-00:17:03,940 --> 00:17:07,205
-<font color="#954444">The Stars have guided us to this moment.</font>
+00:16:28,180 --> 00:16:31,445
+<font color="#954444">but our patience has been rewarded at last.</font>
 
 286
-00:17:07,206 --> 00:17:10,471
-<font color="#954444">Hereafter, the Stars shall continue to guide us.</font>
+00:16:31,446 --> 00:16:36,343
+<font color="#954444">We shall welcome the herald of a new era in twenty-seven days.</font>
 
 287
-00:17:10,472 --> 00:17:14,553
-<font color="#954444">Even if we cannot see them, we shall follow them.</font>
+00:16:36,344 --> 00:16:40,017
+<font color="#954444">I must emphasize the importance of upholding tradition henceforth.</font>
 
 288
-00:17:14,554 --> 00:17:19,043
-<font color="#954444">Even if the sky is obscured, we shall consult the quintessence.</font>
+00:16:40,018 --> 00:16:43,691
+<font color="#954444">Only by following the past can we guarantee success.</font>
 
 289
-00:17:19,044 --> 00:17:22,717
-<font color="#954444">If ever you are in doubt, rely on tradition.</font>
+00:16:46,113 --> 00:16:51,419
+<font color="#954444">As tradition prescribes, we shall welcome all who wish to see His face.</font>
 
 290
-00:17:24,459 --> 00:17:28,540
-<font color="#954444">Finally, we will be restructuring certain ranks within the League.</font>
+00:16:51,420 --> 00:16:55,909
+<font color="#954444">But to the Brothers who still harbor doubt, I say this:</font>
 
 291
-00:17:28,541 --> 00:17:33,030
-<font color="#954444">If you believe your lineage may be affected, please visit us.</font>
+00:16:55,910 --> 00:16:57,950
+<font color="#954444">Come!</font>
 
 292
-00:17:33,031 --> 00:17:36,296
-<font color="#954444">In pursuit of efficiency, we recommend coming alone.</font>
+00:16:57,951 --> 00:17:00,808
+<font color="#954444">After seeing Him with your own eyes,</font>
 
 293
-00:17:36,297 --> 00:17:39,970
-<font color="#954444">We wish you all prosperity in your alchemical research.</font>
+00:17:00,809 --> 00:17:04,074
+<font color="#954444">you shall surely be convinced he's the KING.</font>
 
 294
-00:17:39,971 --> 00:17:42,000
-<font color="#954444">Signed, the League.</font>
+00:17:04,075 --> 00:17:07,340
+<font color="#954444">The Stars have guided us to this moment.</font>
 
 295
+00:17:07,341 --> 00:17:10,606
+<font color="#954444">Hereafter, the Stars shall continue to guide us.</font>
+
+296
+00:17:10,607 --> 00:17:14,688
+<font color="#954444">Even if we cannot see them, we shall follow them.</font>
+
+297
+00:17:14,689 --> 00:17:17,546
+<font color="#954444">When the sky is obscured, consult quintessence.</font>
+
+298
+00:17:17,547 --> 00:17:21,220
+<font color="#954444">If ever you are in doubt, rely on tradition.</font>
+
+299
+00:17:23,642 --> 00:17:27,723
+<font color="#954444">Finally, we will be restructuring certain ranks within the League.</font>
+
+300
+00:17:27,724 --> 00:17:32,213
+<font color="#954444">If you believe your lineage may be affected, please visit us.</font>
+
+301
+00:17:32,214 --> 00:17:37,928
+<font color="#954444">To minimize danger to your lineage, we recommend leaving your disciples at your hives.</font>
+
+302
+00:17:37,929 --> 00:17:39,969
+<font color="#954444">We wish you prosperous research.</font>
+
+303
+00:17:39,970 --> 00:17:42,000
+<font color="#954444">Signed, the League.</font>
+
+304
 00:17:46,001 --> 00:17:47,619
 <font color="#d4d4d4">[RANDOMPOS] Spores. [RANDOMPOS]</font>
 
-296
+305
 00:17:47,620 --> 00:17:49,238
 <font color="#d4d4d4">[RANDOMPOS] Fetid. [RANDOMPOS]</font>
 
-297
+306
 00:17:49,239 --> 00:17:50,857
 <font color="#d4d4d4">[RANDOMPOS] Tranquil. [RANDOMPOS]</font>
 
-298
+307
 00:17:50,858 --> 00:17:52,476
 <font color="#d4d4d4">[RANDOMPOS] Nervous. [RANDOMPOS]</font>
 
-299
+308
 00:17:52,477 --> 00:17:54,095
 <font color="#d4d4d4">[RANDOMPOS] Nerves. [RANDOMPOS]</font>
 
-300
+309
 00:17:54,096 --> 00:17:55,714
 <font color="#d4d4d4">That accursed Eye...</font>
 
-301
+310
 00:17:55,715 --> 00:17:57,333
 <font color="#d4d4d4">[RANDOMPOS] Mycelium. [RANDOMPOS]</font>
 
-302
+311
 00:17:57,334 --> 00:17:58,952
 <font color="#d4d4d4">[RANDOMPOS] Unmoving. [RANDOMPOS]</font>
 
-303
+312
 00:17:58,953 --> 00:18:00,571
 <font color="#d4d4d4">[RANDOMPOS] White. [RANDOMPOS]</font>
 
-304
+313
 00:18:00,572 --> 00:18:02,190
 <font color="#d4d4d4">[RANDOMPOS] Humid. [RANDOMPOS]</font>
 
-305
+314
 00:18:02,191 --> 00:18:03,809
 <font color="#d4d4d4">[RANDOMPOS] Gloomy. [RANDOMPOS]</font>
 
-306
+315
 00:18:03,810 --> 00:18:05,428
 <font color="#d4d4d4">[RANDOMPOS] Murky. [RANDOMPOS]</font>
 
-307
+316
 00:18:05,429 --> 00:18:07,047
 <font color="#d4d4d4">...should not be...</font>
 
-308
+317
 00:18:07,048 --> 00:18:08,666
 <font color="#d4d4d4">[RANDOMPOS] Hyphae. [RANDOMPOS]</font>
 
-309
+318
 00:18:08,667 --> 00:18:10,285
 <font color="#d4d4d4">[RANDOMPOS] Lethargy. [RANDOMPOS]</font>
 
-310
+319
 00:18:10,286 --> 00:18:11,904
 <font color="#d4d4d4">[RANDOMPOS] Sightless. [RANDOMPOS]</font>
 
-311
+320
 00:18:11,905 --> 00:18:13,523
 <font color="#d4d4d4">[RANDOMPOS] Mud. [RANDOMPOS]</font>
 
-312
+321
 00:18:13,524 --> 00:18:15,142
 <font color="#d4d4d4">[RANDOMPOS] Hive. [RANDOMPOS]</font>
 
-313
+322
 00:18:15,143 --> 00:18:16,761
 <font color="#d4d4d4">[RANDOMPOS] Noise. [RANDOMPOS]</font>
 
-314
+323
 00:18:16,762 --> 00:18:18,380
 <font color="#d4d4d4">[RANDOMPOS] Tendrils. [RANDOMPOS]</font>
 
-315
+324
 00:18:18,381 --> 00:18:19,999
 <font color="#d4d4d4">[RANDOMPOS] Lichen. [RANDOMPOS]</font>
 
-316
+325
 00:18:20,000 --> 00:18:21,618
 <font color="#d4d4d4">[RANDOMPOS] Mold. [RANDOMPOS]</font>
 
-317
+326
 00:18:21,619 --> 00:18:23,237
 <font color="#d4d4d4">...trusted.</font>
 
-318
+327
 00:18:23,238 --> 00:18:24,856
 <font color="#d4d4d4">[RANDOMPOS] Vibrations. [RANDOMPOS]</font>
 
-319
+328
 00:18:24,857 --> 00:18:26,475
 <font color="#d4d4d4">[RANDOMPOS] Unfeeling. [RANDOMPOS]</font>
 
-320
+329
 00:18:26,476 --> 00:18:28,094
 <font color="#d4d4d4">[RANDOMPOS] Unmoving. [RANDOMPOS]</font>
 
-321
+330
 00:18:28,095 --> 00:18:29,713
 <font color="#d4d4d4">[RANDOMPOS] Unthinking. [RANDOMPOS]</font>
 
-322
+331
 00:18:29,714 --> 00:18:31,332
 <font color="#d4d4d4">[RANDOMPOS] Breeze. [RANDOMPOS]</font>
 
-323
+332
 00:18:31,333 --> 00:18:32,951
 <font color="#d4d4d4">The angels...</font>
 
-324
+333
 00:18:32,952 --> 00:18:34,570
 <font color="#d4d4d4">[RANDOMPOS] Moisture. [RANDOMPOS]</font>
 
-325
+334
 00:18:34,571 --> 00:18:36,189
 <font color="#d4d4d4">[RANDOMPOS] Impulse. [RANDOMPOS]</font>
 
-326
+335
 00:18:36,190 --> 00:18:37,808
 <font color="#d4d4d4">[RANDOMPOS] Growth. [RANDOMPOS]</font>
 
-327
+336
 00:18:37,809 --> 00:18:39,427
 <font color="#d4d4d4">...should be-</font>
 
-328
+337
 00:18:39,428 --> 00:18:41,046
 <font class="speaker2" color="#33339f">Should Be Treasured.</font>
 
-329
+338
 00:18:41,047 --> 00:18:42,665
 <font color="#d4d4d4">[RANDOMPOS] Influence. [RANDOMPOS]</font>
 
-330
+339
 00:18:42,666 --> 00:18:44,284
 <font color="#d4d4d4">[RANDOMPOS] Mute. [RANDOMPOS]</font>
 
-331
+340
 00:18:44,285 --> 00:18:45,903
 <font color="#d4d4d4">[RANDOMPOS] Filaments. [RANDOMPOS]</font>
 
-332
+341
 00:18:45,904 --> 00:18:47,522
 <font color="#d4d4d4">[RANDOMPOS] Voice. [RANDOMPOS]</font>
 
-333
+342
 00:18:47,523 --> 00:18:49,141
 <font color="#d4d4d4">[RANDOMPOS] Evil. [RANDOMPOS]</font>
 
-334
+343
 00:18:49,142 --> 00:18:50,760
 <font color="#d4d4d4">Don't listen-</font>
 
-335
+344
 00:18:50,761 --> 00:18:52,703
 <font class="speaker2" color="#33339f">Don't Listen To These Aimless Thoughts.</font>
 
-336
+345
 00:18:52,704 --> 00:18:54,322
 <font class="speaker2" color="#33339f">They Are Unworthy.</font>
 
-337
+346
 00:18:54,323 --> 00:18:55,941
 <font class="speaker2" color="#33339f">Can You Not See?</font>
 
-338
+347
 00:18:55,942 --> 00:18:57,560
 <font color="#d4d4d4">[RANDOMPOS] Roots. [RANDOMPOS]</font>
 
-339
+348
 00:18:57,561 --> 00:18:59,179
 <font color="#d4d4d4">[RANDOMPOS] Anguish. [RANDOMPOS]</font>
 
-340
+349
 00:18:59,180 --> 00:19:00,798
 <font color="#d4d4d4">[RANDOMPOS] Mush. [RANDOMPOS]</font>
 
-341
+350
 00:19:00,799 --> 00:19:02,417
 <font color="#d4d4d4">[RANDOMPOS] Slime. [RANDOMPOS]</font>
 
-342
+351
 00:19:02,418 --> 00:19:04,684
-<font class="speaker2" color="#33339f">Let Me Guide You To Your Destination.</font>
+<font class="speaker2" color="#33339f">I Shall Guide You To Your Destination.</font>
 
-343
+352
 00:19:04,685 --> 00:19:06,303
 <font class="speaker2" color="#33339f">Do You See That Tree?</font>
 
-344
+353
 00:19:06,304 --> 00:19:07,922
 <font color="#d4d4d4">[RANDOMPOS] Accumulation. [RANDOMPOS]</font>
 
-345
+354
 00:19:07,923 --> 00:19:09,541
 <font color="#d4d4d4">[RANDOMPOS] Snow. [RANDOMPOS]</font>
 
-346
+355
 00:19:09,542 --> 00:19:11,160
 <font color="#d4d4d4">[RANDOMPOS] Soot. [RANDOMPOS]</font>
 
-347
+356
 00:19:11,161 --> 00:19:12,779
 <font color="#d4d4d4">[RANDOMPOS] Pain. [RANDOMPOS]</font>
 
-348
+357
 00:19:12,780 --> 00:19:14,398
 <font class="speaker2" color="#33339f">The Angels Have Protected You.</font>
 
-349
+358
 00:19:14,399 --> 00:19:16,341
 <font class="speaker2" color="#33339f">From What These Beings Once Were.</font>
 
-350
+359
 00:19:16,342 --> 00:19:17,960
-<font color="#d4d4d4">[RANDOMPOS] Don't- [RANDOMPOS]</font>
+<font color="#d4d4d4">Don't-</font>
 
-351
+360
 00:19:17,961 --> 00:19:19,579
 <font class="speaker2" color="#33339f">Pay Them No Heed.</font>
 
-352
+361
 00:19:19,580 --> 00:19:21,198
 <font color="#d4d4d4">[RANDOMPOS] Stagnation. [RANDOMPOS]</font>
 
-353
+362
 00:19:21,199 --> 00:19:22,817
 <font color="#d4d4d4">[RANDOMPOS] Rot. [RANDOMPOS]</font>
 
-354
+363
 00:19:22,818 --> 00:19:24,436
-<font color="#d4d4d4">[RANDOMPOS] The Eye... [RANDOMPOS]</font>
+<font color="#d4d4d4">The Azachon...</font>
 
-355
+364
 00:19:24,437 --> 00:19:26,055
 <font color="#d4d4d4">[RANDOMPOS] Mycelium. [RANDOMPOS]</font>
 
-356
+365
 00:19:26,056 --> 00:19:27,674
 <font color="#d4d4d4">[RANDOMPOS] Nerves. [RANDOMPOS]</font>
 
-357
+366
 00:19:27,675 --> 00:19:29,293
 <font color="#d4d4d4">[RANDOMPOS] Nervous. [RANDOMPOS]</font>
 
-358
+367
 00:19:29,294 --> 00:19:30,912
 <font color="#d4d4d4">[RANDOMPOS] Tranquil. [RANDOMPOS]</font>
 
-359
+368
 00:19:30,913 --> 00:19:32,531
 <font color="#d4d4d4">[RANDOMPOS] Fetid. [RANDOMPOS]</font>
 
-360
+369
 00:19:32,532 --> 00:19:34,150
 <font color="#d4d4d4">[RANDOMPOS] Spores. [RANDOMPOS]</font>
 
-361
+370
 00:19:34,151 --> 00:19:35,769
 <font color="#d4d4d4">...is a monster.</font>
 
-362
+371
 00:19:35,770 --> 00:19:37,388
 <font class="speaker2" color="#33339f">Please Proceed.</font>
 
-363
+372
 00:19:37,389 --> 00:19:39,000
 <font class="speaker2" color="#33339f">Lest You Become Like Them.</font>
 
-364
-00:19:43,001 --> 00:21:45,000
-<font color="FF00FF">A Past That Destroyed Itself has no story yet. Skip to 21:49.</font>
+373
+00:19:43,001 --> 00:19:45,858
+<font color="#33339f">Those Who Disrespect Us Must Be Eradicated.</font>
 
-365
+374
+00:19:45,859 --> 00:19:47,899
+<font color="#33339f">We Are Order, Sense, Harmony.</font>
+
+375
+00:19:47,900 --> 00:19:52,389
+<font color="#33339f">The Eye Created Order In Form, And They Called It Space.</font>
+
+376
+00:19:52,390 --> 00:19:56,879
+<font color="#33339f">The Eye Created Order In Flow, And They Called It Time.</font>
+
+377
+00:19:56,880 --> 00:20:00,145
+<font color="#33339f">Without Our Laws, Everything Will Revert To Chaos.</font>
+
+378
+00:20:00,146 --> 00:20:03,003
+<font color="#33339f">Without These Lands, Existence Loses All Value.</font>
+
+379
+00:20:03,004 --> 00:20:05,044
+<font color="#33339f">But They Defy Us.</font>
+
+380
+00:20:05,045 --> 00:20:07,085
+<font color="#33339f">But They Desire The Opposite.</font>
+
+381
+00:20:07,086 --> 00:20:10,351
+<font color="#33339f">They Don't See The Beauty Of Our Laws.</font>
+
+382
+00:20:10,352 --> 00:20:12,800
+<font color="#33339f">They Consider These Laws "Shackles" Instead.</font>
+
+383
+00:20:12,801 --> 00:20:15,658
+<font color="#33339f">Their Chaos Is Seeping Into These Lands.</font>
+
+384
+00:20:15,659 --> 00:20:18,516
+<font color="#33339f">Their Continuous Assaults Are Eroding These Lands.</font>
+
+385
+00:20:18,517 --> 00:20:21,374
+<font color="#33339f">If These Lands Get Reduced To Naught,</font>
+
+386
+00:20:21,375 --> 00:20:26,272
+<font color="#33339f">If The Pillars On Which The Laws Are Written Are But Rubble,</font>
+
+387
+00:20:26,273 --> 00:20:29,130
+<font color="#33339f">The Cosmos Will Suffer Everywhere And Alltime.</font>
+
+388
+00:20:30,947 --> 00:20:35,028
+<font color="#33339f">And While Unfortunate, We Have Become Unable To Stop Them.</font>
+
+389
+00:20:35,029 --> 00:20:38,294
+<font color="#33339f">The Foot Has Already Been All But Destroyed.</font>
+
+390
+00:20:38,295 --> 00:20:40,743
+<font color="#33339f">Nothing But An Indistinct Mist Remains.</font>
+
+391
+00:20:40,744 --> 00:20:43,601
+<font color="#33339f">The Peak Won't Survive For Much Longer.</font>
+
+392
+00:20:43,602 --> 00:20:46,459
+<font color="#33339f">Nothing We Do Seems To Affect Them.</font>
+
+393
+00:20:46,460 --> 00:20:49,317
+<font color="#33339f">Their Final Assault Is Already In Motion.</font>
+
+394
+00:20:49,318 --> 00:20:51,358
+<font color="#33339f">You. We Need You.</font>
+
+395
+00:20:51,359 --> 00:20:55,440
+<font color="#33339f">You Cannot See It From Here, But See The Surface.</font>
+
+396
+00:20:55,441 --> 00:20:58,298
+<font color="#33339f">A Land Without Form, Distorted By Impression.</font>
+
+397
+00:20:58,299 --> 00:21:01,156
+<font color="#33339f">A Land Without Flow, Distorted By Emotion.</font>
+
+398
+00:21:01,157 --> 00:21:04,014
+<font color="#33339f">An Unnavigable Realm Shaped By Vague Concepts.</font>
+
+399
+00:21:04,015 --> 00:21:08,912
+<font color="#33339f">And They Want To Rid It Of Its Last Bastions Of Order.</font>
+
+400
+00:21:08,913 --> 00:21:11,361
+<font color="#33339f">I Hope You Understand Our Plight.</font>
+
+401
+00:21:11,362 --> 00:21:13,402
+<font color="#33339f">We Must Uphold Our Laws.</font>
+
+402
+00:21:15,219 --> 00:21:17,259
+<font color="#33339f">But You...</font>
+
+403
+00:21:17,260 --> 00:21:19,708
+<font color="#33339f">Why Even Visit These Barren Wastes?</font>
+
+404
+00:21:19,709 --> 00:21:22,566
+<font color="#33339f">There Is Nothing To Be Gained Here.</font>
+
+405
+00:21:22,567 --> 00:21:24,607
+<font color="#33339f">There Is But Wasted Time.</font>
+
+406
+00:21:24,608 --> 00:21:26,648
+<font color="#33339f">Exert Your Efforts Elsewhere.</font>
+
+407
+00:21:26,649 --> 00:21:31,138
+<font color="#33339f">We Do Not See The Need For You To Visit Here.</font>
+
+408
+00:21:31,139 --> 00:21:33,587
+<font color="#33339f">For You Will Not Remember Here.</font>
+
+409
+00:21:33,588 --> 00:21:37,261
+<font color="#33339f">Do You See Those Rock Formations To Your Right?</font>
+
+410
+00:21:37,262 --> 00:21:40,119
+<font color="#33339f">Do You See The Buildings On Top?</font>
+
+411
+00:21:40,120 --> 00:21:42,160
+<font color="#33339f">You Shall Go There Instead.</font>
+
+412
+00:21:42,161 --> 00:21:45,000
+<font color="#33339f">You Shall Help Our Fight There Instead.</font>
+
+413
 00:21:49,001 --> 00:21:51,041
 <font color="#467546">Phew.</font>
 
-366
+414
 00:21:51,042 --> 00:21:53,082
 <font color="#467546">This stupid place.</font>
 
-367
+415
 00:21:53,083 --> 00:21:56,756
 <font color="#467546">Ever since I fell, everything has been so hectic.</font>
 
-368
-00:21:56,757 --> 00:22:00,430
-<font color="#467546">However much that Eye emphasized this wasn't a dream...</font>
+416
+00:21:56,757 --> 00:22:00,022
+<font color="#467546">That stupid Eye should've just given me wings!</font>
 
-369
-00:22:00,431 --> 00:22:04,104
-<font color="#467546">The only reason I'm still alive is dream logic.</font>
+417
+00:22:00,023 --> 00:22:03,696
+<font color="#467546">The only reason I'm still alive is pure luck.</font>
 
-370
-00:22:04,105 --> 00:22:08,186
-<font color="#467546">Come on, no one could survive such a fall, right!</font>
+418
+00:22:03,697 --> 00:22:07,370
+<font color="#467546">Come on, no one could survive such a fall!</font>
 
-371
-00:22:08,187 --> 00:22:12,268
-<font color="#467546">But I only had a few bruises, and that's that.</font>
+419
+00:22:07,371 --> 00:22:13,085
+<font color="#467546">But the trees caught me, I only had a few bruises, and that's that.</font>
 
-372
-00:22:15,840 --> 00:22:19,105
-<font color="#467546">I'm glad I've found this little area though.</font>
+420
+00:22:17,201 --> 00:22:20,058
+<font color="#467546">I'm glad I've found this little area.</font>
 
-373
-00:22:19,106 --> 00:22:22,779
+421
+00:22:20,059 --> 00:22:23,732
 <font color="#467546">The endless supply of water flowing through these gorges...</font>
 
-374
-00:22:22,780 --> 00:22:26,453
+422
+00:22:23,733 --> 00:22:27,406
 <font color="#467546">The gentle breeze between the cliffs swaying the vines...</font>
 
-375
-00:22:26,454 --> 00:22:28,494
-<font color="#467546">I can actually...</font>
+423
+00:22:27,407 --> 00:22:29,447
+<font color="#467546">I can actually... relax here.</font>
 
-376
-00:22:28,495 --> 00:22:30,535
-<font color="#467546">Properly relax here.</font>
-
-377
-00:22:30,536 --> 00:22:34,209
+424
+00:22:29,448 --> 00:22:33,121
 <font color="#467546">I know I shouldn't let my guard down though.</font>
 
-378
-00:22:34,210 --> 00:22:37,475
+425
+00:22:33,122 --> 00:22:36,387
 <font color="#467546">With all the beasts up there and whatnot.</font>
 
-379
-00:22:37,476 --> 00:22:40,333
-<font color="#467546">But I can finally take a breather...</font>
+426
+00:22:36,388 --> 00:22:39,245
+<font color="#467546">Not to mention the Eye's incessant demands.</font>
 
-380
-00:22:43,905 --> 00:22:46,353
+427
+00:22:39,246 --> 00:22:42,511
+<font color="#467546">But here, I can finally take a breather...</font>
+
+428
+00:22:46,627 --> 00:22:49,075
 <font color="#467546">Still, it really messes with me.</font>
 
-381
-00:22:46,354 --> 00:22:51,660
-<font color="#467546">The fact I don't really need sleep. The sun never sets or rises.</font>
+429
+00:22:49,076 --> 00:22:51,933
+<font color="#467546">Who am I? What is this place?</font>
 
-382
-00:22:51,661 --> 00:22:55,742
-<font color="#467546">Not that this sky has a sun to begin with.</font>
+430
+00:22:51,934 --> 00:22:56,423
+<font color="#467546">This sky has no sun... but it feels like it should.</font>
 
-383
-00:22:55,743 --> 00:22:58,191
-<font color="#467546">But even if my body's fine...</font>
+431
+00:22:56,424 --> 00:22:59,689
+<font color="#467546">There is just no sense of time here.</font>
 
-384
-00:22:58,192 --> 00:23:01,049
-<font color="#467546">Not sleeping really tires me out, mentally.</font>
+432
+00:22:59,690 --> 00:23:04,179
+<font color="#467546">And having to be on my guard, always, is so taxing.</font>
 
-385
-00:23:01,050 --> 00:23:04,723
-<font color="#467546">Having to be on my guard, all the time.</font>
+433
+00:23:04,180 --> 00:23:09,077
+<font color="#467546">But in these ravines, I can hardly see the sky at all.</font>
 
-386
-00:23:04,724 --> 00:23:09,213
-<font color="#467546">In these ravines, I can hardly see the sky at all.</font>
+434
+00:23:09,078 --> 00:23:11,935
+<font color="#467546">Without that eerie twilight in my view...</font>
 
-387
-00:23:09,214 --> 00:23:12,071
-<font color="#467546">Without that eerie twilight in my view,</font>
+435
+00:23:11,936 --> 00:23:14,384
+<font color="#467546">Without the beasts that roam around...</font>
 
-388
-00:23:12,072 --> 00:23:15,337
-<font color="#467546">Always reminding me of this place's <i>this place</i>-ness...</font>
+436
+00:23:14,385 --> 00:23:16,425
+<font color="#467546">Let's take a nap...</font>
 
-389
-00:23:15,338 --> 00:23:17,378
-<font color="#467546">Let's take a nap.</font>
+437
+00:23:20,541 --> 00:23:22,989
+<font color="#467546">Why do I always forget dreams?</font>
 
-390
-00:23:20,950 --> 00:23:23,398
-<font color="#467546">Why do you always forget dreams?</font>
-
-391
-00:23:23,399 --> 00:23:26,256
+438
+00:23:22,990 --> 00:23:25,847
 <font color="#467546">I feel like this one was important.</font>
 
-392
-00:23:26,257 --> 00:23:29,930
-<font color="#467546">Funny how that works, with no memory of it.</font>
+439
+00:23:25,848 --> 00:23:27,888
+<font color="#467546">Funny how that works.</font>
 
-393
-00:23:29,931 --> 00:23:34,000
-<font color="#467546">Well, let's see if there's a Memory around these parts.</font>
+440
+00:23:27,889 --> 00:23:29,929
+<font color="#467546">Well then. Well now.</font>
 
-394
+441
+00:23:29,930 --> 00:23:34,000
+<font color="#467546">Let's see if I can Remember anything around these parts.</font>
+
+442
 00:23:38,001 --> 00:23:41,266
-<font class="speaker2" color="#542525">Venerable Lord Mettiyah, the Red Bell has rung.</font>
+<font class="speaker2" color="#954444">Venerable Lord Mettiyah, the Red Bell has rung.</font>
 
-395
-00:23:41,267 --> 00:23:44,532
-<font class="speaker2" color="#542525">Venerable Lord Mettiyah, the Blessed One has perished.</font>
+443
+00:23:41,267 --> 00:23:44,124
+<font class="speaker2" color="#954444">Venerable Lord Mettiyah, the King has perished.</font>
 
-396
-00:23:44,533 --> 00:23:46,981
-<font class="speaker2" color="#542525">Venerable Lord Mettiyah, teach us Death.</font>
+444
+00:23:44,125 --> 00:23:46,573
+<font class="speaker2" color="#954444">Venerable Lord Mettiyah, teach us Death.</font>
 
-397
-00:23:46,982 --> 00:23:49,430
-<font class="speaker2" color="#542525">Venerable Lord Mettiyah, teach us Birth.</font>
+445
+00:23:46,574 --> 00:23:49,022
+<font class="speaker2" color="#954444">Venerable Lord Mettiyah, teach us Birth.</font>
 
-398
-00:23:49,431 --> 00:23:53,920
+446
+00:23:49,023 --> 00:23:53,512
 <font color="#954444">Honored Brothers, it was set in the Stars, was it not?</font>
 
-399
-00:23:53,921 --> 00:23:58,410
+447
+00:23:53,513 --> 00:23:58,002
 <font color="#954444">That on this accursed Day, I were to teach you Death.</font>
 
-400
-00:23:58,411 --> 00:24:01,268
+448
+00:23:58,003 --> 00:24:00,860
 <font color="#954444">Soon, Honored Brothers, shall the Sky shatter;</font>
 
-401
-00:24:01,269 --> 00:24:04,126
+449
+00:24:00,861 --> 00:24:03,718
 <font color="#954444">Soon, Honored Brothers, shall the Water whiten;</font>
 
-402
-00:24:04,127 --> 00:24:07,800
+450
+00:24:03,719 --> 00:24:07,392
 <font color="#954444">And soon, Honored Brothers, shall Silence befall the Sanctuary.</font>
 
-403
-00:24:07,801 --> 00:24:09,841
-<font class="speaker2" color="#542525">We w█▓▒▒▓▒▓▓██▓█ (We w█▓▒▒▓▒▓▓██▓█)</font>
+451
+00:24:07,393 --> 00:24:09,841
+<font class="speaker2" color="#954444">We w█▓▒▒▓▒ ▓▓██▓█ (We w█▓▒▒▓▒ ▓▓██▓█)</font>
 
-404
+452
 00:24:13,154 --> 00:24:15,194
 <font color="#954444">Since all Things are Omnipresent,</font>
 
-405
+453
 00:24:15,195 --> 00:24:17,643
 <font color="#954444">cultivate the Perception of the Omnipresent.</font>
 
-406
+454
 00:24:17,644 --> 00:24:20,092
 <font color="#954444">You shall humbly accept the star-gourd.</font>
 
-407
+455
 00:24:20,093 --> 00:24:22,133
-<font class="speaker2" color="#542525">I ██▓▓▓██▓██▓▓▒▓▓▒▓██</font>
+<font class="speaker2" color="#954444">I ▓█▓▓▓██ ▓██▓▓ ▒▓▓▒▓██</font>
 
-408
+456
 00:24:25,446 --> 00:24:27,894
 <font color="#954444">Since They are possessed of Desire,</font>
 
-409
+457
 00:24:27,895 --> 00:24:29,935
 <font color="#954444">cultivate the Perception of Desire.</font>
 
-410
+458
 00:24:29,936 --> 00:24:32,384
 <font color="#954444">You shall humbly accept the blood-gourd.</font>
 
-411
+459
 00:24:32,385 --> 00:24:34,425
-<font class="speaker2" color="#542525">Th█▓▓▒▒▓█▓</font>
+<font class="speaker2" color="#954444">Th█▓▓▒ ▒▓█▓</font>
 
-412
+460
 00:24:37,738 --> 00:24:40,595
 <font color="#954444">Since They are set in the Stars,</font>
 
-413
+461
 00:24:40,596 --> 00:24:43,044
 <font color="#954444">cultivate the Perception of the Stars.</font>
 
-414
+462
 00:24:43,045 --> 00:24:45,493
 <font color="#954444">You shall graciously accept the star-gourd.</font>
 
-415
+463
 00:24:45,494 --> 00:24:47,534
-<font class="speaker2" color="#542525">Y▓▒▓█████▓▓▒▓▓█▓▓▓</font>
+<font class="speaker2" color="#954444">Y▓▒▓█████ ▓▓ ▒▓▓█▓▓▓</font>
 
-416
+464
 00:24:50,847 --> 00:24:52,887
 <font color="#954444">Since Death is the Destined,</font>
 
-417
+465
 00:24:52,888 --> 00:24:54,928
 <font color="#954444">cultivate the Perception of Death.</font>
 
-418
+466
 00:24:54,929 --> 00:24:57,377
 <font color="#954444">You shall graciously accept the blood-gourd.</font>
 
-419
+467
 00:24:57,378 --> 00:24:59,418
-<font class="speaker2" color="#542525">██▓▒▓▓▓██▓▓</font>
+<font class="speaker2" color="#954444">██▓▒▓▓▓ ██▓▓</font>
 
-420
+468
 00:25:02,731 --> 00:25:06,812
-<font class="speaker2" color="#542525">Venerable Lord Mettiyah, I submit. (Venerable Lord Mettiyah, I submit.)</font>
+<font class="speaker2" color="#954444">Venerable Lord Mettiyah, I submit. (Venerable Lord Mettiyah, I submit.)</font>
 
-421
+469
 00:25:10,125 --> 00:25:13,798
 <font color="#954444">At last, the Sanctuary has almost returned to Silence.</font>
 
-422
+470
 00:25:13,799 --> 00:25:15,839
 <font color="#954444">My time has come too.</font>
 
-423
+471
 00:25:15,840 --> 00:25:19,105
 <font color="#954444">The time to return to the crimson egg.</font>
 
-424
+472
 00:25:19,106 --> 00:25:21,554
 <font color="#954444">The time to return to Silence.</font>
 
-425
+473
 00:25:21,555 --> 00:25:24,000
 <font color="#954444">Until the Bell shall toll again.</font>
 
-426
+474
 00:25:35,002 --> 00:25:37,002
 <font color="#954444"><i>Be quiet, please.</i></font>
 
-427
+475
 00:25:37,504 --> 00:25:38,504
 <font color="#954444"><i>They</i></font>
 
-428
+476
 00:25:38,505 --> 00:25:39,255
 <font color="#954444"><i>They are...</i></font>
 
-429
+477
 00:25:40,757 --> 00:25:42,507
 <font color="#954444"><i>...Sleeping.</i></font>
 
-430
-00:25:43,009 --> 00:25:45,049
+478
+00:25:43,409 --> 00:25:45,449
 <font color="#954444">First, Decay.</font>
 
-431
-00:25:45,050 --> 00:25:47,090
+479
+00:25:45,450 --> 00:25:47,490
 <font color="#954444">The Province in Ruin;</font>
 
-432
-00:25:47,091 --> 00:25:51,172
+480
+00:25:47,491 --> 00:25:51,572
 <font color="#954444">Where sacrifice shall make mind and soul abandon the body.</font>
 
-433
-00:25:51,173 --> 00:25:53,213
+481
+00:25:51,573 --> 00:25:53,613
 <font color="#954444">Second, and beneath, Purification.</font>
 
-434
-00:25:53,214 --> 00:25:55,254
+482
+00:25:53,614 --> 00:25:55,654
 <font color="#954444">The Province in Darkness;</font>
 
-435
-00:25:55,255 --> 00:25:59,744
+483
+00:25:55,655 --> 00:26:00,144
 <font color="#954444">Where pain and pleasure both shall cleanse the soul of sin.</font>
 
-436
-00:25:59,745 --> 00:26:02,193
+484
+00:26:00,145 --> 00:26:02,593
 <font color="#954444">Third, and beyond the gates, Awakening.</font>
 
-437
-00:26:02,194 --> 00:26:04,234
+485
+00:26:02,594 --> 00:26:04,634
 <font color="#954444">The Province in Flames;</font>
 
-438
-00:26:04,235 --> 00:26:08,724
+486
+00:26:04,635 --> 00:26:09,124
 <font color="#954444">Where the light of inferno shall show the mind its truth.</font>
 
-439
-00:26:08,725 --> 00:26:10,765
+487
+00:26:09,125 --> 00:26:11,165
 <font color="#954444">Fourth, and deep below, Hierogamy.</font>
 
-440
-00:26:10,766 --> 00:26:12,806
+488
+00:26:11,166 --> 00:26:13,206
 <font color="#954444">The Province in Starlight;</font>
 
-441
-00:26:12,807 --> 00:26:16,888
+489
+00:26:13,207 --> 00:26:17,288
 <font color="#954444">Where the essences coalesce, and the triad shall become one.</font>
 
-442
-00:26:23,010 --> 00:26:27,499
-<font color="#954444">Sun and Moon have collided, their sacred milk fills the bath.</font>
+490
+00:26:23,670 --> 00:26:28,159
+<font color="#954444">Earth and Sky have collided, their sacred milk fills the bath.</font>
 
-443
-00:26:27,500 --> 00:26:29,948
+491
+00:26:28,160 --> 00:26:30,608
 <font color="#954444">Beware, and adhere to the acts.</font>
 
-444
-00:26:29,949 --> 00:26:33,622
-<font color="#954444">Act 1: Thou shalt not bathe in the quintessence.</font>
+492
+00:26:30,609 --> 00:26:34,282
+<font color="#954444">Act 1: You shall not bathe in the quintessence.</font>
 
-445
-00:26:33,623 --> 00:26:42,194
-<font color="#954444">Act 2: Thou shalt not interfere with, travel to, or otherwise communicate with those on the other side of the quintessence.</font>
+493
+00:26:34,283 --> 00:26:41,629
+<font color="#954444">Act 2: You shall not interfere with or communicate with those on the other side of the quintessence.</font>
 
-446
-00:26:42,195 --> 00:26:47,092
-<font color="#954444">Act 3: Thou shalt not show thy bare face to the quintessence.</font>
+494
+00:26:41,630 --> 00:26:46,527
+<font color="#954444">Act 3: You shall not show your bare face to the quintessence.</font>
 
-447
-00:26:47,093 --> 00:26:50,766
-<font color="#954444">Act 4: Thou shalt not speak to the quintessence.</font>
+495
+00:26:46,528 --> 00:26:50,201
+<font color="#954444">Act 4: You shall not speak to the quintessence.</font>
 
-448
-00:26:50,767 --> 00:26:54,440
-<font color="#954444">Act 5: Thou shalt not listen to the quintessence.</font>
+496
+00:26:50,202 --> 00:26:53,875
+<font color="#954444">Act 5: You shall not listen to the quintessence.</font>
 
-449
-00:26:54,441 --> 00:26:58,930
-<font color="#954444">Act 6: Thou shalt not lay thine eyes upon the quintessence.</font>
+497
+00:26:53,876 --> 00:26:58,365
+<font color="#954444">Act 6: You shall not lay your eyes upon the quintessence.</font>
 
-450
-00:26:58,931 --> 00:27:05,869
-<font color="#954444">Act 7: Thou shalt not tell any heretics or uninitiated individuals about the whereabouts of the quintessence.</font>
+498
+00:26:58,366 --> 00:27:05,304
+<font color="#954444">Act 7: You shall not tell any heretics or uninitiated individuals about the whereabouts of the quintessence.</font>
 
-451
+499
 00:27:13,011 --> 00:27:16,276
 <font color="#954444">In the Eternal Kingdom, there is no hatred,</font>
 
-452
+500
 00:27:16,277 --> 00:27:18,317
 <font color="#954444">For we shall be love.</font>
 
-453
+501
 00:27:18,318 --> 00:27:21,583
 <font color="#954444">In the Eternal Kingdom, there is no death,</font>
 
-454
+502
 00:27:21,584 --> 00:27:23,624
 <font color="#954444">For we shall be life.</font>
 
-455
+503
 00:27:23,625 --> 00:27:26,890
 <font color="#954444">In the Eternal Kingdom, there is no emptiness,</font>
 
-456
+504
 00:27:26,891 --> 00:27:29,339
 <font color="#954444">For we shall be the cosmos.</font>
 
-457
+505
 00:27:29,340 --> 00:27:32,605
 <font color="#954444">In the Eternal Kingdom, there is no loneliness,</font>
 
-458
+506
 00:27:32,606 --> 00:27:36,279
 <font color="#954444">For we all shall be one and the same.</font>
 
-459
+507
 00:27:36,280 --> 00:27:39,545
 <font color="#954444">Oh Quintessence, open our eyes to this truth.</font>
 
-460
-00:27:44,001 --> 00:27:48,082
-<font color="#467546">...let's break this huge window and get out of here.</font>
+508
+00:27:44,001 --> 00:27:47,674
+<font color="#467546">...let's break this window and get out of here.</font>
 
-461
-00:27:48,083 --> 00:27:50,531
+509
+00:27:47,675 --> 00:27:50,123
 <font color="#467546">I can't stand this "quintessence" stuff.</font>
 
-462
-00:27:50,532 --> 00:27:52,572
+510
+00:27:50,124 --> 00:27:52,164
 <font color="#467546">A good three whacks, and...</font>
 
-463
-00:27:52,573 --> 00:27:54,613
+511
+00:27:52,165 --> 00:27:54,205
 <font color="#467546">it shatters.</font>
 
-464
-00:27:54,614 --> 00:27:58,695
+512
+00:27:54,206 --> 00:27:58,287
 <font color="#467546">The liquid doesn't even spill, it just floats in place.</font>
 
-465
-00:27:58,696 --> 00:28:03,593
-<font color="#467546">After climbing through, my face is greeted by the warm subterranean air.</font>
+513
+00:27:58,288 --> 00:28:01,961
+<font color="#467546">After climbing through, my face meets warm, subterranean air.</font>
 
-466
-00:28:03,594 --> 00:28:07,675
+514
+00:28:01,962 --> 00:28:06,043
 <font color="#467546">All my senses are under constant attack in this cavern.</font>
 
-467
-00:28:07,676 --> 00:28:09,716
+515
+00:28:06,044 --> 00:28:08,084
 <font color="#467546">Most jarringly, hearing.</font>
 
-468
-00:28:09,717 --> 00:28:13,798
+516
+00:28:08,085 --> 00:28:12,166
 <font color="#467546">What causes these reverberations? What is all of this noise?</font>
 
-469
-00:28:13,799 --> 00:28:16,247
+517
+00:28:12,167 --> 00:28:14,615
 <font color="#467546">Do those glowing plants cause it?</font>
 
-470
-00:28:16,248 --> 00:28:19,105
+518
+00:28:14,616 --> 00:28:17,473
 <font color="#467546">Do they also cause this rotten smell?</font>
 
-471
-00:28:24,002 --> 00:28:28,083
+519
+00:28:23,322 --> 00:28:27,403
 <font color="#467546">In the middle of this cavern is this huge pillar.</font>
 
-472
-00:28:28,084 --> 00:28:30,941
+520
+00:28:27,404 --> 00:28:30,261
 <font color="#467546">Near the top, it splits into four.</font>
 
-473
-00:28:30,942 --> 00:28:34,207
+521
+00:28:30,262 --> 00:28:33,527
 <font color="#467546">And then each branch, again, splits into four.</font>
 
-474
-00:28:34,208 --> 00:28:36,248
+522
+00:28:33,528 --> 00:28:35,568
 <font color="#467546">Repeating, seemingly infinitely.</font>
 
-475
-00:28:36,249 --> 00:28:41,555
-<font color="#467546">Like the cathedral just now, it's made of the same sickly yellow rock.</font>
+523
+00:28:35,569 --> 00:28:40,875
+<font color="#467546">Like that cathedral just now, it's made of that same sickly yellow rock.</font>
 
-476
-00:28:41,556 --> 00:28:44,821
+524
+00:28:40,876 --> 00:28:44,141
 <font color="#467546">I'm all too familiar with it by now.</font>
 
-477
-00:28:44,822 --> 00:28:46,862
+525
+00:28:44,142 --> 00:28:46,182
 <font color="#467546">With the same green growths...</font>
 
-478
-00:28:46,863 --> 00:28:50,128
+526
+00:28:46,183 --> 00:28:49,448
 <font color="#467546">I'm also all too familiar with, by now.</font>
 
-479
-00:28:50,129 --> 00:28:52,577
-<font color="#467546">The fissures looks somewhat like writing.</font>
+527
+00:28:49,449 --> 00:28:51,897
+<font color="#467546">The fissures look somewhat like writing.</font>
 
-480
-00:28:52,578 --> 00:28:55,026
+528
+00:28:51,898 --> 00:28:54,346
 <font color="#467546">Of course, I cannot read it.</font>
 
-481
-00:28:55,027 --> 00:28:59,108
+529
+00:28:54,347 --> 00:28:58,428
 <font color="#467546">I look down. The pillar goes into a lake below.</font>
 
-482
-00:28:59,109 --> 00:29:02,782
+530
+00:28:58,429 --> 00:29:02,102
 <font color="#467546">And then, it burrows even deeper into the ground.</font>
 
-483
-00:29:02,783 --> 00:29:07,272
-<font color="#467546">The lake seems to contain the same liquid as everything else.</font>
+531
+00:29:02,103 --> 00:29:06,592
+<font color="#467546">The lake seems to contain the same stuff as everywhere else.</font>
 
-484
-00:29:07,273 --> 00:29:11,354
-<font color="#467546">From this high up, the purple crimson seems to twinkle.</font>
+532
+00:29:06,593 --> 00:29:10,674
+<font color="#467546">From this high up, the crimson liquid seems to twinkle.</font>
 
-485
-00:29:11,355 --> 00:29:13,395
+533
+00:29:10,675 --> 00:29:12,715
 <font color="#467546">Twinkling like the stars outside.</font>
 
-486
-00:29:13,396 --> 00:29:15,436
+534
+00:29:12,716 --> 00:29:14,756
 <font color="#467546">It's almost inviting.</font>
 
-487
-00:29:15,437 --> 00:29:17,477
-<font color="#467546">But I won't.</font>
+535
+00:29:14,757 --> 00:29:16,797
+<font color="#467546">But I Must Not.</font>
 
-488
-00:29:17,478 --> 00:29:21,151
+536
+00:29:16,798 --> 00:29:20,471
 <font color="#467546">Instead, I look around the rest of the cave.</font>
 
-489
-00:29:21,152 --> 00:29:24,417
+537
+00:29:20,472 --> 00:29:23,737
 <font color="#467546">There are four bridges extending from the pillar.</font>
 
-490
-00:29:24,418 --> 00:29:30,132
-<font color="#467546">The center seems like as good a place as any to set up camp.</font>
+538
+00:29:23,738 --> 00:29:29,044
+<font color="#467546">The center seems as good a place as any to set up camp.</font>
 
-491
-00:29:37,152 --> 00:29:40,000
+539
+00:29:36,123 --> 00:29:40,000
 <font color="#467546">This place is pleasing to the senses.</font>
 
-492
+540
 00:29:43,001 --> 00:29:45,041
 <font color="#954444">To Queen of Starlight,</font>
 
-493
+541
 00:29:45,042 --> 00:29:48,715
 <font color="#954444">I begged her to never open her eyes again.</font>
 
-494
+542
 00:29:48,716 --> 00:29:53,205
 <font color="#954444">Whatever she dreams of is not fit for one so innocent.</font>
 
-495
+543
 00:29:53,206 --> 00:29:55,246
-<font color="#954444">Her expressions when sleeping...</font>
+<font color="#954444">Her spasms when asleep...</font>
 
-496
+544
 00:29:55,247 --> 00:29:57,287
 <font color="#954444">Her demeanor when awake...</font>
 
-497
+545
 00:29:57,288 --> 00:30:00,961
 <font color="#954444">I pray to you, let those dreams be dreams.</font>
 
-498
-00:30:00,962 --> 00:30:03,002
-<font color="#954444">No one deserves such dreams.</font>
+546
+00:30:00,962 --> 00:30:03,819
+<font color="#954444">No one deserves to suffer through that.</font>
 
-499
-00:30:03,003 --> 00:30:08,717
+547
+00:30:03,820 --> 00:30:09,534
 <font color="#954444">While my daughter has yet the ability to smile, allow her to do so.</font>
 
-500
-00:30:08,718 --> 00:30:11,575
+548
+00:30:09,535 --> 00:30:12,392
 <font color="#954444">I beg of you, Queen of Starlight...</font>
 
-501
-00:30:18,014 --> 00:30:22,911
+549
+00:30:18,423 --> 00:30:23,320
 <font color="#954444">When I first found her, I saw faint starlight in her eyes.</font>
 
-502
-00:30:22,912 --> 00:30:26,177
+550
+00:30:23,321 --> 00:30:26,586
 <font color="#954444">I knew for certain she was the one.</font>
 
-503
-00:30:26,178 --> 00:30:29,035
+551
+00:30:26,587 --> 00:30:29,444
 <font color="#954444">Initially, I chose her for her talent,</font>
 
-504
-00:30:29,036 --> 00:30:34,342
+552
+00:30:29,445 --> 00:30:34,751
 <font color="#954444">but now I can only see someone I have to protect from themselves.</font>
 
-505
-00:30:34,343 --> 00:30:38,424
+553
+00:30:34,752 --> 00:30:38,833
 <font color="#954444">I can only muster so much dedication in a lifetime.</font>
 
-506
-00:30:38,425 --> 00:30:42,914
+554
+00:30:38,834 --> 00:30:43,323
 <font color="#954444">A single pupil is enough to last me until my death.</font>
 
-507
-00:30:42,915 --> 00:30:48,629
+555
+00:30:43,324 --> 00:30:49,038
 <font color="#954444">I hope that she understands that, even if not by blood, she's my child.</font>
 
-508
-00:30:48,630 --> 00:30:51,078
+556
+00:30:49,039 --> 00:30:51,487
 <font color="#954444">And I love her for it.</font>
 
-509
-00:30:57,517 --> 00:31:01,598
+557
+00:30:57,518 --> 00:31:01,599
 <font color="#954444">And now, the time has come for me to choose.</font>
 
-510
-00:31:01,599 --> 00:31:03,639
+558
+00:31:01,600 --> 00:31:03,640
 <font color="#954444">Will I protect my daughter?</font>
 
-511
-00:31:03,640 --> 00:31:06,905
+559
+00:31:03,641 --> 00:31:06,906
 <font color="#954444">Or will I stay true to my creed?</font>
 
-512
-00:31:06,906 --> 00:31:08,946
+560
+00:31:06,907 --> 00:31:08,947
 <font color="#954444">I have always been loyal.</font>
 
-513
-00:31:08,947 --> 00:31:12,212
+561
+00:31:08,948 --> 00:31:12,213
 <font color="#954444">So I beg of you, Queen of Starlight.</font>
 
-514
-00:31:12,213 --> 00:31:14,253
+562
+00:31:12,214 --> 00:31:14,254
 <font color="#954444">Whatever my choice may be.</font>
 
-515
-00:31:14,254 --> 00:31:17,519
+563
+00:31:14,255 --> 00:31:17,520
 <font color="#954444">Whether I become a sinner or a saint...</font>
 
-516
-00:31:17,520 --> 00:31:19,968
+564
+00:31:17,521 --> 00:31:19,969
 <font color="#954444">Please accept my decision with grace.</font>
 
-517
-00:31:19,969 --> 00:31:22,000
-<font color="#954444">Signed, ▓▒███▓▒</font>
+565
+00:31:19,970 --> 00:31:22,000
+<font color="#954444">Signed, a lowly researcher.</font>
 
-518
+566
 00:31:26,001 --> 00:31:28,041
 <font color="#954444">To Queen of Starlight,</font>
 
-519
+567
 00:31:28,042 --> 00:31:31,715
 <font color="#954444">I've lied to her ever since I knew her.</font>
 
-520
+568
 00:31:31,716 --> 00:31:34,573
 <font color="#954444">Yet it was all for her sake.</font>
 
-521
+569
 00:31:34,574 --> 00:31:39,471
 <font color="#954444">And for as long as she didn't notice, she was indeed happy.</font>
 
-522
+570
 00:31:39,472 --> 00:31:44,369
 <font color="#954444">For thirteen years, she was the happiest girl I had ever seen.</font>
 
-523
+571
 00:31:44,370 --> 00:31:46,818
 <font color="#954444">I couldn't have asked for more.</font>
 
-524
+572
 00:31:49,982 --> 00:31:52,022
 <font color="#954444">However,</font>
 
-525
+573
 00:31:52,023 --> 00:31:56,104
 <font color="#954444">As her mental condition deteriorated, the lies failed to uphold.</font>
 
-526
+574
 00:31:56,105 --> 00:31:58,553
 <font color="#954444">Lately, she acted out in rage.</font>
 
-527
+575
 00:31:58,554 --> 00:32:02,635
 <font color="#954444">I had to confine her before it was too late.</font>
 
-528
+576
 00:32:02,636 --> 00:32:05,084
 <font color="#954444">Rather understandably, she hates me now.</font>
 
-529
+577
 00:32:05,085 --> 00:32:07,125
 <font color="#954444">...</font>
 
-530
+578
 00:32:07,126 --> 00:32:10,391
 <font color="#954444">My own daughter earnestly wishes for my disappearance.</font>
 
-531
+579
 00:32:10,392 --> 00:32:15,698
 <font color="#954444">If it continues like this, it won't be long before the world notices.</font>
 
-532
+580
 00:32:15,699 --> 00:32:18,964
 <font color="#954444">I committed acts not worthy of your ears.</font>
 
-533
+581
 00:32:18,965 --> 00:32:25,087
 <font color="#954444">The starlight in her eyes kept on growing, and so I became overwhelmed with distress.</font>
 
-534
+582
 00:32:25,088 --> 00:32:27,536
 <font color="#954444">They had to be shut forever.</font>
 
-535
+583
 00:32:27,537 --> 00:32:29,577
 <font color="#954444">...</font>
 
-536
+584
 00:32:32,741 --> 00:32:35,598
 <font color="#954444">But even half-blind, she managed to escape.</font>
 
-537
+585
 00:32:35,599 --> 00:32:38,456
 <font color="#954444">I reckon this verdict pleases you greatly.</font>
 
-538
+586
 00:32:38,457 --> 00:32:41,722
-<font color="#954444">It <i>is</i> your very own birth, after all.</font>
+<font color="#954444">It IS your very own birth, after all.</font>
 
-539
+587
 00:32:41,723 --> 00:32:46,620
 <font color="#954444">As for me, I don't think I can continue on any longer.</font>
 
-540
+588
 00:32:46,621 --> 00:32:49,069
 <font color="#954444">I've betrayed the one I love;</font>
 
-541
+589
 00:32:49,070 --> 00:32:51,518
 <font color="#954444">I've betrayed the one I worship;</font>
 
-542
+590
 00:32:51,519 --> 00:32:54,376
 <font color="#954444">and in doing so, I've betrayed myself.</font>
 
-543
+591
 00:32:54,377 --> 00:33:00,907
 <font color="#954444">I'll just let her be from now on. Perhaps she will find happiness on her own.</font>
 
-544
+592
 00:33:00,908 --> 00:33:02,948
 <font color="#954444">So.</font>
 
-545
+593
 00:33:02,949 --> 00:33:04,989
 <font color="#954444">Queen of Starlight, my daughter.</font>
 
-546
+594
 00:33:04,990 --> 00:33:07,030
 <font color="#954444">Like this we will part.</font>
 
-547
+595
 00:33:07,031 --> 00:33:11,112
-<font color="#954444">I pray for you to one day reach the end,</font>
+<font color="#954444">I pray for you to one day reach an end,</font>
 
-548
+596
 00:33:11,113 --> 00:33:13,970
 <font color="#954444">just as I will soon reach mine.</font>
 
-549
+597
 00:33:13,971 --> 00:33:16,000
-<font color="#954444">Signed, ▓▒███▓▒</font>
+<font color="#954444">Signed,</font>
 
-550
-00:33:20,001 --> 00:33:23,266
-<font color="#467546">A massive library hanging under that wetland city...</font>
+598
+00:33:20,001 --> 00:33:22,041
+<font color="#467546">A library, under these wetlands?</font>
 
-551
-00:33:23,267 --> 00:33:25,307
-<font color="#467546">How unexpected. How wonderful.</font>
+599
+00:33:22,042 --> 00:33:24,082
+<font color="#467546">How unexpected.</font>
 
-552
-00:33:25,308 --> 00:33:30,614
-<font color="#467546">Perhaps I can find books on what the eye refuses to tell me.</font>
-
-553
-00:33:30,615 --> 00:33:33,063
+600
+00:33:24,083 --> 00:33:26,531
 <font color="#467546">Where to start, where to start...</font>
 
-554
-00:34:59,839 --> 00:35:02,696
-<font color="#467546">Half of these books have rotted away!</font>
+601
+00:33:29,742 --> 00:33:31,782
+<font color="#467546">"Satvatapatvi"... "Ausrapatvi"...</font>
 
-555
-00:35:02,697 --> 00:35:07,186
-<font color="#467546">And almost everything else is in a language I don't know.</font>
+602
+00:33:31,783 --> 00:33:36,680
+<font color="#467546">What use is a great library if I don't know these languages...</font>
 
-556
-00:35:07,187 --> 00:35:10,452
-<font color="#467546">Why must this place always inconvenience me so!</font>
+603
+00:33:36,681 --> 00:33:38,721
+<font color="#467546">Ah, here we go!</font>
 
-557
-00:35:10,453 --> 00:35:14,942
-<font color="#467546">Most of the stuff I <i>could</i> read, was boring administrative work...</font>
+604
+00:33:38,722 --> 00:33:41,170
+<font color="#467546">Still can't read the title, but...</font>
 
-558
-00:35:14,943 --> 00:35:18,616
-<font color="#467546">Luckily I've found a few gems strewn about though.</font>
+605
+00:33:41,171 --> 00:33:43,211
+<font class="speaker2" color="#954444">The shepherd</font>
 
-559
-00:35:18,617 --> 00:35:21,882
-<font color="#467546">"A Brief Chronology of Past Kings: Volume XXVI".</font>
+606
+00:33:43,212 --> 00:33:45,252
+<font class="speaker2" color="#954444">The dreamer</font>
 
-560
-00:35:21,883 --> 00:35:23,923
-<font class="speaker2" color="#954444">... and Teonan TODO</font>
+607
+00:33:45,253 --> 00:33:47,293
+<font class="speaker2" color="#954444">The wise</font>
 
-561
-00:35:23,924 --> 00:35:25,964
-<font color="#467546">"(meer boeken)"</font>
+608
+00:33:47,294 --> 00:33:52,191
+<font class="speaker2" color="#954444">The Shepherds of the Stars saw a new KING would be born.</font>
 
-562
-00:35:25,965 --> 00:35:28,000
-<font class="speaker2" color="#954444">(meer tekst)</font>
+609
+00:33:52,192 --> 00:33:55,457
+<font class="speaker2" color="#954444">Her name, SOEISE, the third KING of man.</font>
 
-563
+610
+00:33:55,458 --> 00:33:57,906
+<font class="speaker2" color="#954444">She was raised in peaceful meadows,</font>
+
+611
+00:33:57,907 --> 00:34:01,988
+<font class="speaker2" color="#954444">and full of love for every sound and every flower;</font>
+
+612
+00:34:01,989 --> 00:34:05,662
+<font class="speaker2" color="#954444">every insect, every leaf; every tree and every droplet;</font>
+
+613
+00:34:05,663 --> 00:34:07,703
+<font class="speaker2" color="#954444">every star, every rock; every...</font>
+
+614
+00:34:07,704 --> 00:34:10,969
+<font color="#467546">...This seems to go on for a while.</font>
+
+615
+00:34:14,180 --> 00:34:18,669
+<font color="#467546">So apparently she dreamt herself all the way to the stars.</font>
+
+616
+00:34:18,670 --> 00:34:23,159
+<font color="#467546">Whatever that means. And she was the first to do so.</font>
+
+617
+00:34:23,160 --> 00:34:26,833
+<font color="#467546">Her dreams started to turn people around her mad.</font>
+
+618
+00:34:26,834 --> 00:34:30,507
+<font color="#467546">But despite all that, this book is praising her...</font>
+
+619
+00:34:30,508 --> 00:34:32,548
+<font color="#467546">fiscal responsibility?</font>
+
+620
+00:34:32,549 --> 00:34:34,589
+<font color="#467546">I'm grabbing another book.</font>
+
+621
+00:34:37,800 --> 00:34:40,657
+<font class="speaker2" color="#954444">On the horizon, the tower grew tall.</font>
+
+622
+00:34:40,658 --> 00:34:45,147
+<font class="speaker2" color="#954444">With its end in sight, so came our end in sight.</font>
+
+623
+00:34:45,148 --> 00:34:49,229
+<font class="speaker2" color="#954444">But born when all hope was lost, a pirate's son.</font>
+
+624
+00:34:49,230 --> 00:34:52,495
+<font class="speaker2" color="#954444">His name, TEONAN, and raised by bastard thugs.</font>
+
+625
+00:34:52,496 --> 00:34:56,169
+<font class="speaker2" color="#954444">He had but His mother's flute to take refuge.</font>
+
+626
+00:34:56,170 --> 00:34:59,435
+<font class="speaker2" color="#954444">But when He had even that taken away,</font>
+
+627
+00:34:59,436 --> 00:35:02,293
+<font class="speaker2" color="#954444">when father killed mother, He killed all.</font>
+
+628
+00:35:02,294 --> 00:35:04,334
+<font class="speaker2" color="#954444">Wrought with grief and sorrow,</font>
+
+629
+00:35:04,335 --> 00:35:07,192
+<font class="speaker2" color="#954444">wrought with a desire to rewind time,</font>
+
+630
+00:35:07,193 --> 00:35:09,641
+<font class="speaker2" color="#954444">wrought with a feeling of regret,</font>
+
+631
+00:35:09,642 --> 00:35:12,090
+<font color="#467546">These books really like repeating themselves.</font>
+
+632
+00:35:12,091 --> 00:35:14,539
+<font color="#467546">Okay, quickly going through the rest...</font>
+
+633
+00:35:14,540 --> 00:35:17,805
+<font color="#467546">He's sad, he's not sad, he's sad again,</font>
+
+634
+00:35:17,806 --> 00:35:20,663
+<font color="#467546">other people find out he's the king,</font>
+
+635
+00:35:20,664 --> 00:35:23,521
+<font color="#467546">he has to make some difficult decisions,</font>
+
+636
+00:35:23,522 --> 00:35:25,562
+<font color="#467546">and then he's sad again.</font>
+
+637
+00:35:25,563 --> 00:35:28,000
+<font color="#467546">...I'm done sifting through these books.</font>
+
+638
 00:35:32,001 --> 00:35:34,041
 <font color="#954444">Quintessence.</font>
 
-564
+639
 00:35:34,042 --> 00:35:37,307
 <font color="#954444">If only we could understand Its true potential.</font>
 
-565
+640
 00:35:37,308 --> 00:35:39,348
-<font class="speaker2" color="#542525">Remember your Master's Master?</font>
+<font class="speaker2" color="#954444">Remember your Master's Master?</font>
 
-566
+641
 00:35:39,349 --> 00:35:41,389
-<font class="speaker2" color="#542525">She advanced our understanding greatly.</font>
+<font class="speaker2" color="#954444">She advanced our understanding greatly.</font>
 
-567
+642
 00:35:41,390 --> 00:35:45,063
 <font color="#954444">We have certainly been able to increase Its purity.</font>
 
-568
+643
 00:35:45,064 --> 00:35:49,553
-<font class="speaker2" color="#542525">Is your task then not the same? Follow in her footsteps.</font>
+<font class="speaker2" color="#954444">Is your task then not the same? Follow in her footsteps.</font>
 
-569
+644
 00:35:49,554 --> 00:35:53,227
-<font class="speaker2" color="#542525">Give us an even better view of the Starlight.</font>
+<font class="speaker2" color="#954444">Give us an even better view of the Starlight.</font>
 
-570
+645
 00:35:53,228 --> 00:35:56,901
 <font color="#954444">You only want that for your own, selfish purposes.</font>
 
-571
+646
 00:35:56,902 --> 00:35:58,942
 <font color="#954444">Am I not right?</font>
 
-572
+647
 00:35:58,943 --> 00:36:00,983
-<font class="speaker2" color="#542525">...</font>
+<font class="speaker2" color="#954444">...</font>
 
-573
-00:36:03,320 --> 00:36:06,993
-<font class="speaker2" color="#542525">How have you been? It has been a while.</font>
+648
+00:36:03,218 --> 00:36:06,891
+<font class="speaker2" color="#954444">How have you been? It has been a while.</font>
 
-574
-00:36:06,994 --> 00:36:09,034
+649
+00:36:06,892 --> 00:36:08,932
 <font color="#954444">Oh, it's only you.</font>
 
-575
-00:36:09,035 --> 00:36:11,892
+650
+00:36:08,933 --> 00:36:11,790
 <font color="#954444">Have your rotten eyes finally failed you?</font>
 
-576
-00:36:11,893 --> 00:36:14,750
+651
+00:36:11,791 --> 00:36:14,648
 <font color="#954444">I am busy. Do not disturb me.</font>
 
-577
-00:36:14,751 --> 00:36:16,791
-<font class="speaker2" color="#542525">Cold as ever.</font>
+652
+00:36:14,649 --> 00:36:16,689
+<font class="speaker2" color="#954444">Cold as ever.</font>
 
-578
-00:36:16,792 --> 00:36:19,240
-<font class="speaker2" color="#542525">You ignored the last Sabbath's call.</font>
+653
+00:36:16,690 --> 00:36:19,138
+<font class="speaker2" color="#954444">You ignored the last Sabbath's call.</font>
 
-579
-00:36:19,241 --> 00:36:21,281
-<font class="speaker2" color="#542525">Are you truly that busy?</font>
+654
+00:36:19,139 --> 00:36:21,179
+<font class="speaker2" color="#954444">Are you truly that busy?</font>
 
-580
-00:36:21,282 --> 00:36:24,139
+655
+00:36:21,180 --> 00:36:24,037
 <font color="#954444">Did your Master not raise you properly?</font>
 
-581
-00:36:24,140 --> 00:36:26,180
+656
+00:36:24,038 --> 00:36:26,078
 <font color="#954444">"Devote oneself to the Starlight."</font>
 
-582
-00:36:26,181 --> 00:36:29,038
+657
+00:36:26,079 --> 00:36:28,936
 <font color="#954444">You are a disgrace to our discipline.</font>
 
-583
-00:36:29,039 --> 00:36:32,712
-<font class="speaker2" color="#542525">But <i>you</i> are the one who skipped <i>the Sabbath</i>.</font>
+658
+00:36:28,937 --> 00:36:32,610
+<font class="speaker2" color="#954444">Yet <i>you</i> are the one who skipped the Sabbath.</font>
 
-584
-00:36:32,713 --> 00:36:34,753
-<font class="speaker2" color="#542525">No research can justify that.</font>
+659
+00:36:32,611 --> 00:36:34,651
+<font class="speaker2" color="#954444">No research can justify that.</font>
 
-585
-00:36:34,754 --> 00:36:36,794
+660
+00:36:34,652 --> 00:36:36,692
 <font color="#954444">I can taste the Starlight.</font>
 
-586
-00:36:39,131 --> 00:36:41,171
+661
+00:36:38,927 --> 00:36:40,967
 <font color="#954444">This liquid is truly marvelous.</font>
 
-587
-00:36:41,172 --> 00:36:43,620
+662
+00:36:40,968 --> 00:36:43,416
 <font color="#954444">I can see the stars twinkle.</font>
 
-588
-00:36:43,621 --> 00:36:45,661
-<font class="speaker2" color="#542525">Your condition has worsened again.</font>
+663
+00:36:43,417 --> 00:36:46,274
+<font class="speaker2" color="#954444">I see your condition has worsened again.</font>
 
-589
-00:36:45,662 --> 00:36:50,968
-<font class="speaker2" color="#542525">You really are on the right path. It seems you drew their ire.</font>
+664
+00:36:46,275 --> 00:36:51,581
+<font class="speaker2" color="#954444">You really are on the right path. It seems you drew their ire.</font>
 
-590
-00:36:50,969 --> 00:36:54,234
-<font class="speaker2" color="#542525">I heard they took over the other day?</font>
+665
+00:36:51,582 --> 00:36:54,847
+<font class="speaker2" color="#954444">I heard they took over the other day?</font>
 
-591
-00:36:54,235 --> 00:36:56,275
+666
+00:36:54,848 --> 00:36:56,888
 <font color="#954444">Ah yes...</font>
 
-592
-00:36:56,276 --> 00:37:00,357
+667
+00:36:56,889 --> 00:37:00,970
 <font color="#954444">The voices managed to break a few bones. Nothing more.</font>
 
-593
-00:37:00,358 --> 00:37:04,031
+668
+00:37:00,971 --> 00:37:04,644
 <font color="#954444">Barely significant compared to those growths on my leg.</font>
 
-594
-00:37:04,032 --> 00:37:06,480
-<font class="speaker2" color="#542525">Have you tried watering them yet?</font>
+669
+00:37:04,645 --> 00:37:07,093
+<font class="speaker2" color="#954444">Have you tried watering them yet?</font>
 
-595
-00:37:06,481 --> 00:37:08,521
-<font color="#954444">Very funny.</font>
+670
+00:37:07,094 --> 00:37:09,134
+<font color="#954444">Very funny...</font>
 
-596
-00:37:08,522 --> 00:37:10,562
-<font color="#954444">...Actually...</font>
+671
+00:37:09,135 --> 00:37:11,175
+<font color="#954444">...</font>
 
-597
-00:37:12,899 --> 00:37:16,572
-<font class="speaker2" color="#542525">You are not supposed to cover yourself with quintessence.</font>
+672
+00:37:13,410 --> 00:37:16,267
+<font class="speaker2" color="#954444">One must not cover oneself with quintessence.</font>
 
-598
-00:37:16,573 --> 00:37:19,021
-<font class="speaker2" color="#542525">This has long been conventional wisdom.</font>
+673
+00:37:16,268 --> 00:37:18,716
+<font class="speaker2" color="#954444">This has long been conventional wisdom.</font>
 
-599
-00:37:19,022 --> 00:37:22,287
+674
+00:37:18,717 --> 00:37:21,982
 <font color="#954444">My mind is falling apart, I <i>need</i> this.</font>
 
-600
-00:37:22,288 --> 00:37:25,553
+675
+00:37:21,983 --> 00:37:25,248
 <font color="#954444">I see glimpses of Starlight in my peripheral!</font>
 
-601
-00:37:25,554 --> 00:37:28,411
+676
+00:37:25,249 --> 00:37:28,106
 <font color="#954444">Like my Master's Master! I <i>need</i> this!</font>
 
-602
-00:37:28,412 --> 00:37:31,269
-<font class="speaker2" color="#542525">It is an inevitability of our research.</font>
+677
+00:37:28,107 --> 00:37:30,964
+<font class="speaker2" color="#954444">It is an inevitability of our research.</font>
 
-603
-00:37:31,270 --> 00:37:36,167
-<font class="speaker2" color="#542525">But it is always so sad to see a dear friend go.</font>
+678
+00:37:30,965 --> 00:37:35,862
+<font class="speaker2" color="#954444">But it is always so sad to see a dear friend go.</font>
 
-604
-00:37:36,168 --> 00:37:39,433
+679
+00:37:35,863 --> 00:37:39,128
 <font color="#954444">I will not let those angels stop me.</font>
 
-605
-00:37:39,434 --> 00:37:45,148
+680
+00:37:39,129 --> 00:37:44,843
 <font color="#954444">I am <i>so</i> close to reaching The Inner. <b>Lend me a hand.</b></font>
 
-606
-00:37:47,485 --> 00:37:49,525
-<font class="speaker2" color="#542525">Truly unfortunate.</font>
+681
+00:37:47,078 --> 00:37:49,118
+<font class="speaker2" color="#954444">Truly unfortunate.</font>
 
-607
-00:37:49,526 --> 00:37:51,974
-<font class="speaker2" color="#542525">Only a pile of mush remains.</font>
+682
+00:37:49,119 --> 00:37:51,567
+<font class="speaker2" color="#954444">Only a pile of mush remains.</font>
 
-608
-00:37:51,975 --> 00:37:54,015
-<font class="speaker2" color="#542525">His study, inaccessible. "Spores".</font>
+683
+00:37:51,568 --> 00:37:53,608
+<font class="speaker2" color="#954444">His study, inaccessible. "Spores".</font>
 
-609
-00:37:54,016 --> 00:37:57,281
-<font class="speaker2" color="#542525">He did not even leave a disciple behind.</font>
+684
+00:37:53,609 --> 00:37:56,874
+<font class="speaker2" color="#954444">He did not even leave a disciple behind.</font>
 
-610
-00:37:57,282 --> 00:38:00,547
-<font class="speaker2" color="#542525">I must thank my Master for his wisdom.</font>
+685
+00:37:56,875 --> 00:38:00,140
+<font class="speaker2" color="#954444">I must thank my Master for his wisdom.</font>
 
-611
-00:38:00,548 --> 00:38:04,221
-<font class="speaker2" color="#542525">"Do not lose sight of yourself when researching It."</font>
+686
+00:38:00,141 --> 00:38:03,814
+<font class="speaker2" color="#954444">"You may never lose sight of yourself during research."</font>
 
-612
-00:38:04,222 --> 00:38:07,895
-<font class="speaker2" color="#542525">"They, and then you yourself, will turn you mad."</font>
+687
+00:38:03,815 --> 00:38:07,896
+<font class="speaker2" color="#954444">"Lest you go insane, and your work is for naught."</font>
 
-613
-00:38:07,896 --> 00:38:11,977
-<font class="speaker2" color="#542525">As long as we are careful, we can avoid <i>this</i>.</font>
+688
+00:38:07,897 --> 00:38:11,978
+<font class="speaker2" color="#954444">As long as we are careful, we can avoid <i>this</i>.</font>
 
-614
-00:38:11,978 --> 00:38:14,000
-<font class="speaker2" color="#542525">My voices are only faint.</font>
+689
+00:38:11,979 --> 00:38:14,000
+<font class="speaker2" color="#954444">My voices are only faint.</font>
 
-615
+690
 00:38:18,001 --> 00:38:20,041
 <font color="#467546">What a view.</font>
 
-616
-00:38:23,972 --> 00:38:26,012
+691
+00:38:23,317 --> 00:38:25,357
 <font color="#467546">So apparently, the world ends.</font>
 
-617
-00:38:26,013 --> 00:38:28,053
+692
+00:38:25,358 --> 00:38:27,398
 <font color="#467546">Quite quickly, in fact.</font>
 
-618
-00:38:28,054 --> 00:38:30,911
+693
+00:38:27,399 --> 00:38:30,256
 <font color="#467546">Here I am, sitting on the ledge.</font>
 
-619
-00:38:30,912 --> 00:38:32,952
+694
+00:38:30,257 --> 00:38:32,297
 <font color="#467546">Gazing into the void.</font>
 
-620
-00:38:32,953 --> 00:38:37,034
+695
+00:38:32,298 --> 00:38:36,379
 <font color="#467546">Nothing but the purple twilight that's become nostalgic by now.</font>
 
-621
-00:38:37,035 --> 00:38:39,892
+696
+00:38:36,380 --> 00:38:39,237
 <font color="#467546">And the stars... They're so very pretty.</font>
 
-622
-00:38:39,893 --> 00:38:43,158
+697
+00:38:39,238 --> 00:38:42,503
 <font color="#467546">How they pulse, oscillate, fade in, fade out.</font>
 
-623
-00:38:43,159 --> 00:38:45,607
-<font color="#467546">Of course, they're not actually stars.</font>
+698
+00:38:42,504 --> 00:38:45,361
+<font color="#467546">To think that they could read these...</font>
 
-624
-00:38:45,608 --> 00:38:49,689
-<font color="#467546">But who even cares about details like that any more?</font>
+699
+00:38:45,362 --> 00:38:48,627
+<font color="#467546">Wouldn't it be nice if I could, too?</font>
 
-625
-00:38:53,620 --> 00:38:55,660
+700
+00:38:51,903 --> 00:38:53,943
 <font color="#467546">What was it like, before?</font>
 
-626
-00:38:55,661 --> 00:38:59,334
-<font color="#467546">What kind of night sky was I used to?</font>
-
-627
-00:38:59,335 --> 00:39:02,600
+701
+00:38:53,944 --> 00:38:57,209
 <font color="#467546">Before I woke up in those floating towers?</font>
 
-628
-00:39:02,601 --> 00:39:04,641
-<font color="#467546">Could it be this pretty?</font>
+702
+00:38:57,210 --> 00:39:01,699
+<font color="#467546">I know there probably isn't a "before", but I can dream.</font>
 
-629
-00:39:04,642 --> 00:39:07,090
+703
+00:39:01,700 --> 00:39:05,373
+<font color="#467546">Could the night sky before have been this pretty?</font>
+
+704
+00:39:08,649 --> 00:39:11,097
 <font color="#467546">I've been slowly satiating the Eye.</font>
 
-630
-00:39:07,091 --> 00:39:11,172
-<font color="#467546">In return, It blesses me with memories that aren't mine.</font>
+705
+00:39:11,098 --> 00:39:15,179
+<font color="#467546">In return, It blesses me with Memories that aren't mine.</font>
 
-631
-00:39:11,173 --> 00:39:13,621
+706
+00:39:15,180 --> 00:39:17,628
 <font color="#467546">Things are gradually falling into place.</font>
 
-632
-00:39:13,622 --> 00:39:18,111
-<font color="#467546">Things are starting to make sense in their own, twisted way.</font>
+707
+00:39:17,629 --> 00:39:22,118
+<font color="#467546">Things are starting to make sense, in their own, twisted way.</font>
 
-633
-00:39:18,112 --> 00:39:20,969
-<font color="#467546">But this place still doesn't feel real.</font>
+708
+00:39:22,119 --> 00:39:24,159
+<font color="#467546">But I still don't understand.</font>
 
-634
-00:39:20,970 --> 00:39:23,010
-<font color="#467546">Is anything real?</font>
+709
+00:39:24,160 --> 00:39:26,608
+<font color="#467546">Why did I wake up here?</font>
 
-635
-00:39:23,011 --> 00:39:25,051
-<font color="#467546">Was anything real before?</font>
+710
+00:39:26,609 --> 00:39:29,057
+<font color="#467546">Who am I? Why am I?</font>
 
-636
-00:39:25,052 --> 00:39:27,092
-<font color="#467546">Is there even a "before"?</font>
-
-637
-00:39:31,023 --> 00:39:33,880
+711
+00:39:32,333 --> 00:39:35,190
 <font color="#467546">This one idiom suddenly comes to mind...</font>
 
-638
-00:39:33,881 --> 00:39:35,921
+712
+00:39:35,191 --> 00:39:37,231
 <font color="#467546">The "call of the void"?</font>
 
-639
-00:39:35,922 --> 00:39:39,595
+713
+00:39:37,232 --> 00:39:40,905
 <font color="#467546">I've never heard it before... but it feels right.</font>
 
-640
-00:39:39,596 --> 00:39:42,044
-<font color="#467546">There is no "bottom" below this.</font>
+714
+00:39:40,906 --> 00:39:44,171
+<font color="#467546">There is no "bottom" below my feet here.</font>
 
-641
-00:39:42,045 --> 00:39:44,085
+715
+00:39:44,172 --> 00:39:46,212
 <font color="#467546">Everything just becomes hazy.</font>
 
-642
-00:39:44,086 --> 00:39:46,126
+716
+00:39:46,213 --> 00:39:48,253
 <font color="#467546">Everything just loses definition.</font>
 
-643
-00:39:46,127 --> 00:39:50,208
+717
+00:39:48,254 --> 00:39:52,335
 <font color="#467546">This morbid curiosity of wanting to know what's down there.</font>
 
-644
-00:39:50,209 --> 00:39:52,249
+718
+00:39:52,336 --> 00:39:54,376
 <font color="#467546">Or what <i>isn't</i> down there.</font>
 
-645
-00:39:56,180 --> 00:39:59,853
-<font color="#467546">Pretty weird, how even though it's an empty void...</font>
+719
+00:39:57,652 --> 00:40:02,141
+<font color="#467546">From the empty void, a lukewarm breeze flows through my hair.</font>
 
-646
-00:39:59,854 --> 00:40:02,711
-<font color="#467546">A lukewarm breeze flows through my hair.</font>
-
-647
-00:40:02,712 --> 00:40:04,752
+720
+00:40:02,142 --> 00:40:04,182
 <font color="#467546">Where does it come from?</font>
 
-648
-00:40:04,753 --> 00:40:06,793
+721
+00:40:04,183 --> 00:40:06,223
 <font color="#467546">...</font>
 
-649
-00:40:06,794 --> 00:40:11,283
-<font color="#467546">Nothing here makes sense, and <i>that</i> is what I'm concerned about?</font>
+722
+00:40:06,224 --> 00:40:11,121
+<font color="#467546">Heh, I should've learnt to stop questioning things like that long ago.</font>
 
-650
-00:40:11,284 --> 00:40:14,549
-<font color="#467546">Heh, my mind really is in two places.</font>
+723
+00:40:11,122 --> 00:40:16,428
+<font color="#467546">The bugs tried their best, but there's so much they did not teach.</font>
 
-651
-00:40:14,550 --> 00:40:16,998
-<font color="#467546">The part that longs for home.</font>
+724
+00:40:16,429 --> 00:40:21,735
+<font color="#467546">Every time I think I figure something out, this place surprises me again.</font>
 
-652
-00:40:16,999 --> 00:40:19,447
-<font color="#467546">The part that longs for here.</font>
+725
+00:40:21,736 --> 00:40:27,042
+<font color="#467546">But this place, the entire thing, feels a little like a "home", now.</font>
 
-653
-00:40:19,448 --> 00:40:22,305
-<font color="#467546">I don't even know what "home" is.</font>
-
-654
-00:40:22,306 --> 00:40:25,979
-<font color="#467546">Not to mention, this place is becoming "home", too.</font>
-
-655
-00:40:25,980 --> 00:40:28,020
+726
+00:40:27,043 --> 00:40:29,083
 <font color="#467546">Somehow.</font>
 
-656
-00:40:31,951 --> 00:40:33,991
+727
+00:40:29,084 --> 00:40:33,573
+<font color="#467546">For all of its faults, it really is a beautiful home.</font>
+
+728
+00:40:36,849 --> 00:40:38,889
 <font color="#467546">Enough monologuing.</font>
 
-657
-00:40:33,992 --> 00:40:38,073
+729
+00:40:38,890 --> 00:40:42,971
 <font color="#467546">No one here to listen to me babble on anyways.</font>
 
-658
-00:40:38,074 --> 00:40:42,971
-<font color="#467546">But I know I'll go insane if I don't talk to myself.</font>
-
-659
+730
 00:40:42,972 --> 00:40:45,000
-<font color="#467546">Let's start moving again.</font>
+<font color="#467546">Let's get moving again.</font>
 
-660
+731
 00:40:49,001 --> 00:40:53,490
 <font color="#467546">Yuck, the quintessence in these caves is so much more potent.</font>
 
-661
+732
 00:40:53,491 --> 00:40:55,531
 <font class="speaker2" color="#954444">▓▒y ▓██▓▒▓▒ you r▓▒▓██▓red ██▓...</font>
 
-662
+733
 00:40:55,532 --> 00:40:59,205
-<font color="#467546">These whispers weren't even this strong in that cathedral...</font>
+<font color="#467546">The whispers weren't even this strong in that cathedral...</font>
 
-663
+734
 00:40:59,206 --> 00:41:01,246
 <font color="#467546">They're creepy.</font>
 
-664
+735
 00:41:01,247 --> 00:41:05,736
 <font color="#467546">I guess I should consider myself lucky I don't understand them.</font>
 
-665
+736
 00:41:05,737 --> 00:41:07,777
 <font class="speaker2" color="#954444">▒▓▓ ▓█e ▓█▓ K███, r▓██▓▒▓▒...</font>
 
-666
+737
 00:41:07,778 --> 00:41:09,818
-<font color="#467546">Nope, not happening.</font>
+<font color="#467546">No, not happening.</font>
 
-667
-00:41:13,186 --> 00:41:16,859
-<font color="#467546">Why were these guys so obsessed with this stuff?</font>
+738
+00:41:13,322 --> 00:41:16,995
+<font color="#467546">Why were these guys so obsessed with the stuff?</font>
 
-668
-00:41:16,860 --> 00:41:19,308
-<font color="#467546">It seems almost sacred to them.</font>
+739
+00:41:16,996 --> 00:41:19,036
+<font color="#467546">They seemed to deify it.</font>
 
-669
-00:41:19,309 --> 00:41:21,757
+740
+00:41:19,037 --> 00:41:21,485
 <font color="#467546">From what I could understand, anyway.</font>
 
-670
-00:41:21,758 --> 00:41:25,431
-<font color="#467546">Half the books I found are decayed beyond belief.</font>
+741
+00:41:21,486 --> 00:41:25,159
+<font color="#467546">So many books I find are decayed beyond belief.</font>
 
-671
-00:41:25,432 --> 00:41:29,105
-<font color="#467546">And a bunch are in this weird language anyway.</font>
+742
+00:41:25,160 --> 00:41:28,833
+<font color="#467546">Not to mention all these languages I don't know.</font>
 
-672
-00:41:29,106 --> 00:41:31,146
+743
+00:41:28,834 --> 00:41:30,874
 <font class="speaker2" color="#954444">Dri▒k m▒▓e...</font>
 
-673
-00:41:31,147 --> 00:41:35,228
-<font color="#467546">Like, the inscription on this wall, what does it mean?</font>
+744
+00:41:30,875 --> 00:41:34,956
+<font color="#467546">Like, the inscriptions on these walls, what do they mean?</font>
 
-674
-00:41:35,229 --> 00:41:37,269
+745
+00:41:34,957 --> 00:41:36,997
 <font class="speaker2" color="#954444">I▒'s ▓ ▓█me.</font>
 
-675
-00:41:37,270 --> 00:41:40,127
-<font color="#467546">I can't understand you, you dumb fluid.</font>
+746
+00:41:36,998 --> 00:41:39,855
+<font color="#467546">I can't understand you, you dumb liquid.</font>
 
-676
-00:41:40,128 --> 00:41:42,168
+747
+00:41:39,856 --> 00:41:41,896
 <font class="speaker2" color="#954444">O█▓ ▓▒ ▓██r▒.</font>
 
-677
-00:41:42,169 --> 00:41:44,209
+748
+00:41:41,897 --> 00:41:43,937
 <font color="#467546">Sigh...</font>
 
-678
-00:41:44,210 --> 00:41:47,883
-<font color="#467546">At least I'm not talking to myself, this time...</font>
+749
+00:41:43,938 --> 00:41:48,427
+<font color="#467546">At least I'm not going insane talking to myself, this time...</font>
 
-679
-00:41:51,251 --> 00:41:54,108
+750
+00:41:51,931 --> 00:41:54,788
 <font color="#467546">These tunnels go all over the place...</font>
 
-680
-00:41:54,109 --> 00:41:56,557
+751
+00:41:54,789 --> 00:41:57,237
 <font color="#467546">But there's not a lot here.</font>
 
-681
-00:41:56,558 --> 00:41:58,598
+752
+00:41:57,238 --> 00:41:59,278
 <font class="speaker2" color="#954444">G▒ right.</font>
 
-682
-00:41:58,599 --> 00:42:00,639
+753
+00:41:59,279 --> 00:42:01,319
 <font color="#467546">Ew. Be more incomprehensible.</font>
 
-683
-00:42:00,640 --> 00:42:05,537
+754
+00:42:01,320 --> 00:42:06,217
 <font color="#467546">Also, all I can see over there is more quint. Not happening.</font>
 
-684
-00:42:05,538 --> 00:42:07,578
+755
+00:42:06,218 --> 00:42:08,258
 <font class="speaker2" color="#954444">▒▓ right.</font>
 
-685
-00:42:07,579 --> 00:42:10,027
-<font color="#467546">I accidentally drank a tiny amount...</font>
+756
+00:42:08,259 --> 00:42:11,116
+<font color="#467546">I only drank just a little, accidentally...</font>
 
-686
-00:42:10,028 --> 00:42:12,068
-<font color="#467546">I should've spit it out.</font>
+757
+00:42:11,117 --> 00:42:13,157
+<font color="#467546">Should've spit it out.</font>
 
-687
-00:42:12,069 --> 00:42:14,109
+758
+00:42:13,158 --> 00:42:15,198
 <font class="speaker2" color="#954444">Go In▓██.</font>
 
-688
-00:42:14,110 --> 00:42:17,375
+759
+00:42:15,199 --> 00:42:18,464
 <font color="#467546">No, I'm not going to bathe in you.</font>
 
-689
-00:42:17,376 --> 00:42:19,416
-<font color="#467546">That cathedral was <i>plenty</i>.</font>
+760
+00:42:18,465 --> 00:42:20,505
+<font color="#467546">That cathedral was plenty.</font>
 
-690
-00:42:22,784 --> 00:42:25,232
+761
+00:42:24,009 --> 00:42:26,457
 <font color="#467546">However creepy the stuff is, though...</font>
 
-691
-00:42:25,233 --> 00:42:27,681
+762
+00:42:26,458 --> 00:42:28,906
 <font color="#467546">It's really pretty how it twinkles.</font>
 
-692
-00:42:27,682 --> 00:42:31,763
-<font color="#467546">Especially in the dark, as if it's the night sky.</font>
+763
+00:42:28,907 --> 00:42:32,580
+<font color="#467546">Especially in the dark, it becomes a night sky.</font>
 
-693
-00:42:31,764 --> 00:42:34,212
-<font color="#467546">A night sky different from here.</font>
+764
+00:42:32,581 --> 00:42:34,621
+<font color="#467546">An alien night sky.</font>
 
-694
-00:42:34,213 --> 00:42:36,253
+765
+00:42:34,622 --> 00:42:36,662
 <font class="speaker2" color="#954444">That's t▓▒ ▒▓▓e█.</font>
 
-695
-00:42:36,254 --> 00:42:38,702
+766
+00:42:36,663 --> 00:42:39,111
 <font color="#467546">It's also really easy to ignore.</font>
 
-696
-00:42:38,703 --> 00:42:41,151
+767
+00:42:39,112 --> 00:42:41,560
 <font color="#467546">Well then, if there's nothing here...</font>
 
-697
-00:42:41,152 --> 00:42:44,000
-<font color="#467546">Let's just go back to my camp.</font>
+768
+00:42:41,561 --> 00:42:44,000
+<font color="#467546">Let's just go back to camp.</font>
 
-698
+769
 00:42:50,001 --> 00:42:52,041
-<font color="#467546">What's <i>with</i> this fungus...</font>
+<font color="#467546">What's <i>with</i> all this fungus...</font>
 
-699
+770
 00:42:52,042 --> 00:42:54,082
 <font color="#467546">That swamp was bad enough,</font>
 
-700
+771
 00:42:54,083 --> 00:42:56,940
 <font color="#467546">but here it's covering the entire cavern!</font>
 
-701
+772
 00:42:56,941 --> 00:42:59,389
 <font class="speaker2" color="#33339f">Liken It To Your Immune System.</font>
 
-702
+773
 00:42:59,390 --> 00:43:02,247
 <font class="speaker2" color="#33339f">Covering Everything, We Can Eliminate Any Threat.</font>
 
-703
+774
 00:43:02,248 --> 00:43:04,696
 <font class="speaker2" color="#33339f">Our Vessels May Not Be Harmed.</font>
 
-704
+775
 00:43:04,697 --> 00:43:09,594
 <font color="#467546">Then, can You <i>please</i> make it not react to me as well?</font>
 
-705
-00:43:09,595 --> 00:43:14,492
-<font color="#467546">Also, can You please quit the whole "voice coming from everywhere" shtick?</font>
+776
+00:43:09,595 --> 00:43:14,084
+<font color="#467546">Also, can You please stop the "voice coming from everywhere" shtick?</font>
 
-706
-00:43:14,493 --> 00:43:16,941
+777
+00:43:14,085 --> 00:43:16,533
 <font color="#467546">This place is weird enough as-is.</font>
 
-707
-00:43:16,942 --> 00:43:19,390
+778
+00:43:16,534 --> 00:43:18,982
 <font class="speaker2" color="#33339f">We Are Reacting To You Appropriately.</font>
 
-708
-00:43:19,391 --> 00:43:25,105
-<font color="#467546">You're asking me to get that Memory, but also seeing me as a threat?</font>
+779
+00:43:18,983 --> 00:43:23,880
+<font color="#467546">You're asking me to Remember, but also treating me as a threat?</font>
 
-709
-00:43:25,106 --> 00:43:27,554
+780
+00:43:23,881 --> 00:43:26,329
 <font color="#467546">Do You ever start speaking sense?</font>
 
-710
-00:43:27,555 --> 00:43:32,861
+781
+00:43:26,330 --> 00:43:31,636
 <font class="speaker2" color="#33339f">It Is Not Quite Time To Explain What It Is That You See.</font>
 
-711
-00:43:32,862 --> 00:43:36,943
-<font class="speaker2" color="#33339f">Do Not Loiter, And Breach The Membrane To Your Left.</font>
+782
+00:43:31,637 --> 00:43:35,718
+<font class="speaker2" color="#33339f">You Shall Not Loiter; Breach The Membrane To Your Left.</font>
 
-712
-00:43:39,852 --> 00:43:41,892
+783
+00:43:39,443 --> 00:43:41,483
 <font color="#467546"><i>achoo</i></font>
 
-713
-00:43:41,893 --> 00:43:46,382
+784
+00:43:41,484 --> 00:43:45,973
 <font color="#467546">Is breathing in all of these spores even good for me?</font>
 
-714
-00:43:46,383 --> 00:43:52,097
-<font color="#467546">I can't help but worry when thinking of those human-shaped fungi in the swamp.</font>
+785
+00:43:45,974 --> 00:43:51,280
+<font color="#467546">I can't help but worry when thinking of those fungi in the swamp.</font>
 
-715
-00:43:52,098 --> 00:43:54,138
+786
+00:43:51,281 --> 00:43:53,321
 <font class="speaker2" color="#33339f">Worry Not.</font>
 
-716
-00:43:54,139 --> 00:43:56,996
+787
+00:43:53,322 --> 00:43:56,179
 <font class="speaker2" color="#33339f">As Long As You Follow Our Directions,</font>
 
-717
-00:43:56,997 --> 00:43:59,854
-<font class="speaker2" color="#33339f">The Spores Will Not Harm Your Body.</font>
+788
+00:43:56,180 --> 00:43:59,037
+<font class="speaker2" color="#33339f">Our Spores Will Not Harm Your Body.</font>
 
-718
-00:43:59,855 --> 00:44:01,895
+789
+00:43:59,038 --> 00:44:01,078
 <font color="#467546">Figures.</font>
 
-719
-00:44:01,896 --> 00:44:04,753
+790
+00:44:01,079 --> 00:44:03,936
 <font class="speaker2" color="#33339f">You Have Also Consumed Some Forbidden Liquid.</font>
 
-720
-00:44:04,754 --> 00:44:08,019
-<font class="speaker2" color="#33339f">The Spores Are Purifying You Of Its Influence.</font>
+791
+00:44:03,937 --> 00:44:07,202
+<font class="speaker2" color="#33339f">Our Spores Are Purifying You Of Its Influence.</font>
 
-721
-00:44:08,020 --> 00:44:10,060
+792
+00:44:07,203 --> 00:44:09,243
 <font color="#467546">You mean the quint-</font>
 
-722
-00:44:10,061 --> 00:44:12,509
+793
+00:44:09,244 --> 00:44:11,692
 <font class="speaker2" color="#33339f">Do Not Name The Forbidden Liquid.</font>
 
-723
-00:44:15,418 --> 00:44:18,683
+794
+00:44:15,417 --> 00:44:18,682
 <font color="#467546">That sure is a big cocoon over there.</font>
 
-724
-00:44:18,684 --> 00:44:21,541
+795
+00:44:18,683 --> 00:44:21,540
 <font class="speaker2" color="#33339f">▓▓████▓▒ Is A Not Yet Developed Vessel.</font>
 
-725
-00:44:21,542 --> 00:44:26,031
+796
+00:44:21,541 --> 00:44:26,030
 <font class="speaker2" color="#33339f">Until It Is Ripe For Harvest, Do Not Draw Near It.</font>
 
-726
-00:44:26,032 --> 00:44:28,480
+797
+00:44:26,031 --> 00:44:28,479
 <font color="#467546">I didn't quite catch that name.</font>
 
-727
-00:44:28,481 --> 00:44:30,521
+798
+00:44:28,480 --> 00:44:30,520
 <font color="#467546">...</font>
 
-728
-00:44:30,522 --> 00:44:32,562
+799
+00:44:30,521 --> 00:44:32,561
 <font color="#467546">No?</font>
 
-729
-00:44:32,563 --> 00:44:35,420
-<font color="#467546">Anyway, what is that "vessel" thing inside?</font>
+800
+00:44:32,562 --> 00:44:35,419
+<font color="#467546">Anyways, what is that "vessel" thing inside?</font>
 
-730
-00:44:35,421 --> 00:44:39,502
+801
+00:44:35,420 --> 00:44:39,501
 <font color="#467546">I can only see a silhouette through the membrane, but...</font>
 
-731
-00:44:39,503 --> 00:44:41,543
+802
+00:44:39,502 --> 00:44:41,542
 <font color="#467546">it looks awfully non-human.</font>
 
-732
-00:44:41,544 --> 00:44:44,809
+803
+00:44:41,543 --> 00:44:44,808
 <font color="#467546">And about as gross as everything else here.</font>
 
-733
-00:44:44,810 --> 00:44:47,258
+804
+00:44:44,809 --> 00:44:47,257
 <font class="speaker2" color="#33339f"><b>We Are Not To Be Disrespected.</b></font>
 
-734
-00:44:47,259 --> 00:44:49,299
+805
+00:44:47,258 --> 00:44:49,298
 <font class="speaker2" color="#33339f">Breach The Membrane Straight Ahead.</font>
 
-735
-00:44:49,300 --> 00:44:52,157
-<font class="speaker2" color="#33339f">Traverse The Corridor After With Closed Eyes.</font>
+806
+00:44:49,299 --> 00:44:52,156
+<font class="speaker2" color="#33339f">Traverse The Corridor After With Eyes Closed.</font>
 
-736
-00:44:52,158 --> 00:44:55,000
+807
+00:44:52,157 --> 00:44:55,000
 <font class="speaker2" color="#33339f">You Will Reach Our Most Developed Vessel.</font>
 
-737
+808
 00:44:59,001 --> 00:45:01,041
 <font color="#428686">Look, dear child of mine.</font>
 
-738
-00:45:01,042 --> 00:45:03,899
-<font color="#428686">How beautiful she's grown up to be!</font>
+809
+00:45:01,042 --> 00:45:04,307
+<font color="#428686">Look how beautiful she's grown up to be!</font>
 
-739
-00:45:03,900 --> 00:45:05,940
-<font class="speaker2" color="#f1b178">What... what has she become?</font>
+810
+00:45:04,308 --> 00:45:06,348
+<font class="speaker2" color="#f1b178">What... what is this?</font>
 
-740
-00:45:05,941 --> 00:45:08,798
+811
+00:45:06,349 --> 00:45:08,389
+<font class="speaker2" color="#f1b178">What has she become?</font>
+
+812
+00:45:08,390 --> 00:45:11,247
 <font color="#428686">She has become whole, has she not?</font>
 
-741
-00:45:08,799 --> 00:45:11,247
+813
+00:45:11,248 --> 00:45:13,696
 <font class="speaker2" color="#f1b178">So was this meant to be?</font>
 
-742
-00:45:11,248 --> 00:45:15,737
-<font class="speaker2" color="#f1b178">So the skin of marble, and the cracks upon her face,</font>
+814
+00:45:13,697 --> 00:45:18,186
+<font class="speaker2" color="#f1b178">So the skin of marble, and the cracks upon her face...</font>
 
-743
-00:45:15,738 --> 00:45:20,227
-<font class="speaker2" color="#f1b178">So the eyes of ink, and the blood upon her wings,</font>
+815
+00:45:18,187 --> 00:45:22,676
+<font class="speaker2" color="#f1b178">So the eyes of ink, and the blood upon her wings...</font>
 
-744
-00:45:20,228 --> 00:45:22,268
+816
+00:45:22,677 --> 00:45:24,717
 <font class="speaker2" color="#f1b178">It was meant to be?</font>
 
-745
-00:45:30,473 --> 00:45:33,330
+817
+00:45:24,718 --> 00:45:26,758
+<font color="#428686">But of course!</font>
+
+818
+00:45:26,759 --> 00:45:29,616
 <font color="#428686">All that ceases is destined to return.</font>
 
-746
-00:45:33,331 --> 00:45:35,371
+819
+00:45:29,617 --> 00:45:31,657
 <font color="#428686">Witness, dear child of mine:</font>
 
-747
-00:45:35,372 --> 00:45:37,412
+820
+00:45:31,658 --> 00:45:33,698
 <font color="#428686">Rebirth. The Law of Heaven!</font>
 
-748
-00:45:37,413 --> 00:45:39,453
+821
+00:45:33,699 --> 00:45:35,739
 <font class="speaker2" color="#f1b178">I see...</font>
 
-749
-00:45:39,454 --> 00:45:41,902
+822
+00:45:35,740 --> 00:45:38,188
 <font color="#428686">Do not fret, do not fret.</font>
 
-750
-00:45:41,903 --> 00:45:43,943
+823
+00:45:38,189 --> 00:45:40,229
 <font color="#428686">'Tis what makes us immortal.</font>
 
-751
-00:45:52,148 --> 00:45:55,001
+824
+00:45:46,246 --> 00:45:48,286
+<font class="speaker2" color="#f1b178">I understand.</font>
+
+825
+00:45:48,287 --> 00:45:50,327
+<font class="speaker2" color="#f1b178">But...</font>
+
+826
+00:45:50,328 --> 00:45:52,368
+<font class="speaker2" color="#f1b178">...</font>
+
+827
+00:45:52,369 --> 00:45:55,221
 <font class="speaker2" color="#f1b178">But my daughter, is she still there?</font>
 
-752
-00:45:55,002 --> 00:45:57,859
+828
+00:45:55,222 --> 00:45:58,079
 <font class="speaker2" color="#f1b178">What did you do to my daughter?!</font>
 
-753
-00:45:57,860 --> 00:45:59,900
+829
+00:45:58,080 --> 00:46:00,120
 <font color="#428686">Breathe in, child.</font>
 
-754
-00:45:59,901 --> 00:46:02,349
+830
+00:46:00,121 --> 00:46:02,569
 <font color="#428686">See there, her heart of marble.</font>
 
-755
-00:46:02,350 --> 00:46:04,390
+831
+00:46:02,570 --> 00:46:04,610
 <font color="#428686">She still loves you, child.</font>
 
-756
-00:46:04,391 --> 00:46:06,839
+832
+00:46:04,611 --> 00:46:07,059
 <font color="#428686">And with love, she shall conquer.</font>
 
-757
-00:46:06,840 --> 00:46:09,288
-<font class="speaker2" color="#f1b178">But is she not the Princess?</font>
+833
+00:46:07,060 --> 00:46:09,508
+<font class="speaker2" color="#f1b178">But is she not the Harbinger?</font>
 
-758
-00:46:09,289 --> 00:46:12,146
+834
+00:46:09,509 --> 00:46:12,366
 <font class="speaker2" color="#f1b178">Whose sword sheds the blood of nations,</font>
 
-759
-00:46:12,147 --> 00:46:15,004
-<font class="speaker2" color="#f1b178">Whose voice judges the fate of kings,</font>
+835
+00:46:12,367 --> 00:46:15,224
+<font class="speaker2" color="#f1b178">whose voice judges the fate of kings...</font>
 
-760
-00:46:15,005 --> 00:46:17,045
+836
+00:46:15,225 --> 00:46:17,265
 <font class="speaker2" color="#f1b178">Is she not ages-old?</font>
 
-761
-00:46:17,046 --> 00:46:19,086
+837
+00:46:17,266 --> 00:46:19,306
 <font color="#428686">Indeed, she is!</font>
 
-762
-00:46:19,087 --> 00:46:22,760
+838
+00:46:19,307 --> 00:46:22,980
 <font color="#428686">But you yourself, before your birth, were you naught?</font>
 
-763
-00:46:22,761 --> 00:46:24,801
+839
+00:46:22,981 --> 00:46:25,021
 <font color="#428686">Are you not ages-old, too?</font>
 
-764
-00:46:24,802 --> 00:46:26,842
+840
+00:46:25,022 --> 00:46:27,062
 <font class="speaker2" color="#f1b178">I might be...</font>
 
-765
-00:46:26,843 --> 00:46:28,883
+841
+00:46:27,063 --> 00:46:29,103
 <font color="#428686">And have you not killed?</font>
 
-766
-00:46:28,884 --> 00:46:30,924
-<font color="#428686">And have you not judged?</font>
+842
+00:46:29,104 --> 00:46:31,144
+<font color="#428686">Have you not judged?</font>
 
-767
-00:46:37,944 --> 00:46:40,392
+843
+00:46:38,054 --> 00:46:40,502
 <font color="#428686">Do away with your illusions, child.</font>
 
-768
-00:46:40,393 --> 00:46:44,474
+844
+00:46:40,503 --> 00:46:44,584
 <font color="#428686">To love her rightly is to love all of her.</font>
 
-769
-00:46:44,475 --> 00:46:47,332
-<font color="#428686">Whether girl or princess, innocent or cruel.</font>
+845
+00:46:44,585 --> 00:46:47,442
+<font color="#428686">Whether girl or harbinger, innocent or cruel.</font>
 
-770
-00:46:47,333 --> 00:46:49,373
+846
+00:46:47,443 --> 00:46:49,483
 <font class="speaker2" color="#f1b178">I understand, venerable lady.</font>
 
-771
-00:46:49,374 --> 00:46:51,822
+847
+00:46:49,484 --> 00:46:51,932
 <font class="speaker2" color="#f1b178">But I still need some time.</font>
 
-772
-00:46:51,823 --> 00:46:53,863
+848
+00:46:51,933 --> 00:46:53,973
 <font color="#428686">Do as you will.</font>
 
-773
-00:46:53,864 --> 00:46:56,721
+849
+00:46:53,974 --> 00:46:56,831
 <font color="#428686">Harmony is within you, stand and gaze!</font>
 
-774
-00:46:56,722 --> 00:46:59,987
+850
+00:46:56,832 --> 00:47:00,097
 <font color="#428686">Gaze at what the Heavens have gifted you!</font>
 
-775
+851
 00:47:11,001 --> 00:47:13,041
 <font color="#467546">Screw these caves.</font>
 
-776
+852
 00:47:13,042 --> 00:47:15,899
 <font color="#467546">They are large, hot, labyrinthine, and worse,</font>
 
-777
-00:47:15,900 --> 00:47:18,757
-<font color="#467546"><i>so</i> much more dangerous than those wetlands.</font>
+853
+00:47:15,900 --> 00:47:18,348
+<font color="#467546"><i>much</i> more dangerous than those wetlands.</font>
 
-778
-00:47:18,758 --> 00:47:22,431
-<font color="#467546">I've only collected what, like eight Memories so far?</font>
+854
+00:47:18,349 --> 00:47:22,022
+<font color="#467546">I've only Remembered what, like eight Memories so far?</font>
 
-779
-00:47:22,432 --> 00:47:26,105
-<font color="#467546">If only this place was a bit more generous...</font>
+855
+00:47:22,023 --> 00:47:25,696
+<font color="#467546">If only this place was a little more reasonable...</font>
 
-780
-00:47:26,106 --> 00:47:28,963
+856
+00:47:25,697 --> 00:47:28,554
 <font color="#467546">I would've long completed this stupid task.</font>
 
-781
-00:47:28,964 --> 00:47:34,270
-<font color="#467546">But I've agreed to it, so for the Eye's sake, I will continue.</font>
+857
+00:47:28,555 --> 00:47:33,861
+<font color="#467546">But I've agreed to it, so for the Eye's sake, I Must Continue.</font>
 
-782
-00:47:34,271 --> 00:47:37,128
-<font color="#467546">There's not much else to do, anyway.</font>
+858
+00:47:33,862 --> 00:47:36,719
+<font color="#467546">Not much else to do here, anyway.</font>
 
-783
-00:47:37,129 --> 00:47:39,169
+859
+00:47:36,720 --> 00:47:38,760
 <font color="#467546">...</font>
 
-784
-00:47:39,170 --> 00:47:44,067
+860
+00:47:38,761 --> 00:47:43,658
 <font color="#467546">But I feel like I've found everything these caves have to offer.</font>
 
-785
-00:47:44,068 --> 00:47:48,149
+861
+00:47:43,659 --> 00:47:47,740
 <font color="#467546">There's that river, that cathedral, that <i>thing</i> in the center,</font>
 
-786
-00:47:48,150 --> 00:47:52,231
+862
+00:47:47,741 --> 00:47:51,822
 <font color="#467546">that fungus place, that palace that gives me the creeps...</font>
 
-787
-00:47:52,232 --> 00:47:54,272
+863
+00:47:51,823 --> 00:47:53,863
 <font color="#467546">None lead me further.</font>
 
-788
-00:47:54,273 --> 00:47:58,762
-<font color="#467546">Surely I don't have to <i>dig</i> my way down, do I?</font>
+864
+00:47:53,864 --> 00:47:58,353
+<font color="#467546">Surely I don't have to dig my way down, do I?</font>
 
-789
-00:48:04,552 --> 00:48:06,592
-<font color="#467546"><i>Finally</i>...</font>
+865
+00:48:03,326 --> 00:48:05,366
+<font color="#467546">Finally...</font>
 
-790
-00:48:06,593 --> 00:48:09,450
+866
+00:48:05,367 --> 00:48:08,224
 <font color="#467546">I've been wandering these caves for ages,</font>
 
-791
-00:48:09,451 --> 00:48:11,899
+867
+00:48:08,225 --> 00:48:10,673
 <font color="#467546">turning every stone like a madman...</font>
 
-792
-00:48:11,900 --> 00:48:13,940
-<font color="#467546">Why <i>here</i>, of all places!</font>
+868
+00:48:10,674 --> 00:48:12,714
+<font color="#467546">Why here, of all places!</font>
 
-793
-00:48:13,941 --> 00:48:16,389
-<font color="#467546">Ah, finally something to <i>do</i> again!</font>
+869
+00:48:12,715 --> 00:48:15,163
+<font color="#467546">Ah, finally something to do again!</font>
 
-794
-00:48:22,179 --> 00:48:25,036
+870
+00:48:20,136 --> 00:48:22,993
 <font color="#467546">Who put these traps in these ruins!</font>
 
-795
-00:48:25,037 --> 00:48:28,710
-<font color="#467546">It makes no sense. How do they still <i>work</i>?</font>
+871
+00:48:22,994 --> 00:48:26,259
+<font color="#467546">It makes no sense how they still work!</font>
 
-796
-00:48:28,711 --> 00:48:34,425
+872
+00:48:26,260 --> 00:48:31,974
 <font color="#467546">This place looks like it's designed to do one thing, and one thing only:</font>
 
-797
-00:48:34,426 --> 00:48:36,466
+873
+00:48:31,975 --> 00:48:34,015
 <font color="#467546">Kill. Specifically, me.</font>
 
-798
-00:48:36,467 --> 00:48:40,140
+874
+00:48:34,016 --> 00:48:37,689
 <font color="#467546">Moreso than any other place I've been, at least.</font>
 
-799
-00:48:40,141 --> 00:48:42,998
+875
+00:48:37,690 --> 00:48:40,547
 <font color="#467546">Usually the wildlife is the dangerous part...</font>
 
-800
-00:48:42,999 --> 00:48:47,896
+876
+00:48:40,548 --> 00:48:45,445
 <font color="#467546">But here, the floor collapses, I get shot at out of nowhere...</font>
 
-801
-00:48:47,897 --> 00:48:51,570
-<font color="#467546">I've even had the ceiling fall on me once!</font>
+877
+00:48:45,446 --> 00:48:48,711
+<font color="#467546">I've even had the ceiling collapse on me!</font>
 
-802
-00:48:51,571 --> 00:48:54,428
+878
+00:48:48,712 --> 00:48:51,569
 <font color="#467546">This infernal heat is also something else.</font>
 
-803
-00:48:54,429 --> 00:48:58,102
+879
+00:48:51,570 --> 00:48:55,243
 <font color="#467546">I really can't focus on my surroundings like this.</font>
 
-804
-00:48:58,103 --> 00:49:01,368
+880
+00:48:55,244 --> 00:48:58,509
 <font color="#467546">To think I found those caves too dangerous...</font>
 
-805
-00:49:01,369 --> 00:49:04,226
+881
+00:48:58,510 --> 00:49:01,367
 <font color="#467546">They pale in comparison to this place.</font>
 
-806
-00:49:04,227 --> 00:49:09,533
-<font color="#467546">...I honestly just want to take a break, go back to those wetlands...</font>
+882
+00:49:01,368 --> 00:49:06,265
+<font color="#467546">I honestly want to take a break, go back to those wetlands...</font>
 
-807
-00:49:09,534 --> 00:49:11,982
+883
+00:49:06,266 --> 00:49:08,714
 <font color="#467546">and just <i>relax</i> for a moment.</font>
 
-808
-00:49:11,983 --> 00:49:16,064
+884
+00:49:08,715 --> 00:49:12,796
 <font color="#467546">Or perhaps, those gardens. Those are a bit closer by.</font>
 
-809
-00:49:16,065 --> 00:49:20,146
+885
+00:49:12,797 --> 00:49:16,878
 <font color="#467546">(But then I'd need to go through that palace again...)</font>
 
-810
-00:49:25,936 --> 00:49:29,609
+886
+00:49:21,851 --> 00:49:25,524
 <font color="#467546">I do see the beauty of places like this.</font>
 
-811
-00:49:29,610 --> 00:49:31,650
-<font color="#467546">I really do.</font>
+887
+00:49:25,525 --> 00:49:27,565
+<font color="#467546">Really, I do.</font>
 
-812
-00:49:31,651 --> 00:49:35,324
-<font color="#467546">It's just, harder, when they're trying to <i>kill me</i>.</font>
+888
+00:49:27,566 --> 00:49:31,239
+<font color="#467546">It's just, harder, when they're trying to kill me!</font>
 
-813
-00:49:35,325 --> 00:49:38,590
+889
+00:49:31,240 --> 00:49:34,505
 <font color="#467546">It seems like I've reached the end though.</font>
 
-814
-00:49:38,591 --> 00:49:42,672
-<font color="#467546">This door is huge, and I sense someone behind it.</font>
+890
+00:49:34,506 --> 00:49:36,546
+<font color="#467546">This door is huge, and...</font>
 
-815
-00:49:42,673 --> 00:49:45,938
+891
+00:49:36,547 --> 00:49:38,587
+<font color="#467546">I Sense Someone Behind It.</font>
+
+892
+00:49:38,588 --> 00:49:40,628
+<font color="#467546">Another, normal, living being.</font>
+
+893
+00:49:40,629 --> 00:49:42,669
+<font color="#467546">Sigh.</font>
+
+894
+00:49:42,670 --> 00:49:45,935
 <font color="#467546">Of course the halfway point is being guarded.</font>
 
-816
-00:49:45,939 --> 00:49:47,979
+895
+00:49:45,936 --> 00:49:47,976
 <font color="#467546">Why wouldn't it be?</font>
 
-817
-00:49:47,980 --> 00:49:50,000
-<font color="#467546">Time to get this Memory.</font>
+896
+00:49:47,977 --> 00:49:50,000
+<font color="#467546">I'm ready. Let's go.</font>
 
-818
+897
 00:49:54,001 --> 00:49:56,449
-<font color="#eefc9a">What will be his name, milord?</font>
+<font color="#eefc9a">What to name our son, milord?</font>
 
-819
+898
 00:49:56,450 --> 00:49:58,490
 <font class="speaker2" color="#a34242">...</font>
 
-820
+899
 00:49:58,491 --> 00:50:01,348
 <font class="speaker2" color="#a34242">He shall be Lord of the Earth,</font>
 
-821
+900
 00:50:01,349 --> 00:50:05,430
 <font class="speaker2" color="#a34242">the lion whose claws shall quench the fires of Hell,</font>
 
-822
+901
 00:50:05,431 --> 00:50:07,879
 <font class="speaker2" color="#a34242">who bestows upon man their wings.</font>
 
-823
+902
 00:50:07,880 --> 00:50:10,328
-<font class="speaker2" color="#a34242">So His name shall be Ariel,</font>
+<font class="speaker2" color="#a34242">So His name shall be ARIEL,</font>
 
-824
+903
 00:50:10,329 --> 00:50:14,002
 <font class="speaker2" color="#a34242">and the Old Earth shall run through His veins.</font>
 
-825
+904
 00:50:14,003 --> 00:50:16,043
 <font color="#eefc9a">"Ariel"... Beautiful, milord.</font>
 
-826
+905
 00:50:16,044 --> 00:50:18,901
 <font color="#eefc9a">Look at his eyes, aren’t they magical?</font>
 
-827
+906
 00:50:18,902 --> 00:50:20,942
 <font class="speaker2" color="#a34242">Ice-white, like yours once were.</font>
 
-828
+907
 00:50:20,943 --> 00:50:24,616
-<font class="speaker2" color="#a34242">See? All is as told; He is our King.</font>
+<font class="speaker2" color="#a34242">See? All is as told; He is our KING.</font>
 
-829
+908
 00:50:24,617 --> 00:50:28,290
 <font class="speaker2" color="#a34242">And you have always been destined to bear Him.</font>
 
-830
+909
 00:50:28,291 --> 00:50:30,331
 <font color="#eefc9a">...</font>
 
-831
+910
 00:50:30,332 --> 00:50:33,597
 <font class="speaker2" color="#a34242">The pilgrims are here. The gates shall open.</font>
 
-832
+911
 00:50:33,598 --> 00:50:37,679
 <font class="speaker2" color="#a34242">Sing Him a song, and wear your mask with grace.</font>
 
-833
+912
 00:50:40,751 --> 00:50:43,608
 <font color="#eefc9a">Little Ariel, how softly your heart beats...</font>
 
-834
+913
 00:50:43,609 --> 00:50:46,466
 <font color="#eefc9a">Your blank little heart, free from desire.</font>
 
-835
+914
 00:50:46,467 --> 00:50:48,507
 <font color="#eefc9a">May it remain pure forevermore.</font>
 
-836
+915
 00:50:48,508 --> 00:50:50,548
 <font color="#eefc9a">...</font>
 
-837
+916
 00:50:50,549 --> 00:50:55,446
 <font color="#eefc9a">I pray you will grow up a better man than your father.</font>
 
-838
+917
 00:50:58,518 --> 00:51:00,558
 <font class="speaker2" color="#a34242">Greetings, Auzandil. How is Ariel?</font>
 
-839
+918
 00:51:00,559 --> 00:51:05,865
 <font color="#eefc9a">Come in, dear! Oh how I’ve missed you. How was your time at-</font>
 
-840
+919
 00:51:05,866 --> 00:51:07,906
 <font class="speaker2" color="#a34242">Answer me. How is Ariel?</font>
 
-841
+920
 00:51:07,907 --> 00:51:11,988
 <font color="#eefc9a">He walks and he talks, he reads and he writes...</font>
 
-842
+921
 00:51:11,989 --> 00:51:14,437
 <font color="#eefc9a">He even reflects on his meditations.</font>
 
-843
+922
 00:51:14,438 --> 00:51:17,703
 <font color="#eefc9a">He is growing into a wise prince, milord.</font>
 
-844
+923
 00:51:17,704 --> 00:51:20,969
 <font color="#eefc9a">And yet, the curse has not taken him.</font>
 
-845
+924
 00:51:20,970 --> 00:51:24,235
 <font color="#eefc9a">He is perfect, milord. And so, so lovely.</font>
 
-846
+925
 00:51:24,236 --> 00:51:26,276
 <font class="speaker2" color="#a34242">Good. But remember:</font>
 
-847
+926
 00:51:26,277 --> 00:51:28,725
 <font class="speaker2" color="#a34242">Do not get attached to Him.</font>
 
-848
+927
 00:51:28,726 --> 00:51:32,807
 <font class="speaker2" color="#a34242">His might far exceeds our own. <b>Do not forget this</b>.</font>
 
-849
+928
 00:51:32,808 --> 00:51:35,665
 <font class="speaker2" color="#a34242">Soon, the young Messiah will join me.</font>
 
-850
+929
 00:51:35,666 --> 00:51:37,706
 <font class="speaker2" color="#a34242">Prepare Him for His travels.</font>
 
-851
+930
 00:51:37,707 --> 00:51:40,972
 <font class="speaker2" color="#a34242">Teach Him the words. Do not disappoint me.</font>
 
-852
+931
 00:51:40,973 --> 00:51:43,000
 <font color="#eefc9a">Understood, milord.</font>
 
-853
-00:51:45,541 --> 00:51:48,494
+932
+00:51:45,541 --> 00:51:48,541
 <font class="speaker2" color="#a34242">Ariel, attend to your studies at once!</font>
 
-854
-00:51:48,495 --> 00:51:51,448
-<font color="#f1b178">No. This is where my mother sat.</font>
+933
+00:51:48,542 --> 00:51:51,113
+<font color="#f1b178">No. This is where Mother sat.</font>
 
-855
-00:51:51,449 --> 00:51:54,402
+934
+00:51:51,114 --> 00:51:54,114
 <font color="#f1b178">She was dreaming, father. And then, you...</font>
 
-856
-00:51:54,403 --> 00:51:56,512
+935
+00:51:54,115 --> 00:51:56,257
 <font class="speaker2" color="#a34242">How oft must I reiterate!</font>
 
-857
-00:51:56,513 --> 00:51:58,622
+936
+00:51:56,258 --> 00:51:58,400
 <font class="speaker2" color="#a34242">Enough of this attachment!</font>
 
-858
-00:51:58,623 --> 00:52:01,576
+937
+00:51:58,401 --> 00:52:01,401
 <font class="speaker2" color="#a34242">The King must ascend above His Kingdom.</font>
 
-859
-00:52:01,577 --> 00:52:06,639
+938
+00:52:01,402 --> 00:52:06,544
 <font color="#f1b178">"...Ascend above The Kingdom, to cradle it from the clouds", said Teonan.</font>
 
-860
-00:52:06,640 --> 00:52:10,015
+939
+00:52:06,545 --> 00:52:09,973
 <font class="speaker2" color="#a34242">Silence! Do not talk back at me, Ariel.</font>
 
-861
-00:52:10,016 --> 00:52:12,541
+940
+00:52:09,974 --> 00:52:12,541
 <font class="speaker2" color="#a34242">Go and reflect on your actions.</font>
 
-862
+941
 00:52:12,542 --> 00:52:16,601
-<font color="#f1b178">Go and reflect on how you slit her throat, father.</font>
+<font color="#f1b178">Go and reflect on how you slit Mother's throat, father.</font>
 
-863
+942
 00:52:16,602 --> 00:52:19,849
 <font class="speaker2" color="#a34242">...Ariel. I have the League in my reins.</font>
 
-864
+943
 00:52:19,850 --> 00:52:22,285
-<font class="speaker2" color="#a34242">Without the League, you are NOTHING.</font>
+<font class="speaker2" color="#a34242">Without the League, you are <b>nothing</b>.</font>
 
-865
+944
 00:52:22,286 --> 00:52:25,533
 <font color="#f1b178">Without your League, I am still the King.</font>
 
-866
+945
 00:52:25,534 --> 00:52:29,187
 <font class="speaker2" color="#a34242">Ariel. Know that half the world wishes you dead.</font>
 
-867
+946
 00:52:29,188 --> 00:52:31,623
 <font class="speaker2" color="#a34242">The League is your sole refuge.</font>
 
-868
+947
 00:52:31,624 --> 00:52:36,495
 <font color="#f1b178">If half the world wishes me dead, then let them kill me.</font>
 
-869
+948
 00:52:36,496 --> 00:52:39,743
 <font color="#f1b178">I’ll become a martyr for the other half.</font>
 
-870
+949
 00:52:39,744 --> 00:52:45,021
 <font color="#f1b178">The whole world shall sing my name toward the pike impaling your head.</font>
 
-871
+950
 00:52:45,022 --> 00:52:47,051
 <font class="speaker2" color="#a34242">You wasteful, manic imbecile.</font>
 
-872
+951
 00:52:47,052 --> 00:52:50,705
 <font class="speaker2" color="#a34242">Thousands of lives lie wasted within your livid mind.</font>
 
-873
+952
 00:52:50,706 --> 00:52:52,735
 <font class="speaker2" color="#a34242">You remember nothing, don’t you?!</font>
 
-874
+953
 00:52:52,736 --> 00:52:54,765
 <font color="#f1b178">I do, father.</font>
 
-875
+954
 00:52:54,766 --> 00:52:57,201
 <font color="#f1b178">"You shall perish of hunger, father."</font>
 
-876
+955
 00:52:57,202 --> 00:52:59,231
 <font class="speaker2" color="#a34242">Shut your mouth!</font>
 
-877
+956
 00:52:59,232 --> 00:53:02,479
 <font color="#f1b178">"And your blood shall stain the desert storms."</font>
 
-878
+957
 00:53:02,480 --> 00:53:04,915
 <font class="speaker2" color="#a34242">I’ll make you a martyr, alright!</font>
 
-879
+958
 00:53:04,916 --> 00:53:08,975
 <font color="#f1b178">"You were a beast, and you shall die as such."</font>
 
-880
+959
 00:53:08,976 --> 00:53:11,000
 <font color="#f1b178">Farewell, father.</font>
 
-881
+960
 00:53:14,001 --> 00:53:17,674
 <font class="speaker2" color="#467546">So, in the end it was all a lie.</font>
 
-882
+961
 00:53:17,675 --> 00:53:22,572
 <font color="#f1b178">That's right. But it wasn't all for naught; 'cause I met you.</font>
 
-883
+962
 00:53:22,573 --> 00:53:25,430
 <font color="#f1b178">And with that, all the world's beauty.</font>
 
-884
+963
 00:53:25,431 --> 00:53:29,104
 <font color="#f1b178">Do you hear the seagulls hovering over your head?</font>
 
-885
+964
 00:53:29,105 --> 00:53:32,370
 <font class="speaker2" color="#467546">And the sun rays shearing over the sea...</font>
 
-886
+965
 00:53:32,371 --> 00:53:35,636
 <font color="#f1b178">And the fresh air breezing through your lungs...</font>
 
-887
+966
 00:53:35,637 --> 00:53:40,534
 <font class="speaker2" color="#467546">I'm proud to share these feelings with you, false King of Man.</font>
 
-888
+967
 00:53:40,535 --> 00:53:42,575
 <font color="#f1b178">Shut your mouth, piss-poor horse-herder.</font>
 
-889
+968
 00:53:42,576 --> 00:53:44,616
 <font class="speaker2" color="#467546">Thank you.</font>
 
-890
+969
 00:53:44,617 --> 00:53:46,657
 <font color="#f1b178">No problem, brother.</font>
 
-891
+970
 00:53:47,243 --> 00:53:49,691
 <font class="speaker2" color="#467546">Look, Ariel, the sky has opened.</font>
 
-892
+971
 00:53:49,692 --> 00:53:51,732
 <font color="#f1b178">Unbelievable... Shall we stargaze?</font>
 
-893
+972
 00:53:51,733 --> 00:53:56,222
 <font color="#f1b178">And read each other's fates, as did the Kings of old.</font>
 
-894
+973
 00:53:56,223 --> 00:54:00,304
-<font class="speaker2" color="#467546">Intimate, isn't it? Surely, we too will fall in love.</font>
+<font class="speaker2" color="#467546">Intimate, isn't it? Surely, we too shall fall in love.</font>
 
-895
+974
 00:54:00,890 --> 00:54:02,930
 <font class="speaker2" color="#467546">You know, Ariel.</font>
 
-896
+975
 00:54:02,931 --> 00:54:06,604
 <font class="speaker2" color="#467546">In another life, this could've been my journey's end.</font>
 
-897
+976
 00:54:06,605 --> 00:54:09,462
 <font color="#f1b178">It can still be. Join me, Sal.</font>
 
-898
+977
 00:54:09,463 --> 00:54:11,911
 <font class="speaker2" color="#467546">Where will you travel next, then?</font>
 
-899
+978
 00:54:11,912 --> 00:54:16,401
 <font color="#f1b178">The Holy Land, brother. Did the stars not make that clear?</font>
 
-900
+979
 00:54:16,402 --> 00:54:18,850
 <font color="#f1b178">Join me; let's find peace together.</font>
 
-901
+980
 00:54:18,851 --> 00:54:21,299
 <font class="speaker2" color="#467546">Hmm... What do the stars foretell?</font>
 
-902
+981
 00:54:21,300 --> 00:54:24,565
 <font color="#f1b178">Damned be the stars. Choose your own path!</font>
 
-903
+982
 00:54:24,566 --> 00:54:29,055
 <font class="speaker2" color="#467546">But the stars are my path, Ariel, and you know that.</font>
 
-904
+983
 00:54:29,641 --> 00:54:31,681
 <font color="#f1b178">Burning ambition and maniacal confusion.</font>
 
-905
+984
 00:54:31,682 --> 00:54:34,539
 <font color="#f1b178">That's what I saw in your path.</font>
 
-906
+985
 00:54:34,540 --> 00:54:39,846
 <font class="speaker2" color="#467546">Sounds quite exciting to me. If that's my fate, then so be it.</font>
 
-907
+986
 00:54:39,847 --> 00:54:42,295
 <font color="#f1b178">What a stubborn man you are.</font>
 
-908
+987
 00:54:42,296 --> 00:54:44,336
 <font class="speaker2" color="#467546">Don’t worry, Ariel.</font>
 
-909
+988
 00:54:44,337 --> 00:54:48,000
 <font class="speaker2" color="#467546">Our fates may diverge, but this night is ours!</font>
 
-910
+989
 00:54:51,971 --> 00:54:55,878
 <font color="#f1b178">I should have known, by the stars, I should have known!</font>
 
-911
+990
 00:54:55,879 --> 00:54:58,010
 <font color="#f1b178">By the charm in his forever-smile,</font>
 
-912
+991
 00:54:58,011 --> 00:55:00,497
 <font color="#f1b178">by the splendor in his stilted speech,</font>
 
-913
+992
 00:55:00,498 --> 00:55:02,984
 <font color="#f1b178">by the shimmer in his somber eyes...</font>
 
-914
+993
 00:55:02,985 --> 00:55:04,761
 <font color="#f1b178">I should have known!</font>
 
-915
+994
 00:55:04,762 --> 00:55:08,314
 <font color="#f1b178">I loved him, I loved him, I loved him dearly.</font>
 
-916
+995
 00:55:08,315 --> 00:55:11,512
 <font color="#f1b178">That man with a mind serene as the stars,</font>
 
-917
+996
 00:55:11,513 --> 00:55:15,776
 <font color="#f1b178">that man who dreamed to wed himself to life and its beauty.</font>
 
-918
+997
 00:55:15,777 --> 00:55:18,971
 <font color="#f1b178">I should have known, then, that he was still...</font>
 
-919
+998
 00:55:18,972 --> 00:55:22,645
-<font color="#f1b178">...that bloodied cripple, who walked the meadows in mania.</font>
+<font color="#f1b178">that bloodied cripple, who walked the meadows in mania.</font>
 
-920
+999
 00:55:22,646 --> 00:55:25,094
 <font color="#f1b178">Cradling his kingdom from the clouds,</font>
 
-921
+1000
 00:55:25,095 --> 00:55:27,952
 <font color="#f1b178">to drown it in its own blood;</font>
 
-922
+1001
 00:55:27,953 --> 00:55:30,401
 <font color="#f1b178">he is rotten to the bone.</font>
 
-923
+1002
 00:55:30,402 --> 00:55:34,483
 <font color="#f1b178">I hate you, Sal. I hate every one of you.</font>
 
-924
-00:55:37,896 --> 00:55:40,344
+1003
+00:55:38,756 --> 00:55:41,204
 <font color="#f1b178">Mother, I am hating, forgive me.</font>
 
-925
-00:55:40,345 --> 00:55:43,202
+1004
+00:55:41,205 --> 00:55:44,062
 <font color="#f1b178">My son, I am hating, hear me.</font>
 
-926
-00:55:43,203 --> 00:55:46,060
+1005
+00:55:44,063 --> 00:55:46,920
 <font color="#f1b178">My daughter, I am hating, cleanse me.</font>
 
-927
-00:55:46,061 --> 00:55:49,326
+1006
+00:55:46,921 --> 00:55:50,186
 <font color="#f1b178">My wife, I am hating, stand with me.</font>
 
-928
-00:55:49,327 --> 00:55:51,367
+1007
+00:55:50,187 --> 00:55:52,227
 <font color="#f1b178">...</font>
 
-929
-00:55:51,368 --> 00:55:54,633
+1008
+00:55:52,228 --> 00:55:55,493
 <font color="#f1b178">Azachon almighty, I am hating, come to me.</font>
 
-930
-00:55:54,634 --> 00:55:58,715
+1009
+00:55:55,494 --> 00:55:59,570
 <font color="#f1b178">Azachon almighty, I shall not hate, for I shall fight.</font>
 
-931
-00:55:58,716 --> 00:56:00,756
+1010
+00:55:59,571 --> 00:56:01,611
 <font color="#f1b178">Azachon almighty, hear my prayer!</font>
 
-932
-00:56:04,169 --> 00:56:06,617
+1011
+00:56:04,164 --> 00:56:06,612
 <font class="speaker2" color="#428686">You've finally made it, prince Ariel.</font>
 
-933
-00:56:06,618 --> 00:56:08,658
-<font color="#f1b178">...Greetings, venerable lady.</font>
+1012
+00:56:06,613 --> 00:56:08,653
+<font color="#f1b178">...greetings, venerable lady.</font>
 
-934
-00:56:08,659 --> 00:56:11,924
+1013
+00:56:08,654 --> 00:56:11,919
 <font class="speaker2" color="#428686">Oh poor thing, such stillness in your voice.</font>
 
-935
-00:56:11,925 --> 00:56:16,006
+1014
+00:56:11,920 --> 00:56:16,001
 <font class="speaker2" color="#428686">Have you seen your own eyes? How dejected, how determined.</font>
 
-936
-00:56:16,007 --> 00:56:18,864
+1015
+00:56:16,002 --> 00:56:18,859
 <font class="speaker2" color="#428686">The journey. What did it cost you?</font>
 
-937
-00:56:18,865 --> 00:56:20,905
+1016
+00:56:18,860 --> 00:56:20,900
 <font color="#f1b178">Everything, venerable lady.</font>
 
-938
-00:56:20,906 --> 00:56:22,946
+1017
+00:56:20,901 --> 00:56:22,941
 <font class="speaker2" color="#428686">Excellent. I know enough.</font>
 
-939
-00:56:22,947 --> 00:56:25,395
+1018
+00:56:22,942 --> 00:56:25,390
 <font class="speaker2" color="#428686">You, Ariel, will be my apprentice.</font>
 
-940
-00:56:25,396 --> 00:56:27,436
+1019
+00:56:25,391 --> 00:56:27,431
 <font class="speaker2" color="#428686">Now bow.</font>
 
-941
-00:56:27,437 --> 00:56:29,477
+1020
+00:56:27,432 --> 00:56:29,472
 <font color="#f1b178">Thank you, venerable lady.</font>
 
-942
-00:56:29,478 --> 00:56:31,518
+1021
+00:56:29,473 --> 00:56:31,513
 <font class="speaker2" color="#428686">Welcome to our crusade, Ariel.</font>
 
-943
-00:56:31,519 --> 00:56:36,000
+1022
+00:56:31,514 --> 00:56:36,000
 <font class="speaker2" color="#428686">Death to the King. Death to his Kingdom. Hail the Azachon.</font>
 
-944
+1023
 00:56:40,141 --> 00:56:43,814
 <font color="#f1b178">...I do not hate, not forgive; I merely judge...</font>
 
-945
+1024
 00:56:43,815 --> 00:56:47,488
 <font color="#f1b178">...I do not think, not feel; I merely observe...</font>
 
-946
+1025
 00:56:47,489 --> 00:56:51,162
 <font color="#f1b178">...I do not hate, not forgive; I merely judge...</font>
 
-947
+1026
 00:56:51,163 --> 00:56:54,020
 <font class="speaker2" color="#eefc9a">Father, we hear footsteps in the distance.</font>
 
-948
+1027
 00:56:54,021 --> 00:56:56,061
 <font class="speaker2" color="#eefc9a">He is here.</font>
 
-949
+1028
 00:56:56,062 --> 00:56:59,735
 <font color="#f1b178">...I do not hate, not forgive; I merely judge...</font>
 
-950
+1029
 00:56:59,736 --> 00:57:03,409
 <font color="#f1b178">...I do not think, not feel; I merely observe...</font>
 
-951
+1030
 00:57:04,417 --> 00:57:08,090
-<font color="#f1b178">My mind is a maelstrom and I see all.</font>
+<font color="#f1b178">My mind is a maelstrom and I See all.</font>
 
-952
+1031
 00:57:08,091 --> 00:57:10,948
 <font color="#f1b178">In this moment, I pervade every sensation.</font>
 
-953
+1032
 00:57:10,949 --> 00:57:15,030
 <font color="#f1b178">Be it the sensation of my body directing its dance,</font>
 
-954
+1033
 00:57:15,031 --> 00:57:18,704
 <font color="#f1b178">or the sensation of my arm bending and bleeding,</font>
 
-955
+1034
 00:57:18,705 --> 00:57:22,378
 <font color="#f1b178">or the sensation of my fingers weaving their song,</font>
 
-956
+1035
 00:57:22,379 --> 00:57:26,460
 <font color="#f1b178">or the sensation of scorn for the beast before me.</font>
 
-957
+1036
 00:57:26,461 --> 00:57:29,726
 <font color="#f1b178">At the apex of obsession, all is one.</font>
 
-958
+1037
 00:57:29,727 --> 00:57:31,767
 <font color="#f1b178">This beast shall be slain.</font>
 
-959
+1038
 00:57:32,775 --> 00:57:36,040
 <font color="#f1b178">Floors have shattered, the beast is pushing through.</font>
 
-960
+1039
 00:57:36,041 --> 00:57:40,122
 <font color="#f1b178">There is not a single emotion upon his disgusting face.</font>
 
-961
+1040
 00:57:40,123 --> 00:57:42,571
 <font color="#f1b178">Does there not linger Soeise's compassion,</font>
 
-962
+1041
 00:57:42,572 --> 00:57:45,020
 <font color="#f1b178">or Roeroan's rage or Teonan's guilt,</font>
 
-963
+1042
 00:57:45,021 --> 00:57:48,286
 <font color="#f1b178">or the beautiful reverence once harbored by Sal?</font>
 
-964
+1043
 00:57:48,287 --> 00:57:50,327
 <font class="speaker2" color="#eefc9a">You are hating, father.</font>
 
-965
+1044
 00:57:50,328 --> 00:57:52,368
 <font color="#f1b178">Speak, devil, speak!</font>
 
-966
+1045
 00:57:52,369 --> 00:57:54,409
 <font color="#f1b178">I beg of you, speak!</font>
 
-967
+1046
 00:57:55,417 --> 00:57:57,865
 <font class="speaker2" color="#eefc9a">Stop, father, you are hurting, hurting!</font>
 
-968
+1047
 00:57:57,866 --> 00:57:59,906
 <font color="#f1b178"><b>Speak to me, brother!</b></font>
 
-969
+1048
 00:57:59,907 --> 00:58:01,947
 <font class="speaker2" color="#eefc9a">Stop right now!</font>
 
-970
+1049
 00:58:01,948 --> 00:58:04,805
-<font class="speaker2" color="#eefc9a">Retreat at once! Do it for me!</font>
+<font class="speaker2" color="#eefc9a">Retreat at once! Do it for us!</font>
 
-971
+1050
 00:58:04,806 --> 00:58:06,846
 <font color="#f1b178">I must... not...</font>
 
-972
+1051
 00:58:06,847 --> 00:58:08,887
 <font color="#f1b178">Merely...</font>
 
-973
+1052
 00:58:08,888 --> 00:58:10,928
 <font color="#f1b178">Oh Azachon... almighty...</font>
 
-974
+1053
 00:58:10,929 --> 00:58:12,969
 <font class="speaker2" color="#eefc9a">...</font>
 
-975
+1054
 00:58:12,970 --> 00:58:15,000
 <font color="#f1b178">Ah... I have... failed.</font>
 
-976
+1055
 00:58:19,001 --> 00:58:21,858
 <font color="#467546">What was that guy going on about?</font>
 
-977
+1056
 00:58:21,859 --> 00:58:23,899
 <font color="#467546">Me, a "beast"? A "devil"?</font>
 
-978
-00:58:23,900 --> 00:58:27,165
-<font color="#467546">These Memories contain nothing that warrant such words.</font>
+1057
+00:58:23,900 --> 00:58:26,757
+<font color="#467546">My memories contain nothing warranting such words.</font>
 
-979
-00:58:27,166 --> 00:58:30,431
-<font color="#467546">...And these memories aren't mine to begin with.</font>
+1058
+00:58:26,758 --> 00:58:30,023
+<font color="#467546">...and these Memories aren't mine to begin with.</font>
 
-980
-00:58:30,432 --> 00:58:32,472
+1059
+00:58:30,024 --> 00:58:32,064
 <font color="#467546">...Right?</font>
 
-981
-00:58:32,473 --> 00:58:35,330
+1060
+00:58:32,065 --> 00:58:34,922
 <font color="#467546">He also muttered something about the Eye.</font>
 
-982
-00:58:35,331 --> 00:58:38,596
+1061
+00:58:34,923 --> 00:58:38,188
 <font color="#467546">I'm simply doing what It requests of me.</font>
 
-983
-00:58:38,597 --> 00:58:41,862
+1062
+00:58:38,189 --> 00:58:41,454
 <font color="#467546">Doesn't that mean we're on the same side?</font>
 
-984
-00:58:41,863 --> 00:58:44,311
+1063
+00:58:41,455 --> 00:58:43,903
 <font color="#467546">Then why attack me so fiercely?</font>
 
-985
-00:58:45,944 --> 00:58:49,209
-<font color="#467546">That fight really brought us down deep, huh.</font>
+1064
+00:58:45,672 --> 00:58:49,345
+<font color="#467546">But that fight really brought us down deep, huh.</font>
 
-986
-00:58:49,210 --> 00:58:52,883
-<font color="#467546">I can't even make out the ceiling any more.</font>
+1065
+00:58:49,346 --> 00:58:53,427
+<font color="#467546">I can't even make out the ceiling at this point.</font>
 
-987
-00:58:52,884 --> 00:58:58,190
+1066
+00:58:53,428 --> 00:58:58,734
 <font color="#467546">This place was already ruined beyond belief, but we didn't really help matters.</font>
 
-988
-00:58:58,191 --> 00:59:02,680
-<font color="#467546">I hope I can still find the Memory under the rubble.</font>
+1067
+00:58:58,735 --> 00:59:02,816
+<font color="#467546">I hope I can still find something under the rubble.</font>
 
-989
-00:59:02,681 --> 00:59:09,211
-<font color="#467546">Though I do feel that this fight was more informative than the Memory could ever be.</font>
+1068
+00:59:02,817 --> 00:59:08,531
+<font color="#467546">Though, this fight was more informative than any of the Eye's Memories so far.</font>
 
-990
-00:59:09,212 --> 00:59:12,477
+1069
+00:59:08,532 --> 00:59:11,797
 <font color="#467546">Perhaps I should ask the Eye about this.</font>
 
-991
-00:59:12,478 --> 00:59:14,518
-<font color="#467546">...On second thought, maybe not.</font>
+1070
+00:59:11,798 --> 00:59:14,655
+<font color="#467546">...On second thought, perhaps I should not.</font>
 
-992
-00:59:16,151 --> 00:59:20,232
+1071
+00:59:16,424 --> 00:59:20,505
 <font color="#467546">I thought it was because of all the fighting, but...</font>
 
-993
-00:59:20,233 --> 00:59:22,273
+1072
+00:59:20,506 --> 00:59:22,546
 <font color="#467546">It's <i>hot</i> down here.</font>
 
-994
-00:59:22,274 --> 00:59:25,947
+1073
+00:59:22,547 --> 00:59:26,220
 <font color="#467546">So much hotter than the caverns and ruins above.</font>
 
-995
-00:59:25,948 --> 00:59:29,213
-<font color="#467546">Yet, somehow, I don't really <i>feel</i> it, anymore.</font>
+1074
+00:59:26,221 --> 00:59:29,078
+<font color="#467546">Yet, somehow, I don't really <i>feel</i> it.</font>
 
-996
-00:59:29,214 --> 00:59:32,887
+1075
+00:59:29,079 --> 00:59:32,752
 <font color="#467546">I feel like I'm changing the deeper I'm going.</font>
 
-997
-00:59:32,888 --> 00:59:36,561
-<font color="#467546">I don't need to sleep as much anymore, either.</font>
+1076
+00:59:32,753 --> 00:59:36,018
+<font color="#467546">I don't need to sleep any more, either.</font>
 
-998
-00:59:36,562 --> 00:59:38,602
+1077
+00:59:36,019 --> 00:59:38,059
 <font color="#467546">My appetite's also disappeared...</font>
 
-999
-00:59:38,603 --> 00:59:41,460
-<font class="speaker2" color="#467546">I guess that's all a good thing.</font>
+1078
+00:59:38,060 --> 00:59:41,325
+<font class="speaker2" color="#467546">But I guess that's all a good thing.</font>
 
-1000
-00:59:41,461 --> 00:59:46,358
+1079
+00:59:41,326 --> 00:59:46,223
 <font class="speaker2" color="#467546">Sleep and meals in a place like this are only a bother.</font>
 
-1001
-00:59:47,991 --> 00:59:50,031
+1080
+00:59:47,992 --> 00:59:50,032
 <font color="#467546">This gate is humongous.</font>
 
-1002
-00:59:50,032 --> 00:59:54,521
+1081
+00:59:50,033 --> 00:59:54,522
 <font color="#467546">I really hope that whatever adventure awaits on the other side...</font>
 
-1003
-00:59:54,522 --> 00:59:59,000
+1082
+00:59:54,523 --> 00:59:59,000
 <font color="#467546">It will be kinder to me than my journey so far.</font>
 
-1004
+1083
 00:59:59,001 --> 00:59:59,100
 <font color="#467546"></font>
 
-1005
+1084
 00:59:59,101 --> 00:59:59,200
 <font color="#467546"></font>
 
-1006
+1085
 00:59:59,201 --> 00:59:59,300
 <font color="#467546"></font>
 
-1007
+1086
 00:59:59,301 --> 00:59:59,400
 <font color="#467546"></font>
 
-1008
+1087
 00:59:59,401 --> 00:59:59,500
 <font color="#467546"></font>
 
-1009
+1088
 00:59:59,501 --> 00:59:59,600
 <font color="#467546"></font>
 
-1010
+1089
 00:59:59,601 --> 00:59:59,700
 <font color="#467546"></font>
 
-1011
+1090
 00:59:59,701 --> 00:59:59,800
 <font color="#467546"></font>
 
-1012
+1091
 00:59:59,801 --> 00:59:59,900
 <font color="#467546"></font>
 
-1013
+1092
 00:59:59,901 --> 00:59:59,999
 <font color="#467546"></font>
