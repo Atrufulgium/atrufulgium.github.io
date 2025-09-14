@@ -11,12 +11,20 @@ window.addEventListener("keydown", function(ev) {
     menu_element.innerHTML = "";
 
     let current_track = getTrack(getTime());
-    if (ev.key == "ArrowRight" && current_track < 26) {
+    if (ev.key == "ArrowRight" && ev.ctrlKey && current_track < 26) {
         player.seekTo(starts[current_track + 1]);
-    } else if (ev.key == "ArrowLeft" && current_track > 0) {
+    } else if (ev.key == "ArrowLeft" && ev.ctrlKey && current_track > 0) {
         player.seekTo(starts[current_track - 1]);
-    } else if (ev.key == " ") {
+    } else if (ev.key == " " || ev.key == "k") {
         handleClick();
+    } else if (ev.key == "ArrowRight") {
+        player.seekTo(getTime() + 5);
+    } else if (ev.key == "ArrowLeft") {
+        player.seekTo(getTime() - 5);
+    } else if (ev.key == "l") {
+        player.seekTo(getTime() + 10);
+    } else if (ev.key == "j") {
+        player.seekTo(getTime() - 10);
     }
 });
 
